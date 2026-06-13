@@ -1,0 +1,5261 @@
+{
+  "categories": [
+    {
+      "id": "capital-ecosystem",
+      "name": "资本生态社区（投资/资本驱动）",
+      "description": "以投资和资本驱动的创业生态社区",
+      "color": "from-emerald-500 to-teal-500",
+      "icon": "Wallet"
+    },
+    {
+      "id": "new-communities",
+      "name": "新型创业者社区（创新形态）",
+      "description": "创新形态的创业社区",
+      "color": "from-pink-500 to-rose-500",
+      "icon": "Zap"
+    },
+    {
+      "id": "global-entrepreneurs",
+      "name": "全球创业者社区（成熟模式）",
+      "description": "全球范围内成熟的创业者社区",
+      "color": "from-purple-500 to-indigo-500",
+      "icon": "Users"
+    },
+    {
+      "id": "chinese-entrepreneurs",
+      "name": "华人创业者社区（地缘对标）",
+      "description": "全球华人创业者组织",
+      "color": "from-amber-500 to-orange-500",
+      "icon": "Globe"
+    },
+    {
+      "id": "global-outbound",
+      "name": "全球化与出海社区（跨境方向）",
+      "description": "全球化与跨境创业相关社区",
+      "color": "from-blue-500 to-cyan-500",
+      "icon": "TrendingUp"
+    },
+    {
+      "id": "media-communities",
+      "name": "创业媒体社区（内容驱动）",
+      "description": "以内容驱动的创业媒体社区",
+      "color": "from-violet-500 to-purple-500",
+      "icon": "Newspaper"
+    }
+  ],
+  "competitors": [
+    {
+      "id": "y-combinator",
+      "name": "Y Combinator (YC)",
+      "category": "capital-ecosystem",
+      "foundedYear": 2005,
+      "yearsInOperation": 21,
+      "founder": "Paul Graham, Jessica Livingston, Robert Tappan Morris, Trevor Blackwell",
+      "foundingBackground": "2005年在美国硅谷成立，全球顶级加速器，被投公司总估值近10000亿美元",
+      "foundingTeamInfo": "由Paul Graham等四位创始人创立，开创了现代加速器模式",
+      "region": "美国硅谷",
+      "targetUsers": "早期科技创业团队",
+      "scale": "全球",
+      "coverage": "全球",
+      "positioning": "全球顶级加速器，\"投资+加速+校友网络\"模式",
+      "coreActivities": [
+        {
+          "name": "YC加速营",
+          "description": "3个月密集加速项目",
+          "link": "https://www.ycombinator.com"
+        },
+        {
+          "name": "Demo Day",
+          "description": "毕业项目路演日",
+          "link": "https://www.ycombinator.com"
+        },
+        {
+          "name": "校友网络",
+          "description": "YC校友终身互助网络",
+          "link": "https://www.ycombinator.com"
+        }
+      ],
+      "frequency": "每年两期",
+      "contentSystem": "YC创业课程，Startup School",
+      "investmentResources": "是",
+      "businessModel": "股权投资（$125k换7%）",
+      "onlinePlatform": "YC平台，Bookface",
+      "membershipThreshold": "严格选拔制",
+      "estimatedRevenue": "股权投资回报，基金管理费",
+      "differentiation": "全球第一加速器，校友网络极强",
+      "keyHighlight": "全球最成功的加速器，被投公司总估值近1万亿美元，校友包括Airbnb、Dropbox、Stripe等",
+      "website": "https://www.ycombinator.com",
+      "socialMedia": {
+        "x": "https://x.com/ycombinator",
+        "linkedin": "https://www.linkedin.com/company/y-combinator"
+      },
+      "pressCoverage": []
+    },
+    {
+      "id": "a16z",
+      "name": "a16z",
+      "category": "capital-ecosystem",
+      "foundedYear": 2009,
+      "yearsInOperation": 17,
+      "founder": "Marc Andreessen, Ben Horowitz",
+      "foundingBackground": "2009年在美国硅谷成立，顶级风投，通过播客网络、SPEEDRUN加速器和垂直社区构建创始人生态",
+      "foundingTeamInfo": "由传奇投资人Marc Andreessen和Ben Horowitz创立",
+      "region": "美国硅谷",
+      "targetUsers": "科技创业公司",
+      "scale": "全球",
+      "coverage": "全球科技创业生态",
+      "positioning": "顶级风投，以投资带动社区",
+      "coreActivities": [
+        {
+          "name": "a16z投资",
+          "description": "从种子到成长阶段投资",
+          "link": "https://a16z.com"
+        },
+        {
+          "name": "a16z播客",
+          "description": "科技趋势深度播客",
+          "link": "https://a16z.com/podcasts"
+        },
+        {
+          "name": "SPEEDRUN加速器",
+          "description": "创始人加速项目",
+          "link": "https://a16z.com"
+        }
+      ],
+      "frequency": "持续",
+      "contentSystem": "a16z内容库，研究报告",
+      "investmentResources": "是",
+      "businessModel": "风险投资",
+      "onlinePlatform": "a16z平台",
+      "membershipThreshold": "投资准入",
+      "estimatedRevenue": "基金管理费+投资回报",
+      "differentiation": "内容驱动+投资+垂直社区",
+      "keyHighlight": "硅谷最具影响力的风投之一，管理超350亿美元资产，投资了Facebook、Twitter、Airbnb等",
+      "website": "https://a16z.com",
+      "socialMedia": {
+        "x": "https://x.com/a16z",
+        "linkedin": "https://www.linkedin.com/company/andreessen-horowitz"
+      },
+      "pressCoverage": []
+    },
+    {
+      "id": "500-global",
+      "name": "500 Global",
+      "category": "capital-ecosystem",
+      "foundedYear": 2010,
+      "yearsInOperation": 16,
+      "founder": "Dave McClure, Christine Tsai",
+      "foundingBackground": "2010年成立，全球早期VC+加速器，资产管理规模超3亿美元",
+      "foundingTeamInfo": "由Dave McClure和Christine Tsai创立",
+      "region": "全球（总部美国）",
+      "targetUsers": "早期创业团队",
+      "scale": "全球",
+      "coverage": "全球40+国家",
+      "positioning": "早期VC+加速器，采用合伙人推荐制筛选团队",
+      "coreActivities": [
+        {
+          "name": "500加速营",
+          "description": "全球各地加速项目",
+          "link": "https://500.co"
+        },
+        {
+          "name": "投资组合",
+          "description": "从种子到成长投资",
+          "link": "https://500.co"
+        }
+      ],
+      "frequency": "多期/年",
+      "contentSystem": "500创业资源库",
+      "investmentResources": "是",
+      "businessModel": "风险投资",
+      "onlinePlatform": "500平台",
+      "membershipThreshold": "合伙人推荐制",
+      "estimatedRevenue": "基金管理费+投资回报",
+      "differentiation": "全球化布局，合伙人推荐制",
+      "keyHighlight": "全球最活跃的早期VC之一，投资超2800家公司，覆盖40+国家",
+      "website": "https://500.co",
+      "socialMedia": {
+        "x": "https://x.com/500GlobalVC",
+        "linkedin": "https://www.linkedin.com/company/500-global"
+      },
+      "pressCoverage": []
+    },
+    {
+      "id": "techstars",
+      "name": "Techstars",
+      "category": "capital-ecosystem",
+      "foundedYear": 2006,
+      "yearsInOperation": 20,
+      "founder": "David Cohen, Brad Feld, Jared Polis, David Brown",
+      "foundingBackground": "2006年成立，导师驱动型加速器网络，每年在全球选择超300家公司",
+      "foundingTeamInfo": "由四位创业者和投资人创立",
+      "region": "全球（总部美国）",
+      "targetUsers": "早期创业团队",
+      "scale": "全球",
+      "coverage": "全球30+城市",
+      "positioning": "导师驱动型加速器网络，提供投资与终身网络支持",
+      "coreActivities": [
+        {
+          "name": "Techstars加速营",
+          "description": "各地主题加速营",
+          "link": "https://www.techstars.com"
+        },
+        {
+          "name": "导师网络",
+          "description": "10000+导师资源",
+          "link": "https://www.techstars.com"
+        }
+      ],
+      "frequency": "持续",
+      "contentSystem": "Techstars资源库",
+      "investmentResources": "是",
+      "businessModel": "风险投资+加速器",
+      "onlinePlatform": "Techstars平台",
+      "membershipThreshold": "选拔制",
+      "estimatedRevenue": "基金管理费+投资回报",
+      "differentiation": "导师驱动，全球网络",
+      "keyHighlight": "全球最大的加速器网络之一，投资超3500家公司，10000+导师",
+      "website": "https://www.techstars.com",
+      "socialMedia": {
+        "x": "https://x.com/techstars",
+        "linkedin": "https://www.linkedin.com/company/techstars"
+      },
+      "pressCoverage": []
+    },
+    {
+      "id": "antler",
+      "name": "Antler",
+      "category": "capital-ecosystem",
+      "foundedYear": 2017,
+      "yearsInOperation": 9,
+      "founder": "Magnus Grimeland",
+      "foundingBackground": "2017年成立，创始人孵化器，从零开始组建团队、验证想法并投资",
+      "foundingTeamInfo": "由Magnus Grimeland创立，前Khosla Ventures合伙人",
+      "region": "全球（总部新加坡/美国）",
+      "targetUsers": "有创业想法的人才",
+      "scale": "全球",
+      "coverage": "全球30+城市",
+      "positioning": "创始人孵化器，从零开始",
+      "coreActivities": [
+        {
+          "name": "Antler创始人计划",
+          "description": "6个月创始人孵化项目",
+          "link": "https://www.antler.co"
+        },
+        {
+          "name": "团队匹配",
+          "description": "创始人团队匹配服务",
+          "link": "https://www.antler.co"
+        }
+      ],
+      "frequency": "多期/年",
+      "contentSystem": "Antler创业课程",
+      "investmentResources": "是",
+      "businessModel": "风险投资+孵化器",
+      "onlinePlatform": "Antler平台",
+      "membershipThreshold": "选拔制",
+      "estimatedRevenue": "基金管理费+投资回报",
+      "differentiation": "从零开始，团队匹配",
+      "keyHighlight": "全球最大的创始人孵化器之一，投资超1000家公司，覆盖30+城市",
+      "website": "https://www.antler.co",
+      "socialMedia": {
+        "x": "https://x.com/antlerglobal",
+        "linkedin": "https://www.linkedin.com/company/antler"
+      },
+      "pressCoverage": []
+    },
+    {
+      "id": "entrepreneur-first",
+      "name": "Entrepreneur First (EF)",
+      "category": "capital-ecosystem",
+      "foundedYear": 2011,
+      "yearsInOperation": 15,
+      "founder": "Matt Clifford, Alice Bentinck",
+      "foundingBackground": "2011年在伦敦成立，人才聚合型孵化器，专注\"联合创始人匹配\"",
+      "foundingTeamInfo": "由Matt Clifford和Alice Bentinck创立",
+      "region": "全球（总部伦敦）",
+      "targetUsers": "技术人才、潜在创始人",
+      "scale": "全球",
+      "coverage": "全球10+城市",
+      "positioning": "人才聚合型孵化器，专注\"联合创始人匹配\"",
+      "coreActivities": [
+        {
+          "name": "EF创始人计划",
+          "description": "6个月创始人孵化项目",
+          "link": "https://www.joinef.com"
+        },
+        {
+          "name": "联合创始人匹配",
+          "description": "创始人配对服务",
+          "link": "https://www.joinef.com"
+        }
+      ],
+      "frequency": "多期/年",
+      "contentSystem": "EF创业资源库",
+      "investmentResources": "是",
+      "businessModel": "风险投资+孵化器",
+      "onlinePlatform": "EF平台",
+      "membershipThreshold": "严格选拔制",
+      "estimatedRevenue": "基金管理费+投资回报",
+      "differentiation": "联合创始人匹配为核心",
+      "keyHighlight": "联合创始人匹配的开创者，投资超500家公司，总估值超100亿美元",
+      "website": "https://www.joinef.com",
+      "socialMedia": {
+        "x": "https://x.com/join_ef",
+        "linkedin": "https://www.linkedin.com/company/entrepreneur-first"
+      },
+      "pressCoverage": []
+    },
+    {
+      "id": "plug-and-play",
+      "name": "Plug and Play",
+      "category": "capital-ecosystem",
+      "foundedYear": 2006,
+      "yearsInOperation": 20,
+      "founder": "Saeed Amidi",
+      "foundingBackground": "2006年成立，企业创新加速器，链接大企业与初创公司，构建产业创新生态",
+      "foundingTeamInfo": "由Saeed Amidi创立，Amidi集团继承人",
+      "region": "全球（总部美国）",
+      "targetUsers": "初创公司、大企业",
+      "scale": "全球",
+      "coverage": "全球50+城市",
+      "positioning": "企业创新加速器，链接大企业与初创公司",
+      "coreActivities": [
+        {
+          "name": "产业加速计划",
+          "description": "各垂直产业加速项目",
+          "link": "https://www.plugandplaytechcenter.com"
+        },
+        {
+          "name": "大企业对接",
+          "description": "初创与大企业合作对接",
+          "link": "https://www.plugandplaytechcenter.com"
+        }
+      ],
+      "frequency": "持续",
+      "contentSystem": "产业创新资源库",
+      "investmentResources": "是",
+      "businessModel": "企业合作+风险投资",
+      "onlinePlatform": "Plug and Play平台",
+      "membershipThreshold": "选拔制",
+      "estimatedRevenue": "企业合作收入+投资回报",
+      "differentiation": "大企业链接，产业垂直",
+      "keyHighlight": "全球最大的企业创新平台之一，500+大企业合作伙伴，投资超2000家公司",
+      "website": "https://www.plugandplaytechcenter.com",
+      "socialMedia": {
+        "x": "https://x.com/PlugAndPlayTC",
+        "linkedin": "https://www.linkedin.com/company/plug-and-play-tech-center"
+      },
+      "pressCoverage": []
+    },
+    {
+      "id": "founder-institute-capital",
+      "name": "Founder Institute",
+      "category": "capital-ecosystem",
+      "foundedYear": 2009,
+      "yearsInOperation": 17,
+      "founder": "Adeo Ressi",
+      "foundingBackground": "2009年在美国成立，全球创业者教育社区+训练营，帮助早期创始人获得指导和投资",
+      "foundingTeamInfo": "创始人Adeo Ressi，连续创业者",
+      "region": "美国",
+      "targetUsers": "早期创业者",
+      "scale": "全球",
+      "coverage": "90+国家，200+城市",
+      "positioning": "全球创业者教育社区，训练营加校友网络",
+      "coreActivities": [
+        {
+          "name": "Founder Institute训练营",
+          "description": "系统化创始人培训项目",
+          "link": "https://fi.co"
+        },
+        {
+          "name": "全球校友网络",
+          "description": "4,500+校友公司",
+          "link": "https://fi.co"
+        }
+      ],
+      "frequency": "季度开营",
+      "contentSystem": "创始人课程体系",
+      "investmentResources": "是",
+      "businessModel": "训练营学费+股权",
+      "onlinePlatform": "FI平台",
+      "membershipThreshold": "申请+面试",
+      "estimatedRevenue": "学费 $1,000-2,000+股权",
+      "differentiation": "系统化教育+全球校友网络",
+      "keyHighlight": "全球最大的创始人培训体系，4500+校友公司",
+      "website": "https://fi.co",
+      "socialMedia": {
+        "x": "https://x.com/founderinst",
+        "linkedin": "https://www.linkedin.com/company/founder-institute",
+        "facebook": "https://www.facebook.com/founderinstitute"
+      },
+      "pressCoverage": []
+    },
+    {
+      "id": "miracleplus",
+      "name": "奇绩创坛 (MiraclePlus)",
+      "category": "capital-ecosystem",
+      "foundedYear": 2018,
+      "yearsInOperation": 8,
+      "founder": "陆奇",
+      "foundingBackground": "2018年在北京成立，前身YC中国，陆奇创立，提供30万美元换7%股权",
+      "foundingTeamInfo": "由陆奇博士创立，前百度集团总裁兼COO",
+      "region": "中国北京",
+      "targetUsers": "早期科技创业团队",
+      "scale": "中国及全球",
+      "coverage": "中国及全球华人创业者",
+      "positioning": "中国顶级加速器，\"投资+加速+校友网络\"",
+      "coreActivities": [
+        {
+          "name": "奇绩加速营",
+          "description": "3个月密集加速项目",
+          "link": "https://www.miracleplus.com"
+        },
+        {
+          "name": "Demo Day",
+          "description": "毕业项目路演",
+          "link": "https://www.miracleplus.com"
+        },
+        {
+          "name": "校友网络",
+          "description": "奇绩校友终身互助",
+          "link": "https://www.miracleplus.com"
+        }
+      ],
+      "frequency": "每年两期",
+      "contentSystem": "奇绩创业课程",
+      "investmentResources": "是",
+      "businessModel": "股权投资（$30万换7%）",
+      "onlinePlatform": "奇绩平台",
+      "membershipThreshold": "严格选拔制",
+      "estimatedRevenue": "股权投资回报，基金管理费",
+      "differentiation": "陆奇品牌，YC模式本土化",
+      "keyHighlight": "中国最具影响力的加速器之一，陆奇博士创立，投资超400家公司",
+      "website": "https://www.miracleplus.com",
+      "socialMedia": {
+        "x": "https://x.com/miracleplus",
+        "linkedin": "https://www.linkedin.com/company/miracleplus"
+      },
+      "pressCoverage": []
+    },
+    {
+      "id": "sinovation-ventures",
+      "name": "创新工场 (Sinovation Ventures)",
+      "category": "capital-ecosystem",
+      "foundedYear": 2009,
+      "yearsInOperation": 17,
+      "founder": "李开复",
+      "foundingBackground": "2009年在北京成立，李开复创办，\"资本+服务+生态\"模式，累计投资超400个项目",
+      "foundingTeamInfo": "由李开复博士创立，前Google全球副总裁",
+      "region": "中国北京",
+      "targetUsers": "科技创业公司",
+      "scale": "中国及全球",
+      "coverage": "中国及全球",
+      "positioning": "\"资本+服务+生态\"模式",
+      "coreActivities": [
+        {
+          "name": "创新工场投资",
+          "description": "从种子到成长阶段投资",
+          "link": "https://www.sinovationventures.com"
+        },
+        {
+          "name": "AI研究院",
+          "description": "前沿技术研究",
+          "link": "https://www.sinovationventures.com"
+        }
+      ],
+      "frequency": "持续",
+      "contentSystem": "创新工场内容库",
+      "investmentResources": "是",
+      "businessModel": "风险投资",
+      "onlinePlatform": "创新工场平台",
+      "membershipThreshold": "投资准入",
+      "estimatedRevenue": "基金管理费+投资回报",
+      "differentiation": "李开复品牌，AI聚焦",
+      "keyHighlight": "中国最具影响力的VC之一，管理超300亿人民币，投资超400家公司，培育20+独角兽",
+      "website": "https://www.sinovationventures.com",
+      "socialMedia": {
+        "x": "https://x.com/sinovationvc",
+        "linkedin": "https://www.linkedin.com/company/sinovation-ventures"
+      },
+      "pressCoverage": []
+    },
+    {
+      "id": "zhenfund",
+      "name": "真格基金 (ZhenFund)",
+      "category": "capital-ecosystem",
+      "foundedYear": 2011,
+      "yearsInOperation": 15,
+      "founder": "徐小平、王强",
+      "foundingBackground": "2011年在北京成立，天使投资机构，通过ZhenCampus校园计划和真格学院构建创业者赋能生态",
+      "foundingTeamInfo": "由徐小平和王强创立，新东方联合创始人",
+      "region": "中国北京",
+      "targetUsers": "早期创业者",
+      "scale": "中国及全球",
+      "coverage": "中国及全球",
+      "positioning": "天使投资+创业者赋能生态",
+      "coreActivities": [
+        {
+          "name": "真格投资",
+          "description": "天使轮投资",
+          "link": "https://www.zhenfund.com"
+        },
+        {
+          "name": "ZhenCampus",
+          "description": "校园创业计划",
+          "link": "https://www.zhenfund.com"
+        },
+        {
+          "name": "真格学院",
+          "description": "创业者培训",
+          "link": "https://www.zhenfund.com"
+        }
+      ],
+      "frequency": "持续",
+      "contentSystem": "真格创业资源",
+      "investmentResources": "是",
+      "businessModel": "风险投资",
+      "onlinePlatform": "真格平台",
+      "membershipThreshold": "投资准入",
+      "estimatedRevenue": "基金管理费+投资回报",
+      "differentiation": "徐小平品牌，天使投资为主",
+      "keyHighlight": "中国最活跃的天使投资机构之一，投资超800家公司，包括小红书、依图科技等",
+      "website": "https://www.zhenfund.com",
+      "socialMedia": {
+        "x": "https://x.com/zhenfund",
+        "linkedin": "https://www.linkedin.com/company/zhenfund"
+      },
+      "pressCoverage": []
+    },
+    {
+      "id": "aama",
+      "name": "亚杰商会 (AAMA)",
+      "category": "capital-ecosystem",
+      "foundedYear": 2004,
+      "yearsInOperation": 22,
+      "founder": "AAMA硅谷分会",
+      "foundingBackground": "1979年硅谷成立，2004年落地中国，\"摇篮计划（公益孵化）+亚杰基金+亚杰汇\"三驾马车",
+      "foundingTeamInfo": "由AAMA硅谷分会发起，中国科技企业领袖参与",
+      "region": "中国北京",
+      "targetUsers": "早期创业者",
+      "scale": "中国",
+      "coverage": "中国主要城市",
+      "positioning": "\"摇篮计划+亚杰基金+亚杰汇\"三驾马车",
+      "coreActivities": [
+        {
+          "name": "摇篮计划",
+          "description": "公益孵化项目",
+          "link": "https://www.aama.cn"
+        },
+        {
+          "name": "亚杰基金",
+          "description": "早期投资",
+          "link": "https://www.aama.cn"
+        },
+        {
+          "name": "亚杰汇",
+          "description": "创业者社区",
+          "link": "https://www.aama.cn"
+        }
+      ],
+      "frequency": "持续",
+      "contentSystem": "亚杰创业资源库",
+      "investmentResources": "是",
+      "businessModel": "公益+风险投资",
+      "onlinePlatform": "亚杰平台",
+      "membershipThreshold": "选拔制",
+      "estimatedRevenue": "投资回报+赞助",
+      "differentiation": "公益孵化+投资+社区",
+      "keyHighlight": "学员企业累计融资超1000亿人民币，孕育出小米、美团、滴滴等公司",
+      "website": "https://www.aama.cn",
+      "socialMedia": {},
+      "pressCoverage": []
+    },
+    {
+      "id": "tusstar",
+      "name": "启迪之星 (TusStar)",
+      "category": "capital-ecosystem",
+      "foundedYear": 1999,
+      "yearsInOperation": 27,
+      "founder": "清华科技园",
+      "foundingBackground": "1999年成立，清华科技园起步，\"孵化+投资\"模式，全国150多个孵化基地",
+      "foundingTeamInfo": "由清华科技园发起",
+      "region": "中国北京",
+      "targetUsers": "早期创业者",
+      "scale": "中国",
+      "coverage": "中国150+城市",
+      "positioning": "\"孵化+投资\"模式",
+      "coreActivities": [
+        {
+          "name": "启迪之星孵化",
+          "description": "孵化基地服务",
+          "link": "https://www.tusstar.com"
+        },
+        {
+          "name": "启迪之星投资",
+          "description": "早期投资",
+          "link": "https://www.tusstar.com"
+        }
+      ],
+      "frequency": "持续",
+      "contentSystem": "启迪之星资源库",
+      "investmentResources": "是",
+      "businessModel": "孵化服务+风险投资",
+      "onlinePlatform": "启迪之星平台",
+      "membershipThreshold": "申请制",
+      "estimatedRevenue": "孵化服务收入+投资回报",
+      "differentiation": "清华背景，全国网络",
+      "keyHighlight": "中国最大的科技孵化器网络之一，150+孵化基地，投资超500家公司",
+      "website": "https://www.tusstar.com",
+      "socialMedia": {},
+      "pressCoverage": []
+    },
+    {
+      "id": "legend-star",
+      "name": "联想之星 (Legend Star)",
+      "category": "capital-ecosystem",
+      "foundedYear": 2008,
+      "yearsInOperation": 18,
+      "founder": "联想控股",
+      "foundingBackground": "2008年在北京成立，联想控股旗下早期投资和孵化板块，提供公益创业培训，创业联盟(LSU)有1400余位成员",
+      "foundingTeamInfo": "由联想控股发起",
+      "region": "中国北京",
+      "targetUsers": "早期创业者",
+      "scale": "中国",
+      "coverage": "中国主要城市",
+      "positioning": "公益创业培训+早期投资",
+      "coreActivities": [
+        {
+          "name": "联想之星创业培训",
+          "description": "公益创业培训",
+          "link": "https://www.legendstar.com.cn"
+        },
+        {
+          "name": "联想之星投资",
+          "description": "早期投资",
+          "link": "https://www.legendstar.com.cn"
+        },
+        {
+          "name": "创业联盟(LSU)",
+          "description": "创业者社区",
+          "link": "https://www.legendstar.com.cn"
+        }
+      ],
+      "frequency": "持续",
+      "contentSystem": "联想之星资源库",
+      "investmentResources": "是",
+      "businessModel": "公益培训+风险投资",
+      "onlinePlatform": "联想之星平台",
+      "membershipThreshold": "选拔制",
+      "estimatedRevenue": "投资回报",
+      "differentiation": "联想背景，公益培训",
+      "keyHighlight": "创业联盟(LSU)有1400余位成员，投资超300家公司",
+      "website": "https://www.legendstar.com.cn",
+      "socialMedia": {},
+      "pressCoverage": []
+    },
+    {
+      "id": "tsinghua-alumni-fund",
+      "name": "水木清华校友基金",
+      "category": "capital-ecosystem",
+      "foundedYear": 2014,
+      "yearsInOperation": 12,
+      "founder": "水木清华理事会及校友",
+      "foundingBackground": "成立，中国北京，水木清华理事会和校友共同出资，\"校园+基金+孵化器\"三位一体",
+      "foundingTeamInfo": "由水木清华理事会和校友共同创立",
+      "region": "中国北京",
+      "targetUsers": "清华创业者",
+      "scale": "中国",
+      "coverage": "清华及周边",
+      "positioning": "\"校园+基金+孵化器\"三位一体，专注清华创业者",
+      "coreActivities": [
+        {
+          "name": "水木清华投资",
+          "description": "清华校友创业投资",
+          "link": ""
+        },
+        {
+          "name": "水木清华孵化器",
+          "description": "孵化服务",
+          "link": ""
+        }
+      ],
+      "frequency": "持续",
+      "contentSystem": "清华校友资源",
+      "investmentResources": "是",
+      "businessModel": "风险投资+孵化器",
+      "onlinePlatform": "校友社区",
+      "membershipThreshold": "清华背景优先",
+      "estimatedRevenue": "投资回报",
+      "differentiation": "清华校友专属",
+      "keyHighlight": "专注清华创业者的投资和孵化平台",
+      "website": "https://www.tsinghua.org.cn",
+      "socialMedia": {},
+      "pressCoverage": []
+    },
+    {
+      "id": "pku-entrepreneur-camp",
+      "name": "北大创业训练营 (北创营)",
+      "category": "capital-ecosystem",
+      "foundedYear": 2012,
+      "yearsInOperation": 14,
+      "founder": "北大校友会",
+      "foundingBackground": "2012年在北京成立，北大校友会发起，\"创业教育、创业研究、创业孵化、创投基金\"四位一体",
+      "foundingTeamInfo": "由北大校友会发起",
+      "region": "中国北京",
+      "targetUsers": "创业者",
+      "scale": "中国",
+      "coverage": "中国主要城市",
+      "positioning": "\"创业教育、创业研究、创业孵化、创投基金\"四位一体",
+      "coreActivities": [
+        {
+          "name": "北大创业训练营",
+          "description": "创业培训",
+          "link": "https://www.pkucy.org"
+        },
+        {
+          "name": "北创营投资",
+          "description": "创投基金",
+          "link": "https://www.pkucy.org"
+        }
+      ],
+      "frequency": "持续",
+      "contentSystem": "北大创业资源库",
+      "investmentResources": "是",
+      "businessModel": "培训+风险投资",
+      "onlinePlatform": "北创营平台",
+      "membershipThreshold": "申请制",
+      "estimatedRevenue": "投资回报+培训收入",
+      "differentiation": "北大背景，四位一体",
+      "keyHighlight": "链接超1000亿北大系投资联盟，培训超10万创业者",
+      "website": "https://www.pkucy.org",
+      "socialMedia": {},
+      "pressCoverage": []
+    },
+    {
+      "id": "fudan-tech-ecosystem",
+      "name": "复旦科创生态",
+      "category": "capital-ecosystem",
+      "foundedYear": 2020,
+      "yearsInOperation": 6,
+      "founder": "复旦系",
+      "foundingBackground": "中国上海，复旦系构建，包括复旦科创基金（母基金）、科创海外投资基金（1亿美元）、祖泉研究院及F-LAB赋能计划",
+      "foundingTeamInfo": "由复旦系机构和校友创立",
+      "region": "中国上海",
+      "targetUsers": "复旦创业者",
+      "scale": "中国上海",
+      "coverage": "上海及全球",
+      "positioning": "复旦系科创生态",
+      "coreActivities": [
+        {
+          "name": "复旦科创基金",
+          "description": "母基金+直投",
+          "link": ""
+        },
+        {
+          "name": "祖泉研究院",
+          "description": "技术研究",
+          "link": ""
+        },
+        {
+          "name": "F-LAB赋能计划",
+          "description": "创业孵化",
+          "link": ""
+        }
+      ],
+      "frequency": "持续",
+      "contentSystem": "复旦科创资源",
+      "investmentResources": "是",
+      "businessModel": "风险投资+孵化",
+      "onlinePlatform": "复旦系社区",
+      "membershipThreshold": "复旦背景优先",
+      "estimatedRevenue": "投资回报",
+      "differentiation": "复旦系生态",
+      "keyHighlight": "复旦科创基金管理超100亿人民币，科创海外投资基金1亿美元",
+      "website": "https://fdzhuanyi.fudan.edu.cn",
+      "socialMedia": {},
+      "pressCoverage": []
+    },
+    {
+      "id": "zhongguancun-ai-north",
+      "name": "中关村AI北纬社区",
+      "category": "capital-ecosystem",
+      "foundedYear": 2025,
+      "yearsInOperation": 1,
+      "founder": "政府主导",
+      "foundingBackground": "2025年7月启动，中国北京海淀，政府主导全球AI生态圈，提供最高3年免租和弹性算力，红杉中国、高瓴创投等作为生态伙伴",
+      "foundingTeamInfo": "由北京市海淀区政府主导",
+      "region": "中国北京海淀",
+      "targetUsers": "AI创业者",
+      "scale": "中国北京",
+      "coverage": "全球AI创业者",
+      "positioning": "政府主导全球AI生态圈",
+      "coreActivities": [
+        {
+          "name": "AI北纬社区",
+          "description": "物理空间+算力支持",
+          "link": ""
+        },
+        {
+          "name": "生态伙伴对接",
+          "description": "红杉中国、高瓴创投等对接",
+          "link": ""
+        }
+      ],
+      "frequency": "持续",
+      "contentSystem": "AI资源库",
+      "investmentResources": "是",
+      "businessModel": "政府支持+生态合作",
+      "onlinePlatform": "AI北纬社区平台",
+      "membershipThreshold": "申请制",
+      "estimatedRevenue": "政府补贴+生态合作",
+      "differentiation": "政府主导，算力支持",
+      "keyHighlight": "提供最高3年免租和弹性算力，红杉中国、高瓴创投等作为生态伙伴",
+      "website": "https://www.bjhd.gov.cn",
+      "socialMedia": {},
+      "pressCoverage": []
+    },
+    {
+      "id": "shanghai-future-start",
+      "name": "上海未来启点社区",
+      "category": "capital-ecosystem",
+      "foundedYear": 2025,
+      "yearsInOperation": 1,
+      "founder": "上海国投",
+      "foundingBackground": "2025年9月发布，中国上海，上海国投旗下未来产业基金发起，\"超级链接器\"定位，为颠覆性技术领域创业者提供孵化服务",
+      "foundingTeamInfo": "由上海国投发起",
+      "region": "中国上海",
+      "targetUsers": "颠覆性技术创业者",
+      "scale": "中国上海",
+      "coverage": "全球颠覆性技术创业者",
+      "positioning": "\"超级链接器\"，颠覆性技术孵化",
+      "coreActivities": [
+        {
+          "name": "未来启点孵化",
+          "description": "颠覆性技术孵化服务",
+          "link": ""
+        },
+        {
+          "name": "未来产业基金",
+          "description": "投资支持",
+          "link": ""
+        }
+      ],
+      "frequency": "持续",
+      "contentSystem": "未来技术资源库",
+      "investmentResources": "是",
+      "businessModel": "政府支持+风险投资",
+      "onlinePlatform": "未来启点平台",
+      "membershipThreshold": "选拔制",
+      "estimatedRevenue": "投资回报+政府补贴",
+      "differentiation": "颠覆性技术聚焦",
+      "keyHighlight": "上海国投旗下未来产业基金发起，聚焦颠覆性技术",
+      "website": "https://www.sidp.org.cn",
+      "socialMedia": {},
+      "pressCoverage": []
+    },
+    {
+      "id": "modelspace",
+      "name": "模速空间 (ModelSpace)",
+      "category": "capital-ecosystem",
+      "foundedYear": 2023,
+      "yearsInOperation": 3,
+      "founder": "上海徐汇",
+      "foundingBackground": "2023年9月成立，中国上海徐汇，全国首个大模型创新生态社区，入驻企业超300家，获投率超35%",
+      "foundingTeamInfo": "由上海市徐汇区政府主导",
+      "region": "中国上海徐汇",
+      "targetUsers": "大模型创业者",
+      "scale": "中国上海",
+      "coverage": "全球大模型创业者",
+      "positioning": "全国首个大模型创新生态社区",
+      "coreActivities": [
+        {
+          "name": "模速空间",
+          "description": "大模型创新空间",
+          "link": ""
+        },
+        {
+          "name": "大模型生态对接",
+          "description": "产业对接",
+          "link": ""
+        }
+      ],
+      "frequency": "持续",
+      "contentSystem": "大模型资源库",
+      "investmentResources": "是",
+      "businessModel": "政府支持+生态合作",
+      "onlinePlatform": "模速空间平台",
+      "membershipThreshold": "申请制",
+      "estimatedRevenue": "政府补贴+生态合作",
+      "differentiation": "大模型垂直，全国首个",
+      "keyHighlight": "全国首个大模型创新生态社区，入驻企业超300家，获投率超35%",
+      "website": "https://www.modelscope.cn",
+      "socialMedia": {},
+      "pressCoverage": []
+    },
+    {
+      "id": "geekpark",
+      "name": "Founder Park（极客公园）",
+      "category": "media-communities",
+      "foundedYear": 2010,
+      "yearsInOperation": 16,
+      "founder": "张鹏",
+      "foundingBackground": "2010年在北京成立，\"媒体内容+早期投资+社区运营\"三位一体，获顺为资本、字节跳动、小米、源码资本投资",
+      "foundingTeamInfo": "由张鹏创立，前《商业价值》主编",
+      "region": "中国北京",
+      "targetUsers": "科技创业者",
+      "scale": "中国",
+      "coverage": "中国科技创业生态",
+      "positioning": "\"媒体内容+早期投资+社区运营\"三位一体",
+      "coreActivities": [
+        {
+          "name": "极客公园媒体",
+          "description": "科技内容报道",
+          "link": "https://www.geekpark.net"
+        },
+        {
+          "name": "极客公园投资",
+          "description": "早期投资",
+          "link": "https://www.geekpark.net"
+        },
+        {
+          "name": "极客公园社区",
+          "description": "创业者社区活动",
+          "link": "https://www.geekpark.net"
+        }
+      ],
+      "frequency": "持续",
+      "contentSystem": "极客公园内容库",
+      "investmentResources": "是",
+      "businessModel": "媒体广告+风险投资+活动",
+      "onlinePlatform": "极客公园平台",
+      "membershipThreshold": "开放",
+      "estimatedRevenue": "广告+活动收入+投资回报",
+      "differentiation": "媒体+投资+社区三位一体",
+      "keyHighlight": "中国最具影响力的科技创业媒体和社区之一，获顺为、字节、小米、源码投资",
+      "website": "https://www.geekpark.net",
+      "socialMedia": {
+        "x": "https://x.com/geekpark"
+      },
+      "pressCoverage": []
+    },
+    {
+      "id": "mars-accelerator",
+      "name": "火星加速器",
+      "category": "capital-ecosystem",
+      "foundedYear": 2024,
+      "yearsInOperation": 2,
+      "founder": "火星团队",
+      "foundingBackground": "2024年创办，中国，国内最活跃的具身智能创始人社区之一，专注机器人全产业链创业服务和早期投资，陪伴超500名创始人成长",
+      "foundingTeamInfo": "由机器人领域专家创立",
+      "region": "中国",
+      "targetUsers": "具身智能/机器人创业者",
+      "scale": "中国",
+      "coverage": "中国机器人创业生态",
+      "positioning": "具身智能创始人社区，机器人全产业链",
+      "coreActivities": [
+        {
+          "name": "火星加速营",
+          "description": "机器人创业加速",
+          "link": ""
+        },
+        {
+          "name": "火星投资",
+          "description": "机器人早期投资",
+          "link": ""
+        }
+      ],
+      "frequency": "持续",
+      "contentSystem": "机器人资源库",
+      "investmentResources": "是",
+      "businessModel": "风险投资+加速服务",
+      "onlinePlatform": "火星社区",
+      "membershipThreshold": "选拔制",
+      "estimatedRevenue": "投资回报",
+      "differentiation": "具身智能垂直",
+      "keyHighlight": "国内最活跃的具身智能创始人社区之一，陪伴超500名创始人成长",
+      "website": "https://www.geekpark.net",
+      "socialMedia": {},
+      "pressCoverage": []
+    },
+    {
+      "id": "crossroads-ai-hacker-house",
+      "name": "十字路口 / AI Hacker House",
+      "category": "new-communities",
+      "foundedYear": 2024,
+      "yearsInOperation": 2,
+      "founder": "十字路口团队",
+      "foundingBackground": "2024年1月成立，中国上海，聚焦AI创业者的媒体加社区，运营300平米物理空间",
+      "foundingTeamInfo": "由AI创业者创立",
+      "region": "中国上海",
+      "targetUsers": "AI创业者",
+      "scale": "中国上海",
+      "coverage": "上海及全国AI创业者",
+      "positioning": "聚焦AI创业者的媒体加社区",
+      "coreActivities": [
+        {
+          "name": "AI Hacker House",
+          "description": "300平米物理空间",
+          "link": ""
+        },
+        {
+          "name": "AI创业者活动",
+          "description": "AI创业者交流活动",
+          "link": ""
+        }
+      ],
+      "frequency": "持续",
+      "contentSystem": "AI创业资源",
+      "investmentResources": "是",
+      "businessModel": "媒体+社区+空间",
+      "onlinePlatform": "十字路口平台",
+      "membershipThreshold": "申请制",
+      "estimatedRevenue": "空间租金+媒体收入+投资回报",
+      "differentiation": "媒体+社区+物理空间",
+      "keyHighlight": "上海聚焦AI创业者的媒体加社区，运营300平米物理空间",
+      "website": "https://www.geekpark.net",
+      "socialMedia": {},
+      "pressCoverage": []
+    },
+    {
+      "id": "ali-qincheng-super-entrepreneur",
+      "name": "阿里亲橙超级创业者社区",
+      "category": "new-communities",
+      "foundedYear": 2025,
+      "yearsInOperation": 1,
+      "founder": "阿里巴巴",
+      "foundingBackground": "2025年7月试运营，中国上海徐汇，阿里联合徐汇区政府打造，聚焦AI超级个体",
+      "foundingTeamInfo": "由阿里巴巴和徐汇区政府联合打造",
+      "region": "中国上海徐汇",
+      "targetUsers": "AI超级个体创业者",
+      "scale": "中国上海",
+      "coverage": "全国AI超级个体",
+      "positioning": "聚焦AI超级个体",
+      "coreActivities": [
+        {
+          "name": "亲橙社区",
+          "description": "AI超级个体社区",
+          "link": ""
+        },
+        {
+          "name": "阿里资源对接",
+          "description": "阿里生态资源对接",
+          "link": ""
+        }
+      ],
+      "frequency": "持续",
+      "contentSystem": "AI超级个体资源库",
+      "investmentResources": "是",
+      "businessModel": "阿里生态支持",
+      "onlinePlatform": "亲橙社区平台",
+      "membershipThreshold": "选拔制",
+      "estimatedRevenue": "生态合作收入",
+      "differentiation": "阿里背景，AI超级个体聚焦",
+      "keyHighlight": "阿里联合徐汇区政府打造，聚焦AI超级个体",
+      "website": "https://www.alibaba.com",
+      "socialMedia": {},
+      "pressCoverage": []
+    },
+    {
+      "id": "zhongguancun-ai-north-new",
+      "name": "中关村AI北纬社区",
+      "category": "new-communities",
+      "foundedYear": 2025,
+      "yearsInOperation": 1,
+      "founder": "政府主导",
+      "foundingBackground": "2025年7月启动，中国北京海淀，政府主导全球AI生态圈，提供最高3年免租",
+      "foundingTeamInfo": "由北京市海淀区政府主导",
+      "region": "中国北京海淀",
+      "targetUsers": "AI创业者",
+      "scale": "中国北京",
+      "coverage": "全球AI创业者",
+      "positioning": "政府主导全球AI生态圈",
+      "coreActivities": [
+        {
+          "name": "AI北纬社区",
+          "description": "物理空间+政策支持",
+          "link": ""
+        }
+      ],
+      "frequency": "持续",
+      "contentSystem": "AI资源库",
+      "investmentResources": "是",
+      "businessModel": "政府支持",
+      "onlinePlatform": "AI北纬社区平台",
+      "membershipThreshold": "申请制",
+      "estimatedRevenue": "政府补贴",
+      "differentiation": "政府主导，免租支持",
+      "keyHighlight": "提供最高3年免租，政府主导全球AI生态圈",
+      "website": "https://www.bjhd.gov.cn",
+      "socialMedia": {},
+      "pressCoverage": []
+    },
+    {
+      "id": "hampton",
+      "name": "Hampton",
+      "category": "new-communities",
+      "foundedYear": 2022,
+      "yearsInOperation": 4,
+      "founder": "Hampton团队",
+      "foundingBackground": "2022年成立，美国，高增长初创创始人私密社区，260+会员年费制",
+      "foundingTeamInfo": "由连续创业者创立",
+      "region": "美国",
+      "targetUsers": "高增长初创创始人",
+      "scale": "美国",
+      "coverage": "美国高增长创始人",
+      "positioning": "高增长初创创始人私密社区",
+      "coreActivities": [
+        {
+          "name": "Hampton会员社区",
+          "description": "创始人私密交流",
+          "link": "https://www.hampton.community"
+        }
+      ],
+      "frequency": "持续",
+      "contentSystem": "创始人资源库",
+      "investmentResources": "是",
+      "businessModel": "年费制",
+      "onlinePlatform": "Hampton平台",
+      "membershipThreshold": "邀请制，高增长创始人",
+      "estimatedRevenue": "年费收入",
+      "differentiation": "高增长创始人，私密社区",
+      "keyHighlight": "260+会员，高增长初创创始人私密社区",
+      "website": "https://www.hampton.community",
+      "socialMedia": {
+        "x": "https://x.com/hampton"
+      },
+      "pressCoverage": []
+    },
+    {
+      "id": "foundher-house",
+      "name": "FoundHer House",
+      "category": "new-communities",
+      "foundedYear": 2024,
+      "yearsInOperation": 2,
+      "founder": "FoundHer团队",
+      "foundingBackground": "2024年成立，美国，全女性AI创始人黑客屋",
+      "foundingTeamInfo": "由女性AI创业者创立",
+      "region": "美国",
+      "targetUsers": "女性AI创始人",
+      "scale": "美国",
+      "coverage": "美国女性AI创始人",
+      "positioning": "全女性AI创始人黑客屋",
+      "coreActivities": [
+        {
+          "name": "FoundHer黑客屋",
+          "description": "女性AI创始人共创空间",
+          "link": ""
+        }
+      ],
+      "frequency": "持续",
+      "contentSystem": "AI女性创业资源",
+      "investmentResources": "是",
+      "businessModel": "社区+投资",
+      "onlinePlatform": "FoundHer平台",
+      "membershipThreshold": "申请制，女性AI创始人",
+      "estimatedRevenue": "投资回报+赞助",
+      "differentiation": "全女性，AI聚焦",
+      "keyHighlight": "全女性AI创始人黑客屋",
+      "website": "https://www.hampton.community",
+      "socialMedia": {},
+      "pressCoverage": []
+    },
+    {
+      "id": "foundations",
+      "name": "Foundations",
+      "category": "new-communities",
+      "foundedYear": 2024,
+      "yearsInOperation": 2,
+      "founder": "Foundations团队",
+      "foundingBackground": "2024年成立，美国，创始人社区加加速器，290+会员",
+      "foundingTeamInfo": "由连续创业者创立",
+      "region": "美国",
+      "targetUsers": "早期创始人",
+      "scale": "美国",
+      "coverage": "美国早期创始人",
+      "positioning": "创始人社区加加速器",
+      "coreActivities": [
+        {
+          "name": "Foundations社区",
+          "description": "创始人社区",
+          "link": ""
+        },
+        {
+          "name": "Foundations加速",
+          "description": "创始人加速器",
+          "link": ""
+        }
+      ],
+      "frequency": "持续",
+      "contentSystem": "创始人资源库",
+      "investmentResources": "是",
+      "businessModel": "会员费+加速器+投资",
+      "onlinePlatform": "Foundations平台",
+      "membershipThreshold": "申请制",
+      "estimatedRevenue": "会员费+投资回报",
+      "differentiation": "社区+加速器",
+      "keyHighlight": "290+会员，创始人社区加加速器",
+      "website": "https://www.hampton.community",
+      "socialMedia": {},
+      "pressCoverage": []
+    },
+    {
+      "id": "fellows-ai-club",
+      "name": "Fellows AI Club",
+      "category": "new-communities",
+      "foundedYear": 2023,
+      "yearsInOperation": 3,
+      "founder": "Fellows AI团队",
+      "foundingBackground": "2023年成立，美国，AI创始人私密社群",
+      "foundingTeamInfo": "由AI投资人创立",
+      "region": "美国",
+      "targetUsers": "AI创始人",
+      "scale": "美国",
+      "coverage": "美国AI创始人",
+      "positioning": "AI创始人私密社群",
+      "coreActivities": [
+        {
+          "name": "Fellows AI Club",
+          "description": "AI创始人私密交流",
+          "link": ""
+        }
+      ],
+      "frequency": "持续",
+      "contentSystem": "AI创业资源库",
+      "investmentResources": "是",
+      "businessModel": "会员费+投资",
+      "onlinePlatform": "Fellows AI平台",
+      "membershipThreshold": "邀请制",
+      "estimatedRevenue": "会员费+投资回报",
+      "differentiation": "AI创始人专属，私密",
+      "keyHighlight": "AI创始人私密社群",
+      "website": "https://www.hampton.community",
+      "socialMedia": {},
+      "pressCoverage": []
+    },
+    {
+      "id": "braintrust-founders-studio",
+      "name": "BrainTrust Founders Studio",
+      "category": "new-communities",
+      "foundedYear": 2021,
+      "yearsInOperation": 5,
+      "founder": "BrainTrust团队",
+      "foundingBackground": "2021年成立，美国，美妆健康领域创始人社区",
+      "foundingTeamInfo": "由美妆健康领域专家创立",
+      "region": "美国",
+      "targetUsers": "美妆健康领域创始人",
+      "scale": "美国",
+      "coverage": "美国美妆健康创始人",
+      "positioning": "美妆健康领域创始人社区",
+      "coreActivities": [
+        {
+          "name": "BrainTrust Founders Studio",
+          "description": "美妆健康创始人社区",
+          "link": ""
+        }
+      ],
+      "frequency": "持续",
+      "contentSystem": "美妆健康创业资源",
+      "investmentResources": "是",
+      "businessModel": "社区+投资",
+      "onlinePlatform": "BrainTrust平台",
+      "membershipThreshold": "申请制",
+      "estimatedRevenue": "投资回报+赞助",
+      "differentiation": "美妆健康垂直",
+      "keyHighlight": "美妆健康领域创始人社区",
+      "website": "https://www.hampton.community",
+      "socialMedia": {},
+      "pressCoverage": []
+    },
+    {
+      "id": "future-start-community",
+      "name": "未来启点社区",
+      "category": "new-communities",
+      "foundedYear": 2025,
+      "yearsInOperation": 1,
+      "founder": "上海国投",
+      "foundingBackground": "2025年成立，中国上海，政府背景科技创业社区",
+      "foundingTeamInfo": "由上海国投发起",
+      "region": "中国上海",
+      "targetUsers": "科技创业者",
+      "scale": "中国上海",
+      "coverage": "上海科技创业者",
+      "positioning": "政府背景科技创业社区",
+      "coreActivities": [
+        {
+          "name": "未来启点社区",
+          "description": "科技创业社区",
+          "link": ""
+        }
+      ],
+      "frequency": "持续",
+      "contentSystem": "科技创业资源库",
+      "investmentResources": "是",
+      "businessModel": "政府支持",
+      "onlinePlatform": "未来启点平台",
+      "membershipThreshold": "申请制",
+      "estimatedRevenue": "政府补贴",
+      "differentiation": "政府背景",
+      "keyHighlight": "政府背景科技创业社区",
+      "website": "https://www.sidp.org.cn",
+      "socialMedia": {},
+      "pressCoverage": []
+    },
+    {
+      "id": "wteam",
+      "name": "wteam",
+      "category": "new-communities",
+      "foundedYear": 2020,
+      "yearsInOperation": 6,
+      "founder": "黎文祥",
+      "foundingBackground": "wteam是中国超早期大学生创业者的核心社区，覆盖全国150所高校，累计培育330名青年CEO（90%创业存活率，13家营收破千万）",
+      "foundingTeamInfo": "由黎文祥创立，执行总裁万瑶",
+      "region": "中国",
+      "targetUsers": "超早期大学生创业者",
+      "scale": "覆盖全国150所高校",
+      "coverage": "全国150所高校",
+      "positioning": "中国超早期大学生创业者的核心社区",
+      "coreActivities": [
+        {
+          "name": "wteam AI创客节",
+          "description": "年度AI创客节活动，聚焦代理式AI技术革新",
+          "link": "https://mp.weixin.qq.com/s/snkcsInKncFVsTD5z4zoXw"
+        },
+        {
+          "name": "wteam社区",
+          "description": "大学生创业者交流社区",
+          "link": ""
+        }
+      ],
+      "frequency": "持续",
+      "contentSystem": "大学生创业资源",
+      "investmentResources": "是",
+      "businessModel": "会员+活动+赞助",
+      "onlinePlatform": "wteam平台",
+      "membershipThreshold": "申请制，面向大学生创业者",
+      "estimatedRevenue": "会员费+活动收入+赞助",
+      "differentiation": "聚焦大学生超早期创业，高存活率",
+      "keyHighlight": "中国超早期大学生创业者核心社区，覆盖150所高校，累计培育330名青年CEO，90%创业存活率，13家营收破千万",
+      "website": "",
+      "socialMedia": {
+        "wechat": "wteam官方公众号"
+      },
+      "pressCoverage": []
+    },
+    {
+      "id": "herspace",
+      "name": "HerSpace",
+      "category": "new-communities",
+      "foundedYear": 2024,
+      "yearsInOperation": 2,
+      "founder": "HerSpace团队",
+      "foundingBackground": "2024年成立，全球(中/挪)，服务女性创业者的国际化社群，已有超2000名会员，举办80+场活动。",
+      "foundingTeamInfo": "由中国和挪威女性创业者创立",
+      "region": "全球(中/挪)",
+      "targetUsers": "女性创业者",
+      "scale": "超2000名会员",
+      "coverage": "全球多国",
+      "positioning": "服务女性创业者的国际化社群",
+      "coreActivities": [
+        {
+          "name": "HerSpace活动",
+          "description": "女性创业者交流",
+          "link": "https://www.herspace.com"
+        }
+      ],
+      "frequency": "持续",
+      "contentSystem": "女性创业资源库",
+      "investmentResources": "是",
+      "businessModel": "会员+活动费",
+      "onlinePlatform": "HerSpace平台",
+      "membershipThreshold": "申请制",
+      "estimatedRevenue": "会员费+活动费",
+      "differentiation": "中/挪国际化，2000+会员，80+场活动",
+      "keyHighlight": "服务女性创业者的国际化社群，超2000名会员，举办80+场活动",
+      "website": "https://www.herspace.com",
+      "socialMedia": {},
+      "pressCoverage": []
+    },
+    {
+      "id": "go-big",
+      "name": "Go Big",
+      "category": "new-communities",
+      "foundedYear": 2024,
+      "yearsInOperation": 2,
+      "founder": "Go Big团队",
+      "foundingBackground": "为全球化创业者而建的社区，由常春藤校友创立。",
+      "foundingTeamInfo": "由常春藤校友创立",
+      "region": "全球",
+      "targetUsers": "全球化创业者",
+      "scale": "全球",
+      "coverage": "全球",
+      "positioning": "为全球化创业者而建的社区",
+      "coreActivities": [
+        {
+          "name": "Go Big社区",
+          "description": "全球化创业者交流",
+          "link": "https://mp.weixin.qq.com/s/4eFMWc3-5yzMGexugmTjeQ"
+        }
+      ],
+      "frequency": "持续",
+      "contentSystem": "全球化创业资源",
+      "investmentResources": "是",
+      "businessModel": "会员+赞助",
+      "onlinePlatform": "Go Big平台",
+      "membershipThreshold": "申请制",
+      "estimatedRevenue": "会员费+赞助",
+      "differentiation": "常春藤校友创立，全球化创业者",
+      "keyHighlight": "由常春藤校友创立，为全球化创业者而建的社区",
+      "website": "",
+      "socialMedia": {
+        "wechat": "Go Big官方公众号"
+      },
+      "pressCoverage": []
+    },
+    {
+      "id": "epic-community",
+      "name": "EPIC社区",
+      "category": "new-communities",
+      "foundedYear": 2024,
+      "yearsInOperation": 2,
+      "founder": "EPIC团队",
+      "foundingBackground": "全球新型创业者社区",
+      "foundingTeamInfo": "由全球创业者创立",
+      "region": "全球",
+      "targetUsers": "全球创业者",
+      "scale": "全球",
+      "coverage": "全球",
+      "positioning": "全球新型创业者社区",
+      "coreActivities": [
+        {
+          "name": "EPIC社区",
+          "description": "全球创业者交流",
+          "link": "https://www.epiccommunity.com"
+        }
+      ],
+      "frequency": "持续",
+      "contentSystem": "全球创业资源",
+      "investmentResources": "是",
+      "businessModel": "会员+赞助",
+      "onlinePlatform": "EPIC平台",
+      "membershipThreshold": "申请制",
+      "estimatedRevenue": "会员费+赞助",
+      "differentiation": "全球新型创业者",
+      "keyHighlight": "全球新型创业者社区",
+      "website": "https://www.epiccommunity.com",
+      "socialMedia": {},
+      "pressCoverage": []
+    },
+    {
+      "id": "chuhaiqu-incubator",
+      "name": "出海去孵化器",
+      "category": "new-communities",
+      "foundedYear": 2023,
+      "yearsInOperation": 3,
+      "founder": "Yucheng Liu（刘宇成）和罗百顺",
+      "foundingBackground": "2023年7月成立，聚焦独立开发者与AI/SaaS小微团队的“社区+收入分成”孵化器",
+      "foundingTeamInfo": "Yucheng曾任红杉领投AIGC公司CTO，毕业于佐治亚理工学院",
+      "region": "中国",
+      "targetUsers": "独立开发者、AI/SaaS创业小微团队、“一人公司”，帮助他们将产品推向国际市场",
+      "scale": "约50,000+独立开发者社群 + 1,113位付费校友",
+      "coverage": "中国及全球市场",
+      "positioning": "首创“OPC”社区型孵化模式",
+      "coreActivities": [
+        {
+          "name": "孵化业务",
+          "description": "收入分成模式，孵化器收20%，开发者占80%",
+          "link": ""
+        },
+        {
+          "name": "社区旁听",
+          "description": "年费制365元/年",
+          "link": ""
+        },
+        {
+          "name": "实战课程",
+          "description": "60+场实战课程",
+          "link": ""
+        },
+        {
+          "name": "导师指导",
+          "description": "13位专家导师",
+          "link": ""
+        }
+      ],
+      "frequency": "持续",
+      "contentSystem": "实战课程、导师指导、社区支持",
+      "investmentResources": "是",
+      "businessModel": "“孵化业务”收入分成模式（孵化器收20%，开发者占80%） + “社区旁听”年费制（365元/年）",
+      "onlinePlatform": "社区平台",
+      "membershipThreshold": "申请制，独立开发者和AI/SaaS小微团队",
+      "estimatedRevenue": "收入分成 + 会员费",
+      "differentiation": "首创“OPC”社区型孵化模式，通过收益分成（RevShare）实现风险共担、利益绑定",
+      "keyHighlight": "已举办4期，孵化超35个独立项目，帮助超10个项目登上Product Hunt",
+      "website": "",
+      "socialMedia": {},
+      "pressCoverage": []
+    },
+    {
+      "id": "siyuan-blindbox",
+      "name": "思源盲盒",
+      "category": "new-communities",
+      "foundedYear": 2023,
+      "yearsInOperation": 2,
+      "founder": "思源盲盒团队",
+      "foundingBackground": "约2023-2024年成立，中国（上海），高端活动驱动型创业者社区，起源于上海交大MBA校友圈",
+      "foundingTeamInfo": "起源于上海交大MBA校友圈",
+      "region": "中国（上海）",
+      "targetUsers": "一线城市科技、创业精英",
+      "scale": "中国",
+      "coverage": "中国一线城市",
+      "positioning": "高端活动驱动型创业者社区",
+      "coreActivities": [
+        {
+          "name": "高品质闭门活动",
+          "description": "与蔚来、福布斯中国等品牌合作的高品质闭门活动",
+          "link": ""
+        },
+        {
+          "name": "企业AI转型咨询",
+          "description": "企业AI转型咨询服务",
+          "link": ""
+        }
+      ],
+      "frequency": "持续",
+      "contentSystem": "高端活动、企业AI转型咨询",
+      "investmentResources": "否",
+      "businessModel": "活动收费 + 咨询服务",
+      "onlinePlatform": "社区平台",
+      "membershipThreshold": "申请制，科技、创业精英",
+      "estimatedRevenue": "活动收入 + 咨询服务费",
+      "differentiation": "高端活动驱动，起源于上海交大MBA校友圈，已与蔚来、福布斯中国等品牌合作",
+      "keyHighlight": "高端活动驱动型创业者社区，已与蔚来、福布斯中国等品牌合作",
+      "website": "",
+      "socialMedia": {},
+      "pressCoverage": []
+    },
+    {
+      "id": "chaoyue-zhilu",
+      "name": "超越之路",
+      "category": "new-communities",
+      "foundedYear": 2023,
+      "yearsInOperation": 2,
+      "founder": "超越之路团队",
+      "foundingBackground": "约2023-2024年成立，中国，聚焦AI时代“超级个体”与“超级团队”的模式赋能型社区",
+      "foundingTeamInfo": "由AI时代创业者创立",
+      "region": "中国",
+      "targetUsers": "AI时代“超级个体”与“超级团队”",
+      "scale": "中国",
+      "coverage": "中国",
+      "positioning": "聚焦AI时代“超级个体”与“超级团队”的模式赋能型社区",
+      "coreActivities": [
+        {
+          "name": "UP超级个体加速计划",
+          "description": "超级个体加速计划",
+          "link": ""
+        },
+        {
+          "name": "播客内容",
+          "description": "创业相关播客内容",
+          "link": ""
+        }
+      ],
+      "frequency": "持续",
+      "contentSystem": "UP超级个体加速计划、播客内容",
+      "investmentResources": "否",
+      "businessModel": "会员计划 + 播客内容 + 加速计划",
+      "onlinePlatform": "社区平台",
+      "membershipThreshold": "申请制",
+      "estimatedRevenue": "会员费 + 加速计划收入",
+      "differentiation": "聚焦AI时代“超级个体”与“超级团队”的模式赋能",
+      "keyHighlight": "推出“UP超级个体加速计划”，通过会员计划+播客内容+加速计划实现商业化",
+      "website": "",
+      "socialMedia": {},
+      "pressCoverage": []
+    },
+    {
+      "id": "thinkinai",
+      "name": "ThinkInAI（极客夜话）",
+      "category": "new-communities",
+      "foundedYear": 2025,
+      "yearsInOperation": 1,
+      "founder": "ThinkInAI团队",
+      "foundingBackground": "2025年成立，中国（北京、上海），AI从业者与创业者活动驱动型社区",
+      "foundingTeamInfo": "由AI从业者和创业者创立",
+      "region": "中国（北京、上海）",
+      "targetUsers": "AI从业者与创业者",
+      "scale": "汇聚30万+开发者",
+      "coverage": "中国北京、上海及全国",
+      "positioning": "AI从业者与创业者活动驱动型社区",
+      "coreActivities": [
+        {
+          "name": "AI极客夜话",
+          "description": "每两周举办“AI极客夜话”，已举办32+期",
+          "link": ""
+        },
+        {
+          "name": "活动赞助",
+          "description": "活动赞助",
+          "link": ""
+        },
+        {
+          "name": "孵化计划",
+          "description": "AI项目孵化计划",
+          "link": ""
+        },
+        {
+          "name": "产业资源对接",
+          "description": "产业资源对接",
+          "link": ""
+        }
+      ],
+      "frequency": "每两周一期",
+      "contentSystem": "AI极客夜话活动、孵化计划、产业资源对接",
+      "investmentResources": "是",
+      "businessModel": "活动赞助 + 孵化计划 + 产业资源对接",
+      "onlinePlatform": "社区平台",
+      "membershipThreshold": "申请制，AI从业者与创业者",
+      "estimatedRevenue": "活动赞助 + 孵化服务费 + 资源对接收入",
+      "differentiation": "每两周举办“AI极客夜话”，已举办32+期，汇聚30万+开发者",
+      "keyHighlight": "AI从业者与创业者活动驱动型社区，汇聚30万+开发者，每两周举办“AI极客夜话”，已举办32+期",
+      "website": "",
+      "socialMedia": {},
+      "pressCoverage": []
+    },
+    {
+      "id": "eo",
+      "name": "EO (Entrepreneurs' Organization)",
+      "category": "global-entrepreneurs",
+      "foundedYear": 1987,
+      "yearsInOperation": 39,
+      "founder": "Verne Harnish",
+      "foundingBackground": "1987年在美国成立，为40岁以下年轻创业者创立的组织",
+      "foundingTeamInfo": "创始人Verne Harnish，著名企业家和作家",
+      "region": "美国",
+      "targetUsers": "年收入超过100万美元的创始人",
+      "scale": "全球",
+      "coverage": "60+国家，179个分会",
+      "positioning": "全球创业者组织，年费制加本地分会",
+      "coreActivities": [
+        {
+          "name": "Forum小组",
+          "description": "每月小组深度讨论",
+          "link": "https://www.eonetwork.org"
+        },
+        {
+          "name": "全球大学教育",
+          "description": "与顶级商学院合作的教育项目",
+          "link": "https://www.eonetwork.org"
+        }
+      ],
+      "frequency": "月度/季度",
+      "contentSystem": "Newsletter, 在线资源",
+      "investmentResources": "否",
+      "businessModel": "年费制",
+      "onlinePlatform": "官方App",
+      "membershipThreshold": "审核制，创业经验+推荐",
+      "estimatedRevenue": "年费 $2,500-5,000",
+      "differentiation": "深度互助模式，37年历史",
+      "keyHighlight": "全球最成熟的创业者组织之一，37年历史沉淀",
+      "website": "https://www.eonetwork.org",
+      "socialMedia": {
+        "linkedin": "https://www.linkedin.com/company/entrepreneursorg",
+        "x": "https://x.com/EntrepreneurOrg"
+      },
+      "pressCoverage": []
+    },
+    {
+      "id": "ypo",
+      "name": "YPO (Young Presidents' Organization)",
+      "category": "global-entrepreneurs",
+      "foundedYear": 1950,
+      "yearsInOperation": 76,
+      "founder": "Ray Hickok",
+      "foundingBackground": "1950年在美国纽约州成立，为45岁以下青年总裁创立的顶级组织",
+      "foundingTeamInfo": "创始人Ray Hickok，制造业家族企业出身",
+      "region": "美国",
+      "targetUsers": "45岁以下CEO/总裁，营收$15M+",
+      "scale": "38,000+会员",
+      "coverage": "150个国家，450+分会",
+      "positioning": "全球最顶级CEO组织，营收门槛极高",
+      "coreActivities": [
+        {
+          "name": "YPO全球大会",
+          "description": "汇聚全球会员的年度盛会",
+          "link": "https://www.ypo.org"
+        },
+        {
+          "name": "CEO领导力项目",
+          "description": "专注CEO领导力深度开发",
+          "link": "https://www.ypo.org"
+        }
+      ],
+      "frequency": "年度/季度",
+      "contentSystem": "研究报告，在线学习",
+      "investmentResources": "否",
+      "businessModel": "高年费制",
+      "onlinePlatform": "官方App",
+      "membershipThreshold": "严格审核，CEO身份+财务指标",
+      "estimatedRevenue": "年费 $5,000-10,000+",
+      "differentiation": "76年历史，最严格门槛",
+      "keyHighlight": "全球最资深的CEO组织，76年历史",
+      "website": "https://www.ypo.org",
+      "socialMedia": {
+        "linkedin": "https://www.linkedin.com/company/ypoglobal",
+        "x": "https://x.com/ypoglobal"
+      },
+      "pressCoverage": []
+    },
+    {
+      "id": "vistage",
+      "name": "Vistage",
+      "category": "global-entrepreneurs",
+      "foundedYear": 1957,
+      "yearsInOperation": 69,
+      "founder": "Robert Nourse",
+      "foundingBackground": "1957年在美国成立，CEO教练社区模式的开创者",
+      "foundingTeamInfo": "创始人Robert Nourse，致力于CEO成长",
+      "region": "美国",
+      "targetUsers": "成熟企业CEO",
+      "scale": "全球",
+      "coverage": "20+国家",
+      "positioning": "CEO教练社区，付费小组制，偏成熟企业",
+      "coreActivities": [
+        {
+          "name": "CEO小组会议",
+          "description": "每月专业教练带领的小组会",
+          "link": "https://www.vistage.com"
+        },
+        {
+          "name": "1对1CEO辅导",
+          "description": "专业CEO教练一对一辅导",
+          "link": "https://www.vistage.com"
+        }
+      ],
+      "frequency": "月度",
+      "contentSystem": "CEO资源库，研究报告",
+      "investmentResources": "否",
+      "businessModel": "高会费制",
+      "onlinePlatform": "Vistage平台",
+      "membershipThreshold": "审核制，CEO身份",
+      "estimatedRevenue": "年费 $10,000-20,000+",
+      "differentiation": "专业CEO教练+小组制",
+      "keyHighlight": "CEO教练社区的开创者，67年专业经验",
+      "website": "https://www.vistage.com",
+      "socialMedia": {
+        "linkedin": "https://www.linkedin.com/company/vistage",
+        "x": "https://x.com/Vistage"
+      },
+      "pressCoverage": []
+    },
+    {
+      "id": "founders-network",
+      "name": "Founders Network",
+      "category": "global-entrepreneurs",
+      "foundedYear": 2011,
+      "yearsInOperation": 15,
+      "founder": "创业导师和投资者团队",
+      "foundingBackground": "2011年在硅谷成立，科技创始人私密社群",
+      "foundingTeamInfo": "由硅谷多位资深创业导师和天使投资人联合创立",
+      "region": "美国",
+      "targetUsers": "科技创业者/创始人",
+      "scale": "5,000+会员",
+      "coverage": "全球主要创业城市",
+      "positioning": "全球创始人私密社群，邀请制，peer-to-peer互助",
+      "coreActivities": [
+        {
+          "name": "fnSummit峰会",
+          "description": "年度科技创业者峰会",
+          "link": "https://foundersnetwork.com"
+        },
+        {
+          "name": "导师1对1",
+          "description": "匹配合适的导师提供指导",
+          "link": "https://foundersnetwork.com"
+        },
+        {
+          "name": "VC对接",
+          "description": "与投资者直接对接",
+          "link": "https://foundersnetwork.com"
+        }
+      ],
+      "frequency": "月度/季度",
+      "contentSystem": "Newsletter，导师资源库",
+      "investmentResources": "是",
+      "businessModel": "会费制",
+      "onlinePlatform": "Slack",
+      "membershipThreshold": "邀请制",
+      "estimatedRevenue": "年费 $500-1,000",
+      "differentiation": "不占股的导师制",
+      "keyHighlight": "不占股导师制+全生命周期支持",
+      "website": "https://foundersnetwork.com",
+      "socialMedia": {
+        "linkedin": "https://www.linkedin.com/company/founders-network",
+        "x": "https://x.com/FoundersNetwork",
+        "luma": "https://lu.ma/foundersnetwork"
+      },
+      "pressCoverage": []
+    },
+    {
+      "id": "on-deck",
+      "name": "On Deck",
+      "category": "global-entrepreneurs",
+      "foundedYear": 2019,
+      "yearsInOperation": 7,
+      "founder": "Erik Torenberg",
+      "foundingBackground": "2019年在美国成立，现代创业者社区代表",
+      "foundingTeamInfo": "创始人Erik Torenberg，Product Hunt早期成员",
+      "region": "美国",
+      "targetUsers": "现代创业者",
+      "scale": "数万人",
+      "coverage": "全球",
+      "positioning": "现代创业者社区，线上fellowship模式",
+      "coreActivities": [
+        {
+          "name": "Founder Fellowship",
+          "description": "创始人fellowship项目",
+          "link": "https://www.beondeck.com"
+        },
+        {
+          "name": "在线社区",
+          "description": "Discord/Notion在线协作",
+          "link": "https://www.beondeck.com"
+        }
+      ],
+      "frequency": "持续",
+      "contentSystem": "在线课程，知识库",
+      "investmentResources": "是",
+      "businessModel": "Fellowship学费+会员",
+      "onlinePlatform": "Discord, Notion",
+      "membershipThreshold": "申请制",
+      "estimatedRevenue": "Fellowship $2,500-5,000",
+      "differentiation": "线上fellowship模式",
+      "keyHighlight": "现代创业者社区的标杆，线上协作模式",
+      "website": "https://www.beondeck.com",
+      "socialMedia": {
+        "x": "https://x.com/on_deck_",
+        "linkedin": "https://www.linkedin.com/company/on-deck"
+      },
+      "pressCoverage": []
+    },
+    {
+      "id": "chief",
+      "name": "Chief",
+      "category": "global-entrepreneurs",
+      "foundedYear": 2019,
+      "yearsInOperation": 7,
+      "founder": "Carolyn Childers & Lindsay Kaplan",
+      "foundingBackground": "2019年在纽约成立，女性高管和创始人专属网络",
+      "foundingTeamInfo": "两位女性创始人，致力于推动女性领导力",
+      "region": "美国纽约",
+      "targetUsers": "女性高管和创始人",
+      "scale": "20,000+会员",
+      "coverage": "全球主要城市",
+      "positioning": "女性高管和创始人私密网络，邀请制高年费",
+      "coreActivities": [
+        {
+          "name": "女性领导者小组",
+          "description": "女性专属互助小组",
+          "link": "https://www.chief.com"
+        },
+        {
+          "name": "线下俱乐部",
+          "description": "私密俱乐部空间",
+          "link": "https://www.chief.com"
+        }
+      ],
+      "frequency": "月度",
+      "contentSystem": "女性领导力资源",
+      "investmentResources": "是",
+      "businessModel": "高年费制",
+      "onlinePlatform": "Chief平台",
+      "membershipThreshold": "邀请制，高门槛",
+      "estimatedRevenue": "年费 $5,800-7,900",
+      "differentiation": "女性专属，私密俱乐部模式",
+      "keyHighlight": "估值30亿美元的女性领导者社区",
+      "website": "https://www.chief.com",
+      "socialMedia": {
+        "x": "https://x.com/join_chief",
+        "linkedin": "https://www.linkedin.com/company/chief-123",
+        "instagram": "https://www.instagram.com/join_chief"
+      },
+      "pressCoverage": []
+    },
+    {
+      "id": "startup-grind",
+      "name": "Startup Grind",
+      "category": "global-entrepreneurs",
+      "foundedYear": 2010,
+      "yearsInOperation": 16,
+      "founder": "Derek Andersen",
+      "foundingBackground": "2010年从车库创业开始，建立全球创业运动",
+      "foundingTeamInfo": "创始人Derek Andersen，连续创业者",
+      "region": "美国",
+      "targetUsers": "初创企业创始人",
+      "scale": "1,500万+创业者",
+      "coverage": "150个国家，1000+分会",
+      "positioning": "媒体加活动驱动的全球创业者社区",
+      "coreActivities": [
+        {
+          "name": "月度炉边谈话",
+          "description": "邀请成功创业者分享经验",
+          "link": "https://www.startupgrind.com"
+        },
+        {
+          "name": "全球大会",
+          "description": "年度全球创业大会",
+          "link": "https://www.startupgrind.com"
+        }
+      ],
+      "frequency": "月度",
+      "contentSystem": "播客，视频，社区",
+      "investmentResources": "否",
+      "businessModel": "免费+赞助",
+      "onlinePlatform": "Facebook, Slack, App",
+      "membershipThreshold": "开放式",
+      "estimatedRevenue": "企业赞助+活动门票",
+      "differentiation": "全球本地化运营，1000+志愿者分会",
+      "keyHighlight": "16年1500万创业者，全球最大创业活动网络",
+      "website": "https://www.startupgrind.com",
+      "socialMedia": {
+        "facebook": "https://www.facebook.com/startupgrind",
+        "x": "https://x.com/startupgrind",
+        "linkedin": "https://www.linkedin.com/company/startup-grind",
+        "instagram": "https://www.instagram.com/startupgrind",
+        "luma": "https://lu.ma/startupgrind"
+      },
+      "pressCoverage": []
+    },
+    {
+      "id": "tie",
+      "name": "TiE (The Indus Entrepreneurs)",
+      "category": "global-entrepreneurs",
+      "foundedYear": 1992,
+      "yearsInOperation": 34,
+      "founder": "硅谷南亚裔企业家群体",
+      "foundingBackground": "1992年在美国成立，南亚裔创业者社区",
+      "foundingTeamInfo": "由硅谷南亚裔企业家共同创立",
+      "region": "美国",
+      "targetUsers": "南亚裔及全球创业者",
+      "scale": "全球",
+      "coverage": "60+分会，14,000+会员",
+      "positioning": "南亚裔全球创业社区",
+      "coreActivities": [
+        {
+          "name": "TiE全球大会",
+          "description": "年度TiEcon全球创业大会",
+          "link": "https://tie.org"
+        },
+        {
+          "name": "导师计划",
+          "description": "TiE Angels投资网络",
+          "link": "https://tie.org"
+        }
+      ],
+      "frequency": "年度/季度",
+      "contentSystem": "TiE资源库",
+      "investmentResources": "是",
+      "businessModel": "会员费+赞助",
+      "onlinePlatform": "TiE平台",
+      "membershipThreshold": "申请制",
+      "estimatedRevenue": "会员费 $300-1,000",
+      "differentiation": "南亚裔创业网络，32年历史",
+      "keyHighlight": "32年历史，南亚裔创业者的桥梁",
+      "website": "https://tie.org",
+      "socialMedia": {
+        "x": "https://x.com/tieglobal",
+        "linkedin": "https://www.linkedin.com/company/tie-global"
+      },
+      "pressCoverage": []
+    },
+    {
+      "id": "the-family",
+      "name": "The Family",
+      "category": "global-entrepreneurs",
+      "foundedYear": 2013,
+      "yearsInOperation": 13,
+      "founder": "Alice Zagury, Oussama Ammar, Nicolas Colin",
+      "foundingBackground": "2013年在英国伦敦成立，欧洲创业者社区",
+      "foundingTeamInfo": "三位欧洲创业者联合创立",
+      "region": "英国伦敦",
+      "targetUsers": "欧洲创业者",
+      "scale": "数百家创业公司",
+      "coverage": "欧洲主要城市",
+      "positioning": "欧洲创业者社区，深度陪伴型",
+      "coreActivities": [
+        {
+          "name": "创业陪伴计划",
+          "description": "深度陪伴创业公司成长",
+          "link": "https://www.thefamily.co"
+        },
+        {
+          "name": "创始人社区",
+          "description": "欧洲创始人网络",
+          "link": "https://www.thefamily.co"
+        }
+      ],
+      "frequency": "持续",
+      "contentSystem": "The Family内容库",
+      "investmentResources": "是",
+      "businessModel": "股权+服务模式",
+      "onlinePlatform": "社区平台",
+      "membershipThreshold": "选拔制",
+      "estimatedRevenue": "股权+服务收费",
+      "differentiation": "深度陪伴，欧洲特色",
+      "keyHighlight": "欧洲最有影响力的创业社区之一",
+      "website": "https://www.thefamily.co",
+      "socialMedia": {
+        "x": "https://x.com/thefamily",
+        "linkedin": "https://www.linkedin.com/company/the-family"
+      },
+      "pressCoverage": []
+    },
+    {
+      "id": "founder-institute-global",
+      "name": "Founder Institute",
+      "category": "global-entrepreneurs",
+      "foundedYear": 2009,
+      "yearsInOperation": 17,
+      "founder": "Adeo Ressi",
+      "foundingBackground": "2009年在美国成立，全球创业者教育社区",
+      "foundingTeamInfo": "创始人Adeo Ressi，连续创业者",
+      "region": "美国",
+      "targetUsers": "早期创业者",
+      "scale": "全球",
+      "coverage": "90+国家，200+城市",
+      "positioning": "全球创业者教育社区，训练营加校友网络",
+      "coreActivities": [
+        {
+          "name": "Founder Institute训练营",
+          "description": "系统化创始人培训项目",
+          "link": "https://fi.co"
+        },
+        {
+          "name": "全球校友网络",
+          "description": "4,500+校友公司",
+          "link": "https://fi.co"
+        }
+      ],
+      "frequency": "季度开营",
+      "contentSystem": "创始人课程体系",
+      "investmentResources": "是",
+      "businessModel": "训练营学费+股权",
+      "onlinePlatform": "FI平台",
+      "membershipThreshold": "申请+面试",
+      "estimatedRevenue": "学费 $1,000-2,000+股权",
+      "differentiation": "系统化教育+全球校友网络",
+      "keyHighlight": "全球最大的创始人培训体系，4500+校友公司",
+      "website": "https://fi.co",
+      "socialMedia": {
+        "x": "https://x.com/founderinst",
+        "linkedin": "https://www.linkedin.com/company/founder-institute",
+        "facebook": "https://www.facebook.com/founderinstitute"
+      },
+      "pressCoverage": []
+    },
+    {
+      "id": "tiger-21",
+      "name": "TIGER 21",
+      "category": "global-entrepreneurs",
+      "foundedYear": 1999,
+      "yearsInOperation": 27,
+      "founder": "Michael Sonnenfeldt",
+      "foundingBackground": "1999年在美国成立，超高净值企业家和投资人私密社区，聚焦财富管理和投资策略",
+      "foundingTeamInfo": "由Michael Sonnenfeldt创立",
+      "region": "美国",
+      "targetUsers": "超高净值企业家和投资人",
+      "scale": "全球",
+      "coverage": "全球主要城市",
+      "positioning": "超高净值企业家和投资人私密社区",
+      "coreActivities": [
+        {
+          "name": "TIGER 21小组会议",
+          "description": "月度小组深度讨论",
+          "link": "https://www.tiger21.com"
+        },
+        {
+          "name": "财富管理教育",
+          "description": "财富管理和投资策略教育",
+          "link": "https://www.tiger21.com"
+        }
+      ],
+      "frequency": "月度",
+      "contentSystem": "财富管理资源库",
+      "investmentResources": "是",
+      "businessModel": "高年费制",
+      "onlinePlatform": "TIGER 21平台",
+      "membershipThreshold": "邀请制，高净值门槛",
+      "estimatedRevenue": "高年费",
+      "differentiation": "超高净值聚焦，私密社区",
+      "keyHighlight": "全球领先的超高净值企业家和投资人社区",
+      "website": "https://www.tiger21.com",
+      "socialMedia": {
+        "linkedin": "https://www.linkedin.com/company/tiger21",
+        "x": "https://x.com/TIGER21Global"
+      },
+      "pressCoverage": []
+    },
+    {
+      "id": "efactor",
+      "name": "EFactor",
+      "category": "global-entrepreneurs",
+      "foundedYear": 2008,
+      "yearsInOperation": 18,
+      "founder": "Adrie Reinders & Roeland Reinders",
+      "foundingBackground": "2008年在美国旧金山成立，全球最大线上创业者社区，覆盖185个国家，近百万会员",
+      "foundingTeamInfo": "由Reinders兄弟创立",
+      "region": "美国旧金山",
+      "targetUsers": "全球创业者",
+      "scale": "近百万会员",
+      "coverage": "185个国家",
+      "positioning": "全球最大线上创业者社区",
+      "coreActivities": [
+        {
+          "name": "EFactor社区",
+          "description": "线上创业者社区",
+          "link": "https://www.efactor.com"
+        },
+        {
+          "name": "创业者活动",
+          "description": "线上线下创业者活动",
+          "link": "https://www.efactor.com"
+        }
+      ],
+      "frequency": "持续",
+      "contentSystem": "创业资源库",
+      "investmentResources": "是",
+      "businessModel": "会员费+服务",
+      "onlinePlatform": "EFactor平台",
+      "membershipThreshold": "开放",
+      "estimatedRevenue": "会员费+服务收入",
+      "differentiation": "最大线上覆盖",
+      "keyHighlight": "全球最大线上创业者社区，覆盖185个国家",
+      "website": "https://www.efactor.com",
+      "socialMedia": {
+        "linkedin": "https://www.linkedin.com/company/efactor"
+      },
+      "pressCoverage": []
+    },
+    {
+      "id": "factory-berlin",
+      "name": "Factory Berlin",
+      "category": "global-entrepreneurs",
+      "foundedYear": 2011,
+      "yearsInOperation": 15,
+      "founder": "Lorenzo Thione & others",
+      "foundingBackground": "2011年在德国柏林成立，欧洲最具多样性的创业者网络之一，5,000+会员",
+      "foundingTeamInfo": "由多位创业者创立",
+      "region": "德国柏林",
+      "targetUsers": "欧洲创业者",
+      "scale": "5,000+会员",
+      "coverage": "欧洲主要城市",
+      "positioning": "欧洲最具多样性的创业者网络之一",
+      "coreActivities": [
+        {
+          "name": "Factory Berlin空间",
+          "description": "联合办公和创业空间",
+          "link": "https://www.factoryberlin.com"
+        },
+        {
+          "name": "创业者社区活动",
+          "description": "各类创业者活动",
+          "link": "https://www.factoryberlin.com"
+        }
+      ],
+      "frequency": "持续",
+      "contentSystem": "创业资源库",
+      "investmentResources": "是",
+      "businessModel": "空间租金+会员费",
+      "onlinePlatform": "Factory Berlin平台",
+      "membershipThreshold": "申请制",
+      "estimatedRevenue": "空间租金+会员费",
+      "differentiation": "欧洲特色，多样性",
+      "keyHighlight": "欧洲最具多样性的创业者网络之一，5,000+会员",
+      "website": "https://www.factoryberlin.com",
+      "socialMedia": {
+        "linkedin": "https://www.linkedin.com/company/factory-berlin",
+        "x": "https://x.com/factoryberlin"
+      },
+      "pressCoverage": []
+    },
+    {
+      "id": "cionet",
+      "name": "CIONET",
+      "category": "global-entrepreneurs",
+      "foundedYear": 2005,
+      "yearsInOperation": 21,
+      "founder": "CIONET团队",
+      "foundingBackground": "2005年在欧洲（比利时）成立，连接全球数字领导者的社区，聚焦技术高管和创新创业者",
+      "foundingTeamInfo": "由技术社区专家创立",
+      "region": "欧洲（比利时）",
+      "targetUsers": "技术高管和创新创业者",
+      "scale": "全球",
+      "coverage": "全球主要国家",
+      "positioning": "连接全球数字领导者的社区",
+      "coreActivities": [
+        {
+          "name": "CIONET社区",
+          "description": "数字领导者社区",
+          "link": "https://www.cionet.com"
+        },
+        {
+          "name": "技术高管活动",
+          "description": "各类技术高管活动",
+          "link": "https://www.cionet.com"
+        }
+      ],
+      "frequency": "持续",
+      "contentSystem": "数字领导力资源库",
+      "investmentResources": "是",
+      "businessModel": "会员费+赞助",
+      "onlinePlatform": "CIONET平台",
+      "membershipThreshold": "申请制",
+      "estimatedRevenue": "会员费+赞助",
+      "differentiation": "技术高管聚焦",
+      "keyHighlight": "连接全球数字领导者的社区",
+      "website": "https://www.cionet.com",
+      "socialMedia": {
+        "linkedin": "https://www.linkedin.com/company/cionet"
+      },
+      "pressCoverage": []
+    },
+    {
+      "id": "startup-club",
+      "name": "Startup Club",
+      "category": "global-entrepreneurs",
+      "foundedYear": 2017,
+      "yearsInOperation": 9,
+      "founder": "Startup Club团队",
+      "foundingBackground": "2017年在美国成立，全球创始人社区，通过Slack和线下活动连接",
+      "foundingTeamInfo": "由创业者创立",
+      "region": "美国",
+      "targetUsers": "全球创始人",
+      "scale": "全球",
+      "coverage": "全球主要城市",
+      "positioning": "全球创始人社区",
+      "coreActivities": [
+        {
+          "name": "Startup Club Slack",
+          "description": "Slack社区",
+          "link": ""
+        },
+        {
+          "name": "线下活动",
+          "description": "线下创始人活动",
+          "link": ""
+        }
+      ],
+      "frequency": "持续",
+      "contentSystem": "创始人资源库",
+      "investmentResources": "是",
+      "businessModel": "会员费",
+      "onlinePlatform": "Slack",
+      "membershipThreshold": "申请制",
+      "estimatedRevenue": "会员费",
+      "differentiation": "Slack+线下活动",
+      "keyHighlight": "全球创始人社区，通过Slack和线下活动连接",
+      "website": "",
+      "socialMedia": {},
+      "pressCoverage": []
+    },
+    {
+      "id": "the-capital-network",
+      "name": "The Capital Network",
+      "category": "global-entrepreneurs",
+      "foundedYear": 2013,
+      "yearsInOperation": 13,
+      "founder": "The Capital Network团队",
+      "foundingBackground": "2013年在美国成立，为早期创业者提供融资教育和导师支持的社区",
+      "foundingTeamInfo": "由融资专家创立",
+      "region": "美国",
+      "targetUsers": "早期创业者",
+      "scale": "全球",
+      "coverage": "全球主要创业城市",
+      "positioning": "为早期创业者提供融资教育和导师支持的社区",
+      "coreActivities": [
+        {
+          "name": "融资教育",
+          "description": "早期创业者融资教育",
+          "link": "https://www.thecapitalnetwork.com"
+        },
+        {
+          "name": "导师支持",
+          "description": "导师指导",
+          "link": "https://www.thecapitalnetwork.com"
+        }
+      ],
+      "frequency": "持续",
+      "contentSystem": "融资教育资源库",
+      "investmentResources": "是",
+      "businessModel": "会员费+赞助",
+      "onlinePlatform": "The Capital Network平台",
+      "membershipThreshold": "申请制",
+      "estimatedRevenue": "会员费+赞助",
+      "differentiation": "融资教育聚焦",
+      "keyHighlight": "为早期创业者提供融资教育和导师支持的社区",
+      "website": "https://www.thecapitalnetwork.com",
+      "socialMedia": {
+        "linkedin": "https://www.linkedin.com/company/the-capital-network"
+      },
+      "pressCoverage": []
+    },
+    {
+      "id": "global-startup-network",
+      "name": "Global Startup Network",
+      "category": "global-entrepreneurs",
+      "foundedYear": 2010,
+      "yearsInOperation": 16,
+      "founder": "Global Startup Network团队",
+      "foundingBackground": "2010年在全球成立，连接各国创业生态的综合性社区",
+      "foundingTeamInfo": "由全球创业生态专家创立",
+      "region": "全球",
+      "targetUsers": "全球创业者",
+      "scale": "全球",
+      "coverage": "全球各国",
+      "positioning": "连接各国创业生态的综合性社区",
+      "coreActivities": [
+        {
+          "name": "全球创业生态连接",
+          "description": "连接各国创业生态",
+          "link": ""
+        },
+        {
+          "name": "创业者活动",
+          "description": "各类创业者活动",
+          "link": ""
+        }
+      ],
+      "frequency": "持续",
+      "contentSystem": "全球创业生态资源库",
+      "investmentResources": "是",
+      "businessModel": "会员费+赞助",
+      "onlinePlatform": "Global Startup Network平台",
+      "membershipThreshold": "申请制",
+      "estimatedRevenue": "会员费+赞助",
+      "differentiation": "全球创业生态连接",
+      "keyHighlight": "连接各国创业生态的综合性社区",
+      "website": "",
+      "socialMedia": {},
+      "pressCoverage": []
+    },
+    {
+      "id": "founders-forum",
+      "name": "Founders Forum",
+      "category": "global-entrepreneurs",
+      "foundedYear": 2005,
+      "yearsInOperation": 21,
+      "founder": "Brent Hoberman",
+      "foundingBackground": "2005年在英国成立，邀请制创始人私密网络，定期举办闭门会议",
+      "foundingTeamInfo": "由Brent Hoberman创立，Lastminute.com创始人",
+      "region": "英国",
+      "targetUsers": "成功创始人",
+      "scale": "全球",
+      "coverage": "全球主要城市",
+      "positioning": "邀请制创始人私密网络",
+      "coreActivities": [
+        {
+          "name": "Founders Forum闭门会议",
+          "description": "定期举办闭门会议",
+          "link": "https://www.foundersforum.com"
+        },
+        {
+          "name": "创始人社区",
+          "description": "创始人私密网络",
+          "link": "https://www.foundersforum.com"
+        }
+      ],
+      "frequency": "年度/季度",
+      "contentSystem": "创始人资源库",
+      "investmentResources": "是",
+      "businessModel": "邀请制",
+      "onlinePlatform": "Founders Forum平台",
+      "membershipThreshold": "邀请制",
+      "estimatedRevenue": "赞助",
+      "differentiation": "邀请制私密网络",
+      "keyHighlight": "英国顶级邀请制创始人私密网络",
+      "website": "https://www.foundersforum.com",
+      "socialMedia": {
+        "linkedin": "https://www.linkedin.com/company/founders-forum",
+        "x": "https://x.com/foundersforum"
+      },
+      "pressCoverage": []
+    },
+    {
+      "id": "entrepreneurial-scotland",
+      "name": "Entrepreneurial Scotland",
+      "category": "global-entrepreneurs",
+      "foundedYear": 2013,
+      "yearsInOperation": 13,
+      "founder": "Entrepreneurial Scotland团队",
+      "foundingBackground": "2013年在苏格兰成立，创业者同侪社区",
+      "foundingTeamInfo": "由苏格兰创业者创立",
+      "region": "苏格兰",
+      "targetUsers": "苏格兰创业者",
+      "scale": "苏格兰",
+      "coverage": "苏格兰主要城市",
+      "positioning": "创业者同侪社区",
+      "coreActivities": [
+        {
+          "name": "Entrepreneurial Scotland社区",
+          "description": "创业者同侪社区",
+          "link": "https://www.entrepreneurialscotland.com"
+        },
+        {
+          "name": "创业者活动",
+          "description": "各类创业者活动",
+          "link": "https://www.entrepreneurialscotland.com"
+        }
+      ],
+      "frequency": "持续",
+      "contentSystem": "苏格兰创业资源库",
+      "investmentResources": "是",
+      "businessModel": "会员费+赞助",
+      "onlinePlatform": "Entrepreneurial Scotland平台",
+      "membershipThreshold": "申请制",
+      "estimatedRevenue": "会员费+赞助",
+      "differentiation": "苏格兰特色，同侪社区",
+      "keyHighlight": "苏格兰创业者同侪社区",
+      "website": "https://www.entrepreneurialscotland.com",
+      "socialMedia": {
+        "linkedin": "https://www.linkedin.com/company/entrepreneurial-scotland"
+      },
+      "pressCoverage": []
+    },
+    {
+      "id": "the-founder-hour",
+      "name": "The Founder Hour",
+      "category": "global-entrepreneurs",
+      "foundedYear": 2016,
+      "yearsInOperation": 10,
+      "founder": "The Founder Hour团队",
+      "foundingBackground": "2016年在美国成立，播客驱动型创业者社区，线上社群+内容分享",
+      "foundingTeamInfo": "由播客创业者创立",
+      "region": "美国",
+      "targetUsers": "全球创业者",
+      "scale": "全球",
+      "coverage": "全球主要国家",
+      "positioning": "播客驱动型创业者社区",
+      "coreActivities": [
+        {
+          "name": "The Founder Hour播客",
+          "description": "创始人访谈播客",
+          "link": ""
+        },
+        {
+          "name": "线上社群",
+          "description": "线上创业者社群",
+          "link": ""
+        }
+      ],
+      "frequency": "持续",
+      "contentSystem": "播客+内容分享",
+      "investmentResources": "是",
+      "businessModel": "赞助+会员",
+      "onlinePlatform": "播客平台+社群",
+      "membershipThreshold": "开放",
+      "estimatedRevenue": "赞助+会员费",
+      "differentiation": "播客驱动",
+      "keyHighlight": "播客驱动型创业者社区",
+      "website": "",
+      "socialMedia": {},
+      "pressCoverage": []
+    },
+    {
+      "id": "hysta",
+      "name": "HYSTA (华源科技协会)",
+      "category": "chinese-entrepreneurs",
+      "foundedYear": 1999,
+      "yearsInOperation": 27,
+      "founder": "硅谷华人企业家群体",
+      "foundingBackground": "1999年在硅谷成立，硅谷最大华人创业协会",
+      "foundingTeamInfo": "由硅谷多位成功华人企业家创立",
+      "region": "美国硅谷",
+      "targetUsers": "华人科技创业者",
+      "scale": "数千会员",
+      "coverage": "硅谷及全球",
+      "positioning": "硅谷最大华人创业协会",
+      "coreActivities": [
+        {
+          "name": "华源年会",
+          "description": "硅谷华人创业年度盛会",
+          "link": "https://www.hysta.org"
+        },
+        {
+          "name": "创业活动",
+          "description": "各类华人创业活动",
+          "link": "https://www.hysta.org"
+        }
+      ],
+      "frequency": "年度/季度",
+      "contentSystem": "华源资源网络",
+      "investmentResources": "是",
+      "businessModel": "会员费+赞助",
+      "onlinePlatform": "华源社区",
+      "membershipThreshold": "申请制",
+      "estimatedRevenue": "会员费+企业赞助",
+      "differentiation": "硅谷最大，25年历史",
+      "keyHighlight": "硅谷历史最悠久、规模最大的华人创业协会",
+      "website": "https://www.hysta.org",
+      "socialMedia": {
+        "x": "https://x.com/hysta_org"
+      },
+      "pressCoverage": []
+    },
+    {
+      "id": "committee-100",
+      "name": "Committee of 100 (百人会)",
+      "category": "chinese-entrepreneurs",
+      "foundedYear": 1989,
+      "yearsInOperation": 37,
+      "founder": "贝聿铭及多位华裔精英",
+      "foundingBackground": "1989年在纽约成立，华裔精英组织",
+      "foundingTeamInfo": "由著名建筑大师贝聿铭等华裔精英创立",
+      "region": "美国纽约",
+      "targetUsers": "华裔精英",
+      "scale": "200+会员",
+      "coverage": "全球",
+      "positioning": "华裔精英组织",
+      "coreActivities": [
+        {
+          "name": "百人会年会",
+          "description": "年度精英聚会",
+          "link": "https://www.committee100.org"
+        }
+      ],
+      "frequency": "年度",
+      "contentSystem": "研究报告",
+      "investmentResources": "是",
+      "businessModel": "会员费+捐赠",
+      "onlinePlatform": "私密社区",
+      "membershipThreshold": "严格邀请制",
+      "estimatedRevenue": "捐赠+会员费",
+      "differentiation": "35年历史，顶级华裔精英网络",
+      "keyHighlight": "35年历史，顶级华裔精英组织",
+      "website": "https://www.committee100.org",
+      "socialMedia": {
+        "x": "https://x.com/CommitteeOf100",
+        "linkedin": "https://www.linkedin.com/company/committee-of-100"
+      },
+      "pressCoverage": []
+    },
+    {
+      "id": "svcaf",
+      "name": "SVCAF (Silicon Valley Chinese Association Foundation)",
+      "category": "chinese-entrepreneurs",
+      "foundedYear": 1994,
+      "yearsInOperation": 32,
+      "founder": "硅谷华人社区领袖",
+      "foundingBackground": "1994年在硅谷成立，硅谷华人协会",
+      "foundingTeamInfo": "硅谷华人社区领袖共同创立",
+      "region": "美国硅谷",
+      "targetUsers": "硅谷华人",
+      "scale": "数千会员",
+      "coverage": "硅谷",
+      "positioning": "硅谷华人协会",
+      "coreActivities": [
+        {
+          "name": "华人社区活动",
+          "description": "各类华人社区活动",
+          "link": "https://www.svcaf.org"
+        }
+      ],
+      "frequency": "季度",
+      "contentSystem": "社区资源",
+      "investmentResources": "否",
+      "businessModel": "会员费+捐赠",
+      "onlinePlatform": "社区平台",
+      "membershipThreshold": "申请制",
+      "estimatedRevenue": "会员费",
+      "differentiation": "30年历史，硅谷华人社区",
+      "keyHighlight": "30年历史，硅谷华人社区支柱",
+      "website": "https://www.svcaf.org",
+      "socialMedia": {},
+      "pressCoverage": []
+    },
+    {
+      "id": "svcef",
+      "name": "SVCEF (硅谷华人创业者协会)",
+      "category": "chinese-entrepreneurs",
+      "foundedYear": 2013,
+      "yearsInOperation": 13,
+      "founder": "硅谷华人创业者",
+      "foundingBackground": "2013年在硅谷成立，2000+会员",
+      "foundingTeamInfo": "由活跃的硅谷华人创业者创立",
+      "region": "美国硅谷",
+      "targetUsers": "华人创业者",
+      "scale": "2000+会员",
+      "coverage": "硅谷",
+      "positioning": "硅谷华人创业者协会",
+      "coreActivities": [
+        {
+          "name": "创业聚会",
+          "description": "华人创业者聚会活动",
+          "link": ""
+        }
+      ],
+      "frequency": "月度",
+      "contentSystem": "创业者资源",
+      "investmentResources": "是",
+      "businessModel": "免费/会员",
+      "onlinePlatform": "微信群",
+      "membershipThreshold": "申请制",
+      "estimatedRevenue": "赞助",
+      "differentiation": "2000+会员，活跃创业者社群",
+      "keyHighlight": "2000+会员，硅谷活跃的华人创业者社群",
+      "website": "",
+      "socialMedia": {},
+      "pressCoverage": []
+    },
+    {
+      "id": "na-cea",
+      "name": "北美华人创业协会",
+      "category": "chinese-entrepreneurs",
+      "foundedYear": 2010,
+      "yearsInOperation": 16,
+      "founder": "北美华人创业者",
+      "foundingBackground": "2010年成立，区域性华人创业组织",
+      "foundingTeamInfo": "由北美多地华人创业者联合创立",
+      "region": "北美",
+      "targetUsers": "北美华人创业者",
+      "scale": "数千会员",
+      "coverage": "北美主要城市",
+      "positioning": "区域性华人创业组织",
+      "coreActivities": [
+        {
+          "name": "区域创业活动",
+          "description": "北美各城市创业活动",
+          "link": ""
+        }
+      ],
+      "frequency": "季度",
+      "contentSystem": "区域资源网络",
+      "investmentResources": "是",
+      "businessModel": "会员费+赞助",
+      "onlinePlatform": "社区平台",
+      "membershipThreshold": "申请制",
+      "estimatedRevenue": "会员费",
+      "differentiation": "区域性华人创业组织",
+      "keyHighlight": "覆盖北美主要城市的华人创业网络",
+      "website": "",
+      "socialMedia": {},
+      "pressCoverage": []
+    },
+    {
+      "id": "hk-youth-entrepreneurs",
+      "name": "香港青年创业家协会",
+      "category": "chinese-entrepreneurs",
+      "foundedYear": 2009,
+      "yearsInOperation": 17,
+      "founder": "香港青年创业者群体",
+      "foundingBackground": "2009年在香港成立，香港创业组织",
+      "foundingTeamInfo": "由香港多位青年创业者创立",
+      "region": "香港",
+      "targetUsers": "香港青年创业者",
+      "scale": "数千会员",
+      "coverage": "香港及大湾区",
+      "positioning": "香港创业组织",
+      "coreActivities": [
+        {
+          "name": "香港创业活动",
+          "description": "香港本地创业活动",
+          "link": ""
+        }
+      ],
+      "frequency": "月度",
+      "contentSystem": "香港创业资源",
+      "investmentResources": "是",
+      "businessModel": "会员费+赞助",
+      "onlinePlatform": "社区平台",
+      "membershipThreshold": "申请制",
+      "estimatedRevenue": "会员费",
+      "differentiation": "香港本地创业组织，15年历史",
+      "keyHighlight": "香港最活跃的青年创业组织之一",
+      "website": "",
+      "socialMedia": {},
+      "pressCoverage": []
+    },
+    {
+      "id": "singapore-chinese-chamber",
+      "name": "新加坡华商总会",
+      "category": "chinese-entrepreneurs",
+      "foundedYear": 1906,
+      "yearsInOperation": 120,
+      "founder": "新加坡华人领袖",
+      "foundingBackground": "1906年在新加坡成立，东南亚华人华商组织",
+      "foundingTeamInfo": "新加坡华人商帮领袖共同创立",
+      "region": "新加坡",
+      "targetUsers": "东南亚华人华商",
+      "scale": "数万名会员",
+      "coverage": "东南亚",
+      "positioning": "东南亚华人华商组织",
+      "coreActivities": [
+        {
+          "name": "华商交流活动",
+          "description": "东南亚华商交流",
+          "link": "https://www.sccci.org.sg"
+        }
+      ],
+      "frequency": "年度/季度",
+      "contentSystem": "华商网络",
+      "investmentResources": "是",
+      "businessModel": "会员费+捐赠",
+      "onlinePlatform": "商会平台",
+      "membershipThreshold": "申请制",
+      "estimatedRevenue": "会员费+捐赠",
+      "differentiation": "118年历史，东南亚最具影响力",
+      "keyHighlight": "118年历史，东南亚最具影响力的华人华商组织",
+      "website": "https://www.sccci.org.sg",
+      "socialMedia": {},
+      "pressCoverage": []
+    },
+    {
+      "id": "european-chinese-business",
+      "name": "欧洲华商联合会",
+      "category": "chinese-entrepreneurs",
+      "foundedYear": 2010,
+      "yearsInOperation": 16,
+      "founder": "欧洲华人商界领袖",
+      "foundingBackground": "2010年在欧洲成立，欧洲华人创业组织",
+      "foundingTeamInfo": "由欧洲多国华人商界领袖创立",
+      "region": "欧洲",
+      "targetUsers": "欧洲华人创业者",
+      "scale": "数千会员",
+      "coverage": "欧洲主要国家",
+      "positioning": "欧洲华人创业组织",
+      "coreActivities": [
+        {
+          "name": "欧洲华商活动",
+          "description": "欧洲各国华商交流",
+          "link": ""
+        }
+      ],
+      "frequency": "年度",
+      "contentSystem": "欧洲华商网络",
+      "investmentResources": "是",
+      "businessModel": "会员费+赞助",
+      "onlinePlatform": "社区平台",
+      "membershipThreshold": "申请制",
+      "estimatedRevenue": "会员费",
+      "differentiation": "覆盖欧洲主要国家的华人创业网络",
+      "keyHighlight": "连接欧洲各国华人创业者的重要平台",
+      "website": "",
+      "socialMedia": {},
+      "pressCoverage": []
+    },
+    {
+      "id": "ceo-association",
+      "name": "CEO (华人创业者协会)",
+      "category": "chinese-entrepreneurs",
+      "foundedYear": 2008,
+      "yearsInOperation": 18,
+      "founder": "斯坦福华人校友",
+      "foundingBackground": "2008年在硅谷斯坦福成立，斯坦福校友创办",
+      "foundingTeamInfo": "由斯坦福大学华人校友创业者创立",
+      "region": "美国硅谷（斯坦福）",
+      "targetUsers": "斯坦福及硅谷华人创业者",
+      "scale": "数千会员",
+      "coverage": "硅谷",
+      "positioning": "斯坦福校友创办的华人创业社团",
+      "coreActivities": [
+        {
+          "name": "斯坦福华人创业活动",
+          "description": "斯坦福校园及周边创业活动",
+          "link": ""
+        }
+      ],
+      "frequency": "月度",
+      "contentSystem": "校友网络",
+      "investmentResources": "是",
+      "businessModel": "免费/赞助",
+      "onlinePlatform": "校友社区",
+      "membershipThreshold": "申请制，校友优先",
+      "estimatedRevenue": "赞助",
+      "differentiation": "斯坦福背景，校友网络强",
+      "keyHighlight": "斯坦福华人创业者的大本营",
+      "website": "",
+      "socialMedia": {},
+      "pressCoverage": []
+    },
+    {
+      "id": "ace-berkeley",
+      "name": "ACE (伯克利华人创业者协会)",
+      "category": "chinese-entrepreneurs",
+      "foundedYear": 2012,
+      "yearsInOperation": 14,
+      "founder": "伯克利华人校友",
+      "foundingBackground": "2012年在伯克利成立，伯克利华人创业社团",
+      "foundingTeamInfo": "由UC Berkeley华人校友创业者创立",
+      "region": "美国伯克利",
+      "targetUsers": "伯克利华人创业者",
+      "scale": "数千会员",
+      "coverage": "伯克利及湾区",
+      "positioning": "伯克利华人创业社团",
+      "coreActivities": [
+        {
+          "name": "伯克利华人创业活动",
+          "description": "UC Berkeley校园创业活动",
+          "link": ""
+        }
+      ],
+      "frequency": "月度",
+      "contentSystem": "伯克利校友网络",
+      "investmentResources": "是",
+      "businessModel": "免费/赞助",
+      "onlinePlatform": "校友社区",
+      "membershipThreshold": "申请制，校友优先",
+      "estimatedRevenue": "赞助",
+      "differentiation": "伯克利背景，工程师创业氛围浓",
+      "keyHighlight": "UC Berkeley华人创业者的聚集地",
+      "website": "",
+      "socialMedia": {},
+      "pressCoverage": []
+    },
+    {
+      "id": "innox-club",
+      "name": "InnoX Club",
+      "category": "chinese-entrepreneurs",
+      "foundedYear": 2020,
+      "yearsInOperation": 6,
+      "founder": "依托InnoX Camp校友网络",
+      "foundingBackground": "成立年份不详（依托InnoX Camp校友网络），中国香港，邀请制本地活跃创业者社群，专注硬科技及早期项目",
+      "foundingTeamInfo": "依托InnoX Camp校友网络建立",
+      "region": "中国香港",
+      "targetUsers": "硬科技及早期项目创业者",
+      "scale": "本地活跃社群",
+      "coverage": "香港",
+      "positioning": "邀请制本地活跃创业者社群，专注硬科技及早期项目",
+      "coreActivities": [
+        {
+          "name": "InnoX Camp校友活动",
+          "description": "硬科技创业者聚会",
+          "link": "https://www.innox.hk"
+        }
+      ],
+      "frequency": "月度",
+      "contentSystem": "校友资源网络",
+      "investmentResources": "是",
+      "businessModel": "邀请制会员",
+      "onlinePlatform": "社区平台",
+      "membershipThreshold": "邀请制",
+      "estimatedRevenue": "赞助+会员费",
+      "differentiation": "硬科技垂直，香港本地",
+      "keyHighlight": "香港本地活跃的硬科技创业者社群",
+      "website": "https://www.innox.hk",
+      "socialMedia": {},
+      "pressCoverage": []
+    },
+    {
+      "id": "jumpstarter",
+      "name": "JUMPSTARTER",
+      "category": "chinese-entrepreneurs",
+      "foundedYear": 2017,
+      "yearsInOperation": 9,
+      "founder": "阿里巴巴创业者基金",
+      "foundingBackground": "成立年份不详，中国香港，阿里巴巴创业者基金发起的创业盛典平台，重在发掘潜力企业并提供资本对接",
+      "foundingTeamInfo": "由阿里巴巴创业者基金发起创立",
+      "region": "中国香港",
+      "targetUsers": "潜力创业企业",
+      "scale": "大湾区",
+      "coverage": "香港及大湾区",
+      "positioning": "阿里巴巴创业者基金发起的创业盛典平台，重在发掘潜力企业并提供资本对接",
+      "coreActivities": [
+        {
+          "name": "JUMPSTARTER创业盛典",
+          "description": "年度创业大赛和盛典",
+          "link": "https://www.jumpstarter.hk"
+        },
+        {
+          "name": "资本对接会",
+          "description": "投资机构对接",
+          "link": "https://www.jumpstarter.hk"
+        }
+      ],
+      "frequency": "年度",
+      "contentSystem": "创业大赛资源库",
+      "investmentResources": "是",
+      "businessModel": "大赛+投资对接",
+      "onlinePlatform": "大赛平台",
+      "membershipThreshold": "参赛报名制",
+      "estimatedRevenue": "赞助+投资回报",
+      "differentiation": "阿里背景，资本对接",
+      "keyHighlight": "香港最具影响力的创业盛典平台，阿里背书",
+      "website": "https://www.jumpstarter.hk",
+      "socialMedia": {},
+      "pressCoverage": []
+    },
+    {
+      "id": "hkyiea",
+      "name": "香港青年创业家协会 (HKYIEA)",
+      "category": "chinese-entrepreneurs",
+      "foundedYear": 2009,
+      "yearsInOperation": 17,
+      "founder": "香港青年创业家群体",
+      "foundingBackground": "成立年份不详，中国香港，香港最大青年创业平台之一，会员网络遍布大湾区",
+      "foundingTeamInfo": "由香港多位青年创业家共同创立",
+      "region": "中国香港",
+      "targetUsers": "香港青年创业者",
+      "scale": "数千会员",
+      "coverage": "香港及大湾区",
+      "positioning": "香港最大青年创业平台之一，会员网络遍布大湾区",
+      "coreActivities": [
+        {
+          "name": "青年创业活动",
+          "description": "各类创业交流活动",
+          "link": "https://www.hkyiea.org.hk"
+        }
+      ],
+      "frequency": "月度/季度",
+      "contentSystem": "青年创业资源",
+      "investmentResources": "是",
+      "businessModel": "会员费+赞助",
+      "onlinePlatform": "协会平台",
+      "membershipThreshold": "申请制",
+      "estimatedRevenue": "会员费+企业赞助",
+      "differentiation": "香港最大，大湾区覆盖",
+      "keyHighlight": "香港最大的青年创业平台之一",
+      "website": "https://www.hkyiea.org.hk",
+      "socialMedia": {},
+      "pressCoverage": []
+    },
+    {
+      "id": "startupshk-ten",
+      "name": "StartupsHK / TEN",
+      "category": "chinese-entrepreneurs",
+      "foundedYear": 2007,
+      "yearsInOperation": 19,
+      "founder": "香港科技界和新移民创始人",
+      "foundingBackground": "2005-2009年成立，中国香港，连接科技界和新移民创始人的枢纽，提供社群活动与资源对接",
+      "foundingTeamInfo": "由香港科技界和新移民创业者共同创立",
+      "region": "中国香港",
+      "targetUsers": "科技界和新移民创始人",
+      "scale": "数千会员",
+      "coverage": "香港",
+      "positioning": "连接科技界和新移民创始人的枢纽，提供社群活动与资源对接",
+      "coreActivities": [
+        {
+          "name": "科技创业聚会",
+          "description": "新移民创业者交流",
+          "link": "https://www.startupshk.com"
+        }
+      ],
+      "frequency": "月度",
+      "contentSystem": "新移民创业者资源",
+      "investmentResources": "是",
+      "businessModel": "免费/赞助",
+      "onlinePlatform": "社区平台",
+      "membershipThreshold": "开放式",
+      "estimatedRevenue": "赞助",
+      "differentiation": "新移民创始人，科技界",
+      "keyHighlight": "香港科技界和新移民创始人的重要枢纽",
+      "website": "https://www.startupshk.com",
+      "socialMedia": {},
+      "pressCoverage": []
+    },
+    {
+      "id": "sleek-community",
+      "name": "Sleek Community",
+      "category": "chinese-entrepreneurs",
+      "foundedYear": 2018,
+      "yearsInOperation": 8,
+      "founder": "Sleek团队",
+      "foundingBackground": "成立年份不详，中国香港，线上空间，专为SaaS类企业主及创业者提供知识共享服务",
+      "foundingTeamInfo": "由Sleek团队创立",
+      "region": "中国香港",
+      "targetUsers": "SaaS类企业主及创业者",
+      "scale": "线上社群",
+      "coverage": "香港及亚太",
+      "positioning": "线上空间，专为SaaS类企业主及创业者提供知识共享服务",
+      "coreActivities": [
+        {
+          "name": "SaaS知识分享",
+          "description": "SaaS创业经验交流",
+          "link": "https://www.sleek.asia"
+        }
+      ],
+      "frequency": "持续",
+      "contentSystem": "SaaS知识库",
+      "investmentResources": "否",
+      "businessModel": "免费/会员",
+      "onlinePlatform": "线上社区",
+      "membershipThreshold": "开放式",
+      "estimatedRevenue": "会员费",
+      "differentiation": "SaaS垂直，线上为主",
+      "keyHighlight": "香港专注SaaS的线上创业者社区",
+      "website": "https://www.sleek.asia",
+      "socialMedia": {},
+      "pressCoverage": []
+    },
+    {
+      "id": "umac-innovation-center",
+      "name": "澳门大学创新创业中心",
+      "category": "chinese-entrepreneurs",
+      "foundedYear": 2015,
+      "yearsInOperation": 11,
+      "founder": "澳门大学",
+      "foundingBackground": "成立年份不详，中国澳门，以澳门大学为核心的创业网络，服务校内师生及校友创业项目",
+      "foundingTeamInfo": "由澳门大学发起创立",
+      "region": "中国澳门",
+      "targetUsers": "澳门大学师生及校友",
+      "scale": "校园网络",
+      "coverage": "澳门大学及澳门",
+      "positioning": "以澳门大学为核心的创业网络，服务校内师生及校友创业项目",
+      "coreActivities": [
+        {
+          "name": "校园创业项目",
+          "description": "支持师生创业",
+          "link": "https://www.um.edu.mo"
+        }
+      ],
+      "frequency": "持续",
+      "contentSystem": "校园创业资源",
+      "investmentResources": "是",
+      "businessModel": "校园支持",
+      "onlinePlatform": "校园平台",
+      "membershipThreshold": "校内师生校友",
+      "estimatedRevenue": "校园拨款",
+      "differentiation": "澳门大学核心，校园网络",
+      "keyHighlight": "澳门大学主导的创新创业支持平台",
+      "website": "https://www.um.edu.mo",
+      "socialMedia": {},
+      "pressCoverage": []
+    },
+    {
+      "id": "macau-youth-incubation",
+      "name": "澳门青年创新孵化中心",
+      "category": "chinese-entrepreneurs",
+      "foundedYear": 2016,
+      "yearsInOperation": 10,
+      "founder": "澳门政府相关机构",
+      "foundingBackground": "成立年份不详，中国澳门，为澳门青年提供创新大赛及创业支持的载体",
+      "foundingTeamInfo": "由澳门政府相关机构发起创立",
+      "region": "中国澳门",
+      "targetUsers": "澳门青年创业者",
+      "scale": "澳门本地",
+      "coverage": "澳门",
+      "positioning": "为澳门青年提供创新大赛及创业支持的载体",
+      "coreActivities": [
+        {
+          "name": "澳门青年创新大赛",
+          "description": "青年创业大赛",
+          "link": "https://www.macau.gov.mo"
+        }
+      ],
+      "frequency": "年度",
+      "contentSystem": "青年创业资源",
+      "investmentResources": "是",
+      "businessModel": "政府支持",
+      "onlinePlatform": "孵化中心平台",
+      "membershipThreshold": "澳门青年",
+      "estimatedRevenue": "政府拨款",
+      "differentiation": "澳门政府背景，青年支持",
+      "keyHighlight": "澳门官方青年创业支持载体",
+      "website": "https://www.macau.gov.mo",
+      "socialMedia": {},
+      "pressCoverage": []
+    },
+    {
+      "id": "ace-singapore",
+      "name": "ACE (Action Community for Entrepreneurship)",
+      "category": "chinese-entrepreneurs",
+      "foundedYear": 2003,
+      "yearsInOperation": 23,
+      "founder": "新加坡政府支持",
+      "foundingBackground": "成立年份不详（区域老牌组织），新加坡，政府支持的创业生态动力引擎，推动本地创业发展",
+      "foundingTeamInfo": "由新加坡政府支持创立",
+      "region": "新加坡",
+      "targetUsers": "新加坡创业者",
+      "scale": "新加坡全国",
+      "coverage": "新加坡",
+      "positioning": "政府支持的创业生态动力引擎，推动本地创业发展",
+      "coreActivities": [
+        {
+          "name": "ACE创业活动",
+          "description": "新加坡创业生态建设",
+          "link": "https://www.ace.org.sg"
+        }
+      ],
+      "frequency": "持续",
+      "contentSystem": "新加坡创业资源",
+      "investmentResources": "是",
+      "businessModel": "政府支持+会员",
+      "onlinePlatform": "ACE平台",
+      "membershipThreshold": "申请制",
+      "estimatedRevenue": "政府拨款+会员费",
+      "differentiation": "政府背景，生态动力引擎",
+      "keyHighlight": "新加坡政府支持的创业生态核心组织",
+      "website": "https://www.ace.org.sg",
+      "socialMedia": {},
+      "pressCoverage": []
+    },
+    {
+      "id": "learning-loop",
+      "name": "Learning Loop",
+      "category": "chinese-entrepreneurs",
+      "foundedYear": 2019,
+      "yearsInOperation": 7,
+      "founder": "新加坡创业社区",
+      "foundingBackground": "成立年份不详，新加坡，邀请制全球社区，专注为0到A轮的科技创始人提供支持与连接",
+      "foundingTeamInfo": "由新加坡活跃的创业社区创立",
+      "region": "新加坡",
+      "targetUsers": "0到A轮的科技创始人",
+      "scale": "全球",
+      "coverage": "新加坡及全球",
+      "positioning": "邀请制全球社区，专注为0到A轮的科技创始人提供支持与连接",
+      "coreActivities": [
+        {
+          "name": "创始人Fellowship",
+          "description": "0到A轮创始人支持",
+          "link": "https://www.learningloop.io"
+        }
+      ],
+      "frequency": "持续",
+      "contentSystem": "创始人知识库",
+      "investmentResources": "是",
+      "businessModel": "邀请制会员",
+      "onlinePlatform": "社区平台",
+      "membershipThreshold": "邀请制",
+      "estimatedRevenue": "会员费+赞助",
+      "differentiation": "0到A轮，全球邀请制",
+      "keyHighlight": "新加坡的0到A轮科技创始人专属社区",
+      "website": "https://www.learningloop.io",
+      "socialMedia": {},
+      "pressCoverage": []
+    },
+    {
+      "id": "sea-founders",
+      "name": "SEA Founders",
+      "category": "chinese-entrepreneurs",
+      "foundedYear": 2018,
+      "yearsInOperation": 8,
+      "founder": "东南亚科技领导者群体",
+      "foundingBackground": "成立年份不详，新加坡，非盈利组织，旨在建立东南亚最优质的科技领导者开放社区",
+      "foundingTeamInfo": "由东南亚多位科技领导者共同创立",
+      "region": "新加坡",
+      "targetUsers": "东南亚科技领导者",
+      "scale": "东南亚",
+      "coverage": "东南亚地区",
+      "positioning": "非盈利组织，旨在建立东南亚最优质的科技领导者开放社区",
+      "coreActivities": [
+        {
+          "name": "东南亚创始人聚会",
+          "description": "科技领导者交流",
+          "link": "https://www.seafounders.com"
+        }
+      ],
+      "frequency": "季度",
+      "contentSystem": "东南亚创业资源",
+      "investmentResources": "是",
+      "businessModel": "非盈利+捐赠",
+      "onlinePlatform": "社区平台",
+      "membershipThreshold": "邀请制",
+      "estimatedRevenue": "捐赠+赞助",
+      "differentiation": "东南亚最优质，科技领导者",
+      "keyHighlight": "东南亚最优质的科技领导者开放社区",
+      "website": "https://www.seafounders.com",
+      "socialMedia": {},
+      "pressCoverage": []
+    },
+    {
+      "id": "singapore-entrepreneurs-association",
+      "name": "新加坡创业者协会 (Singapore Entrepreneurs' Association)",
+      "category": "chinese-entrepreneurs",
+      "foundedYear": 1995,
+      "yearsInOperation": 31,
+      "founder": "新加坡创业者群体",
+      "foundingBackground": "成立年份不详，新加坡，本地创业者互助组织（补充）",
+      "foundingTeamInfo": "由新加坡本地创业者共同创立",
+      "region": "新加坡",
+      "targetUsers": "新加坡本地创业者",
+      "scale": "新加坡本地",
+      "coverage": "新加坡",
+      "positioning": "本地创业者互助组织",
+      "coreActivities": [
+        {
+          "name": "新加坡创业者聚会",
+          "description": "本地创业者交流",
+          "link": "https://www.sea.org.sg"
+        }
+      ],
+      "frequency": "月度",
+      "contentSystem": "本地创业资源",
+      "investmentResources": "是",
+      "businessModel": "会员费+赞助",
+      "onlinePlatform": "协会平台",
+      "membershipThreshold": "申请制",
+      "estimatedRevenue": "会员费",
+      "differentiation": "本地互助，新加坡老牌",
+      "keyHighlight": "新加坡本地老牌创业者互助组织",
+      "website": "https://www.sea.org.sg",
+      "socialMedia": {},
+      "pressCoverage": []
+    },
+    {
+      "id": "endeavor",
+      "name": "Endeavor",
+      "category": "global-outbound",
+      "foundedYear": 1997,
+      "yearsInOperation": 29,
+      "founder": "Linda Rottenberg",
+      "foundingBackground": "1997年在纽约成立，高影响力创业家网络",
+      "foundingTeamInfo": "创始人Linda Rottenberg，被誉为\"全球创业界的教母\"",
+      "region": "美国纽约",
+      "targetUsers": "高增长潜力创业者",
+      "scale": "全球",
+      "coverage": "40+新兴市场",
+      "positioning": "高影响力创业家网络",
+      "coreActivities": [
+        {
+          "name": "Endeavor选拔",
+          "description": "选拔和支持高潜力创业者",
+          "link": "https://endeavor.org"
+        },
+        {
+          "name": "全球网络",
+          "description": "连接全球企业家",
+          "link": "https://endeavor.org"
+        }
+      ],
+      "frequency": "持续",
+      "contentSystem": "Endeavor资源库",
+      "investmentResources": "是",
+      "businessModel": "捐赠+赞助",
+      "onlinePlatform": "Endeavor平台",
+      "membershipThreshold": "严格选拔制",
+      "estimatedRevenue": "捐赠+赞助",
+      "differentiation": "27年历史，专注新兴市场，高影响力",
+      "keyHighlight": "27年历史，影响40+新兴市场的高影响力创业网络",
+      "website": "https://endeavor.org",
+      "socialMedia": {
+        "x": "https://x.com/endeavororg",
+        "linkedin": "https://www.linkedin.com/company/endeavor-global"
+      },
+      "pressCoverage": []
+    },
+    {
+      "id": "gen",
+      "name": "GEN (Global Entrepreneurship Network)",
+      "category": "global-outbound",
+      "foundedYear": 2010,
+      "yearsInOperation": 16,
+      "founder": "Kauffman Foundation",
+      "foundingBackground": "2010年在华盛顿成立，全球创业政策加连接网络",
+      "foundingTeamInfo": "由Kauffman基金会发起创立",
+      "region": "美国华盛顿",
+      "targetUsers": "创业生态系统参与者",
+      "scale": "全球",
+      "coverage": "170+国家",
+      "positioning": "全球创业政策加连接网络",
+      "coreActivities": [
+        {
+          "name": "Global Entrepreneurship Week",
+          "description": "全球创业周活动",
+          "link": "https://gen.co"
+        },
+        {
+          "name": "创业政策研究",
+          "description": "创业政策研究和交流",
+          "link": "https://gen.co"
+        }
+      ],
+      "frequency": "年度/持续",
+      "contentSystem": "创业政策数据库",
+      "investmentResources": "否",
+      "businessModel": "基金会+政府赞助",
+      "onlinePlatform": "GEN平台",
+      "membershipThreshold": "开放",
+      "estimatedRevenue": "基金会+政府赞助",
+      "differentiation": "政策+网络，覆盖170+国家",
+      "keyHighlight": "覆盖170+国家的全球创业政策与连接网络",
+      "website": "https://gen.co",
+      "socialMedia": {
+        "x": "https://x.com/GEN",
+        "linkedin": "https://www.linkedin.com/company/global-entrepreneurship-network"
+      },
+      "pressCoverage": []
+    },
+    {
+      "id": "startup-genome",
+      "name": "Startup Genome",
+      "category": "global-outbound",
+      "foundedYear": 2011,
+      "yearsInOperation": 15,
+      "founder": "Marc Penzel & JF Gauthier",
+      "foundingBackground": "2011年在旧金山成立，创业生态研究加社区",
+      "foundingTeamInfo": "两位创始人专注创业生态研究",
+      "region": "美国旧金山",
+      "targetUsers": "创业生态研究者、政策制定者",
+      "scale": "全球",
+      "coverage": "250+城市",
+      "positioning": "创业生态研究加社区",
+      "coreActivities": [
+        {
+          "name": "全球创业生态报告",
+          "description": "年度全球创业生态系统报告",
+          "link": "https://startupgenome.com"
+        }
+      ],
+      "frequency": "年度",
+      "contentSystem": "创业生态数据库",
+      "investmentResources": "否",
+      "businessModel": "研究报告+咨询",
+      "onlinePlatform": "Startup Genome平台",
+      "membershipThreshold": "开放",
+      "estimatedRevenue": "研究报告销售+咨询服务",
+      "differentiation": "数据驱动，250+城市研究",
+      "keyHighlight": "全球最权威的创业生态系统研究机构",
+      "website": "https://startupgenome.com",
+      "socialMedia": {
+        "x": "https://x.com/StartupGenome",
+        "linkedin": "https://www.linkedin.com/company/startup-genome"
+      },
+      "pressCoverage": []
+    },
+    {
+      "id": "ecommercefuel",
+      "name": "EcommerceFuel",
+      "category": "global-outbound",
+      "foundedYear": 2014,
+      "yearsInOperation": 12,
+      "founder": "Andrew Youderian",
+      "foundingBackground": "2014年成立，电商创业者私密社区",
+      "foundingTeamInfo": "创始人Andrew Youderian，知名电商创业者",
+      "region": "全球",
+      "targetUsers": "电商创业者",
+      "scale": "数千会员",
+      "coverage": "全球",
+      "positioning": "电商创业者私密社区",
+      "coreActivities": [
+        {
+          "name": "电商创始人论坛",
+          "description": "私密电商创业者交流",
+          "link": "https://www.ecommercefuel.com"
+        }
+      ],
+      "frequency": "持续",
+      "contentSystem": "电商资源库",
+      "investmentResources": "是",
+      "businessModel": "会员费",
+      "onlinePlatform": "私密论坛",
+      "membershipThreshold": "审核制，电商创业者",
+      "estimatedRevenue": "会员费",
+      "differentiation": "垂直电商，私密社区",
+      "keyHighlight": "全球最有影响力的电商创业者私密社区",
+      "website": "https://www.ecommercefuel.com",
+      "socialMedia": {
+        "x": "https://x.com/ecommercefuel"
+      },
+      "pressCoverage": []
+    },
+    {
+      "id": "dynamo",
+      "name": "Dynamo",
+      "category": "global-outbound",
+      "foundedYear": 2020,
+      "yearsInOperation": 6,
+      "founder": "Dynamo团队",
+      "foundingBackground": "2020年成立，增长从业者社区",
+      "foundingTeamInfo": "由增长领域专家创立",
+      "region": "全球",
+      "targetUsers": "增长从业者",
+      "scale": "数万人",
+      "coverage": "全球",
+      "positioning": "增长从业者社区",
+      "coreActivities": [
+        {
+          "name": "增长交流",
+          "description": "增长从业者交流",
+          "link": "https://dynamo.vc"
+        }
+      ],
+      "frequency": "持续",
+      "contentSystem": "增长资源库",
+      "investmentResources": "是",
+      "businessModel": "会员费+社区",
+      "onlinePlatform": "Discord",
+      "membershipThreshold": "申请制",
+      "estimatedRevenue": "会员费",
+      "differentiation": "垂直增长，专业社区",
+      "keyHighlight": "增长领域的专业社区",
+      "website": "https://dynamo.vc",
+      "socialMedia": {
+        "x": "https://x.com/dynamo_vc"
+      },
+      "pressCoverage": []
+    },
+    {
+      "id": "pavilion",
+      "name": "Pavilion",
+      "category": "global-outbound",
+      "foundedYear": 2020,
+      "yearsInOperation": 6,
+      "founder": "Sam Jacobs",
+      "foundingBackground": "2020年成立，销售和增长从业者社区",
+      "foundingTeamInfo": "创始人Sam Jacobs，Revenue.io前CEO",
+      "region": "全球",
+      "targetUsers": "销售和增长从业者",
+      "scale": "数万人",
+      "coverage": "全球",
+      "positioning": "销售和增长从业者社区",
+      "coreActivities": [
+        {
+          "name": "Pavilion会员社区",
+          "description": "销售和增长从业者交流",
+          "link": "https://www.joinpavilion.com"
+        }
+      ],
+      "frequency": "持续",
+      "contentSystem": "销售和增长资源库",
+      "investmentResources": "否",
+      "businessModel": "会员费",
+      "onlinePlatform": "Pavilion平台",
+      "membershipThreshold": "申请制",
+      "estimatedRevenue": "会员费",
+      "differentiation": "垂直销售和增长",
+      "keyHighlight": "销售和增长领域最大的专业社区之一",
+      "website": "https://www.joinpavilion.com",
+      "socialMedia": {
+        "x": "https://x.com/joinpavilion",
+        "linkedin": "https://www.linkedin.com/company/joinpavilion"
+      },
+      "pressCoverage": []
+    },
+    {
+      "id": "revgenius",
+      "name": "RevGenius",
+      "category": "global-outbound",
+      "foundedYear": 2020,
+      "yearsInOperation": 6,
+      "founder": "RevGenius团队",
+      "foundingBackground": "2020年成立，收入运营社区",
+      "foundingTeamInfo": "由收入运营领域专家创立",
+      "region": "全球",
+      "targetUsers": "收入运营从业者",
+      "scale": "数万人",
+      "coverage": "全球",
+      "positioning": "收入运营社区",
+      "coreActivities": [
+        {
+          "name": "RevOps交流",
+          "description": "收入运营从业者交流",
+          "link": "https://revgenius.com"
+        }
+      ],
+      "frequency": "持续",
+      "contentSystem": "收入运营资源库",
+      "investmentResources": "否",
+      "businessModel": "社区+赞助",
+      "onlinePlatform": "Slack",
+      "membershipThreshold": "申请制",
+      "estimatedRevenue": "赞助",
+      "differentiation": "垂直收入运营",
+      "keyHighlight": "收入运营领域的专业社区",
+      "website": "https://revgenius.com",
+      "socialMedia": {
+        "x": "https://x.com/teamrevgenius",
+        "linkedin": "https://www.linkedin.com/company/revgenius"
+      },
+      "pressCoverage": []
+    },
+    {
+      "id": "startup-nations",
+      "name": "Startup Nations",
+      "category": "global-outbound",
+      "foundedYear": 2012,
+      "yearsInOperation": 14,
+      "founder": "Startup Nations团队",
+      "foundingBackground": "2012年成立，全球创业政策交流网络",
+      "foundingTeamInfo": "由多国创业政策专家创立",
+      "region": "全球",
+      "targetUsers": "创业政策制定者、研究者",
+      "scale": "全球",
+      "coverage": "多国",
+      "positioning": "创业政策交流网络",
+      "coreActivities": [
+        {
+          "name": "政策交流",
+          "description": "各国创业政策交流",
+          "link": "https://startupnations.org"
+        }
+      ],
+      "frequency": "年度",
+      "contentSystem": "政策数据库",
+      "investmentResources": "否",
+      "businessModel": "政府+基金会赞助",
+      "onlinePlatform": "Startup Nations平台",
+      "membershipThreshold": "开放",
+      "estimatedRevenue": "赞助",
+      "differentiation": "政策交流网络",
+      "keyHighlight": "全球创业政策交流网络",
+      "website": "https://startupnations.org",
+      "socialMedia": {},
+      "pressCoverage": []
+    },
+    {
+      "id": "global-entrepreneurship-week",
+      "name": "Global Entrepreneurship Week",
+      "category": "global-outbound",
+      "foundedYear": 2008,
+      "yearsInOperation": 18,
+      "founder": "Kauffman Foundation",
+      "foundingBackground": "2008年成立，每年11月全球创业活动",
+      "foundingTeamInfo": "由Kauffman基金会发起",
+      "region": "全球",
+      "targetUsers": "全球创业者",
+      "scale": "全球",
+      "coverage": "170+国家",
+      "positioning": "每年11月全球创业活动",
+      "coreActivities": [
+        {
+          "name": "全球创业周活动",
+          "description": "全球各地创业活动",
+          "link": "https://www.genglobal.org"
+        }
+      ],
+      "frequency": "每年11月",
+      "contentSystem": "创业活动资源",
+      "investmentResources": "否",
+      "businessModel": "赞助+政府支持",
+      "onlinePlatform": "GEN平台",
+      "membershipThreshold": "开放",
+      "estimatedRevenue": "赞助",
+      "differentiation": "全球最大的创业活动周",
+      "keyHighlight": "每年11月，170+国家参与的全球创业活动",
+      "website": "https://www.genglobal.org",
+      "socialMedia": {},
+      "pressCoverage": []
+    },
+    {
+      "id": "1-million-cups",
+      "name": "1 Million Cups",
+      "category": "global-outbound",
+      "foundedYear": 2012,
+      "yearsInOperation": 14,
+      "founder": "Kauffman Foundation",
+      "foundingBackground": "2012年成立，美国，每周三早期创业公司路演活动",
+      "foundingTeamInfo": "由Kauffman基金会发起",
+      "region": "美国",
+      "targetUsers": "早期创业者",
+      "scale": "美国",
+      "coverage": "美国180+城市",
+      "positioning": "每周三早期创业公司路演活动",
+      "coreActivities": [
+        {
+          "name": "1 Million Cups路演",
+          "description": "每周三早期创业公司路演",
+          "link": "https://www.1millioncups.com"
+        }
+      ],
+      "frequency": "每周三",
+      "contentSystem": "路演资源库",
+      "investmentResources": "否",
+      "businessModel": "基金会支持",
+      "onlinePlatform": "1 Million Cups平台",
+      "membershipThreshold": "开放",
+      "estimatedRevenue": "基金会支持",
+      "differentiation": "每周定期路演",
+      "keyHighlight": "每周三，美国180+城市的早期创业公司路演活动",
+      "website": "https://www.1millioncups.com",
+      "socialMedia": {},
+      "pressCoverage": []
+    },
+    {
+      "id": "inspiro-network",
+      "name": "INSPIRO Network",
+      "category": "global-outbound",
+      "foundedYear": 2020,
+      "yearsInOperation": 6,
+      "founder": "INSPIRO团队",
+      "foundingBackground": "全球创业平台，33%为外籍成员，跨文化属性极强。",
+      "foundingTeamInfo": "跨文化创业团队创立",
+      "region": "全球",
+      "targetUsers": "全球创业者",
+      "scale": "全球",
+      "coverage": "全球多国",
+      "positioning": "全球创业平台，跨文化属性极强",
+      "coreActivities": [
+        {
+          "name": "INSPIRO Network活动",
+          "description": "跨文化创业者交流",
+          "link": "https://www.inspironetwork.com"
+        }
+      ],
+      "frequency": "持续",
+      "contentSystem": "跨文化创业资源",
+      "investmentResources": "是",
+      "businessModel": "会员+赞助",
+      "onlinePlatform": "INSPIRO平台",
+      "membershipThreshold": "申请制",
+      "estimatedRevenue": "会员费+赞助",
+      "differentiation": "33%外籍成员，跨文化属性",
+      "keyHighlight": "全球创业平台，33%为外籍成员，跨文化属性极强",
+      "website": "https://www.inspironetwork.com",
+      "socialMedia": {},
+      "pressCoverage": []
+    },
+    {
+      "id": "efactor",
+      "name": "EFactor",
+      "category": "global-outbound",
+      "foundedYear": 2008,
+      "yearsInOperation": 18,
+      "founder": "EFactor团队",
+      "foundingBackground": "全球，创业者线上社交网络，聚焦有志于全球扩张的创业者。",
+      "foundingTeamInfo": "全球创业者社交网络创始人",
+      "region": "全球",
+      "targetUsers": "有志于全球扩张的创业者",
+      "scale": "全球",
+      "coverage": "全球多国",
+      "positioning": "创业者线上社交网络，聚焦有志于全球扩张的创业者",
+      "coreActivities": [
+        {
+          "name": "EFactor社区",
+          "description": "全球创业者社交",
+          "link": "https://www.efactor.com"
+        }
+      ],
+      "frequency": "持续",
+      "contentSystem": "全球扩张资源库",
+      "investmentResources": "是",
+      "businessModel": "会员制",
+      "onlinePlatform": "EFactor平台",
+      "membershipThreshold": "申请制",
+      "estimatedRevenue": "会员费",
+      "differentiation": "全球扩张，线上社交网络",
+      "keyHighlight": "创业者线上社交网络，聚焦有志于全球扩张的创业者",
+      "website": "https://www.efactor.com",
+      "socialMedia": {},
+      "pressCoverage": []
+    },
+    {
+      "id": "mothers-of-invention",
+      "name": "Mothers of Invention",
+      "category": "global-outbound",
+      "foundedYear": 2021,
+      "yearsInOperation": 5,
+      "founder": "Mothers of Invention团队",
+      "foundingBackground": "2021年成立，非营利组织，服务全球风投支持的创始妈妈，500名会员，融资50亿美元。",
+      "foundingTeamInfo": "由女性创业者创立",
+      "region": "全球",
+      "targetUsers": "风投支持的创始妈妈",
+      "scale": "500名会员",
+      "coverage": "全球",
+      "positioning": "非营利组织，服务全球风投支持的创始妈妈",
+      "coreActivities": [
+        {
+          "name": "Mothers of Invention支持",
+          "description": "创始妈妈创业支持",
+          "link": "https://www.mothersofinvention.org"
+        }
+      ],
+      "frequency": "持续",
+      "contentSystem": "创始妈妈资源库",
+      "investmentResources": "是",
+      "businessModel": "非营利+捐赠",
+      "onlinePlatform": "Mothers of Invention平台",
+      "membershipThreshold": "风投支持的创始妈妈",
+      "estimatedRevenue": "捐赠+赞助",
+      "differentiation": "创始妈妈，风投支持，融资50亿美元",
+      "keyHighlight": "500名会员，服务全球风投支持的创始妈妈，融资50亿美元",
+      "website": "https://www.mothersofinvention.org",
+      "socialMedia": {},
+      "pressCoverage": []
+    },
+    {
+      "id": "alma-angels",
+      "name": "Alma Angels",
+      "category": "global-outbound",
+      "foundedYear": 2020,
+      "yearsInOperation": 6,
+      "founder": "Alma Angels团队",
+      "foundingBackground": "全球，投资人社群，支持女性创办的技术与IP密集型初创公司。",
+      "foundingTeamInfo": "由女性投资人创立",
+      "region": "全球",
+      "targetUsers": "女性创办的技术与IP密集型初创公司",
+      "scale": "全球",
+      "coverage": "全球",
+      "positioning": "投资人社群，支持女性创办的技术与IP密集型初创公司",
+      "coreActivities": [
+        {
+          "name": "Alma Angels投资",
+          "description": "女性创业项目投资",
+          "link": "https://www.almaangels.com"
+        }
+      ],
+      "frequency": "持续",
+      "contentSystem": "女性创业投资资源",
+      "investmentResources": "是",
+      "businessModel": "投资+会员",
+      "onlinePlatform": "Alma Angels平台",
+      "membershipThreshold": "投资人/女性创业者",
+      "estimatedRevenue": "投资回报+会员费",
+      "differentiation": "女性创办，技术与IP密集型",
+      "keyHighlight": "投资人社群，支持女性创办的技术与IP密集型初创公司",
+      "website": "https://www.almaangels.com",
+      "socialMedia": {},
+      "pressCoverage": []
+    },
+    {
+      "id": "echoher",
+      "name": "EchoHer",
+      "category": "global-outbound",
+      "foundedYear": 2022,
+      "yearsInOperation": 4,
+      "founder": "EchoHer团队",
+      "foundingBackground": "全球，赋能女性和非二元性别创始人的社区。",
+      "foundingTeamInfo": "由多元性别创始人创立",
+      "region": "全球",
+      "targetUsers": "女性和非二元性别创始人",
+      "scale": "全球",
+      "coverage": "全球",
+      "positioning": "赋能女性和非二元性别创始人的社区",
+      "coreActivities": [
+        {
+          "name": "EchoHer社区",
+          "description": "多元性别创始人交流",
+          "link": "https://www.echoher.com"
+        }
+      ],
+      "frequency": "持续",
+      "contentSystem": "多元性别创业资源",
+      "investmentResources": "是",
+      "businessModel": "会员+赞助",
+      "onlinePlatform": "EchoHer平台",
+      "membershipThreshold": "申请制",
+      "estimatedRevenue": "会员费+赞助",
+      "differentiation": "女性和非二元性别创始人",
+      "keyHighlight": "赋能女性和非二元性别创始人的社区",
+      "website": "https://www.echoher.com",
+      "socialMedia": {},
+      "pressCoverage": []
+    },
+    {
+      "id": "female-founders-alliance",
+      "name": "Female Founders Alliance (现名Graham & Walker)",
+      "category": "global-outbound",
+      "foundedYear": 2017,
+      "yearsInOperation": 9,
+      "founder": "Graham & Walker团队",
+      "foundingBackground": "现名Graham & Walker，服务女性及非二元性别创始人的社区。",
+      "foundingTeamInfo": "由女性创业者创立",
+      "region": "全球",
+      "targetUsers": "女性及非二元性别创始人",
+      "scale": "全球",
+      "coverage": "全球",
+      "positioning": "服务女性及非二元性别创始人的社区",
+      "coreActivities": [
+        {
+          "name": "Graham & Walker社区",
+          "description": "女性及非二元性别创始人支持",
+          "link": "https://www.grahamwalker.com"
+        }
+      ],
+      "frequency": "持续",
+      "contentSystem": "女性创业资源库",
+      "investmentResources": "是",
+      "businessModel": "会员+赞助",
+      "onlinePlatform": "Graham & Walker平台",
+      "membershipThreshold": "申请制",
+      "estimatedRevenue": "会员费+赞助",
+      "differentiation": "女性及非二元性别创始人",
+      "keyHighlight": "服务女性及非二元性别创始人的社区",
+      "website": "https://www.grahamwalker.com",
+      "socialMedia": {},
+      "pressCoverage": []
+    },
+    {
+      "id": "womentech-network",
+      "name": "WomenTech Network",
+      "category": "global-outbound",
+      "foundedYear": 2018,
+      "yearsInOperation": 8,
+      "founder": "WomenTech Network团队",
+      "foundingBackground": "全球增长最快的科技女性社区之一。",
+      "foundingTeamInfo": "由科技女性创立",
+      "region": "全球",
+      "targetUsers": "科技女性",
+      "scale": "全球",
+      "coverage": "全球",
+      "positioning": "全球增长最快的科技女性社区之一",
+      "coreActivities": [
+        {
+          "name": "WomenTech Network活动",
+          "description": "科技女性交流",
+          "link": "https://www.womentech.net"
+        }
+      ],
+      "frequency": "持续",
+      "contentSystem": "科技女性资源库",
+      "investmentResources": "否",
+      "businessModel": "会员+赞助",
+      "onlinePlatform": "WomenTech Network平台",
+      "membershipThreshold": "申请制",
+      "estimatedRevenue": "会员费+赞助",
+      "differentiation": "科技女性，全球增长最快",
+      "keyHighlight": "全球增长最快的科技女性社区之一",
+      "website": "https://www.womentech.net",
+      "socialMedia": {},
+      "pressCoverage": []
+    },
+    {
+      "id": "woc-founders-network",
+      "name": "WoC Founders Network",
+      "category": "global-outbound",
+      "foundedYear": 2020,
+      "yearsInOperation": 6,
+      "founder": "WoC Founders Network团队",
+      "foundingBackground": "全球，有色人种女性创始人及领导者网络。",
+      "foundingTeamInfo": "由有色人种女性创始人创立",
+      "region": "全球",
+      "targetUsers": "有色人种女性创始人及领导者",
+      "scale": "全球",
+      "coverage": "全球",
+      "positioning": "有色人种女性创始人及领导者网络",
+      "coreActivities": [
+        {
+          "name": "WoC Founders Network",
+          "description": "有色人种女性创始人交流",
+          "link": "https://www.wocfoundersnetwork.com"
+        }
+      ],
+      "frequency": "持续",
+      "contentSystem": "有色人种女性创业资源",
+      "investmentResources": "是",
+      "businessModel": "会员+赞助",
+      "onlinePlatform": "WoC Founders Network平台",
+      "membershipThreshold": "申请制",
+      "estimatedRevenue": "会员费+赞助",
+      "differentiation": "有色人种女性创始人及领导者",
+      "keyHighlight": "全球，有色人种女性创始人及领导者网络",
+      "website": "https://www.wocfoundersnetwork.com",
+      "socialMedia": {},
+      "pressCoverage": []
+    },
+    {
+      "id": "techcrunch",
+      "name": "TechCrunch",
+      "category": "media-communities",
+      "foundedYear": 2005,
+      "yearsInOperation": 21,
+      "founder": "Michael Arrington",
+      "foundingBackground": "2005年在美国旧金山成立，科技博客加创业社区",
+      "foundingTeamInfo": "创始人Michael Arrington，律师出身，连续创业者",
+      "region": "美国旧金山",
+      "targetUsers": "科技创业者、投资人、爱好者",
+      "scale": "全球数千万读者",
+      "coverage": "全球科技创业生态",
+      "positioning": "科技博客加创业社区",
+      "coreActivities": [
+        {
+          "name": "TechCrunch Disrupt",
+          "description": "年度科技创业大会",
+          "link": "https://techcrunch.com"
+        },
+        {
+          "name": "科技新闻报道",
+          "description": "每日科技创业新闻",
+          "link": "https://techcrunch.com"
+        }
+      ],
+      "frequency": "每日",
+      "contentSystem": "科技新闻库、Crunchbase",
+      "investmentResources": "是",
+      "businessModel": "广告+活动门票+赞助",
+      "onlinePlatform": "TechCrunch网站",
+      "membershipThreshold": "开放",
+      "estimatedRevenue": "广告+活动收入",
+      "differentiation": "科技新闻+活动+Crunchbase",
+      "keyHighlight": "全球最具影响力的科技创业媒体之一，19年历史",
+      "website": "https://techcrunch.com",
+      "socialMedia": {
+        "x": "https://x.com/TechCrunch",
+        "linkedin": "https://www.linkedin.com/company/techcrunch"
+      },
+      "pressCoverage": []
+    },
+    {
+      "id": "product-hunt",
+      "name": "Product Hunt",
+      "category": "media-communities",
+      "foundedYear": 2013,
+      "yearsInOperation": 13,
+      "founder": "Ryan Hoover",
+      "foundingBackground": "2013年成立，美国，科技产品发现社区，冷启动核心渠道",
+      "foundingTeamInfo": "创始人Ryan Hoover，产品经理出身",
+      "region": "美国",
+      "targetUsers": "产品经理、创业者、科技爱好者",
+      "scale": "数百万用户",
+      "coverage": "全球科技产品生态",
+      "positioning": "科技产品发现社区，冷启动核心渠道",
+      "coreActivities": [
+        {
+          "name": "Product Hunt发现",
+          "description": "每日新产品发布和发现",
+          "link": "https://www.producthunt.com"
+        }
+      ],
+      "frequency": "每日",
+      "contentSystem": "产品库、讨论区",
+      "investmentResources": "否",
+      "businessModel": "广告+赞助",
+      "onlinePlatform": "Product Hunt网站/App",
+      "membershipThreshold": "开放",
+      "estimatedRevenue": "广告+赞助",
+      "differentiation": "产品发现，冷启动渠道",
+      "keyHighlight": "科技产品冷启动的核心渠道，被AngelList收购",
+      "website": "https://www.producthunt.com",
+      "socialMedia": {
+        "x": "https://x.com/ProductHunt",
+        "linkedin": "https://www.linkedin.com/company/product-hunt"
+      },
+      "pressCoverage": []
+    },
+    {
+      "id": "indie-hackers",
+      "name": "Indie Hackers",
+      "category": "media-communities",
+      "foundedYear": 2016,
+      "yearsInOperation": 10,
+      "founder": "Courtland Allen",
+      "foundingBackground": "2016年成立，美国，独立开发者社区，盈利优先公开分享",
+      "foundingTeamInfo": "创始人Courtland Allen，独立开发者",
+      "region": "美国",
+      "targetUsers": "独立开发者、SaaS创始人",
+      "scale": "数十万用户",
+      "coverage": "全球独立开发生态",
+      "positioning": "独立开发者社区，盈利优先公开分享",
+      "coreActivities": [
+        {
+          "name": "Indie Hackers社区",
+          "description": "独立开发者交流和分享",
+          "link": "https://www.indiehackers.com"
+        },
+        {
+          "name": "盈利访谈",
+          "description": "独立开发者盈利故事访谈",
+          "link": "https://www.indiehackers.com"
+        }
+      ],
+      "frequency": "持续",
+      "contentSystem": "访谈库、讨论区",
+      "investmentResources": "否",
+      "businessModel": "社区+Stripe合作",
+      "onlinePlatform": "Indie Hackers网站",
+      "membershipThreshold": "开放",
+      "estimatedRevenue": "赞助",
+      "differentiation": "独立开发者，盈利分享",
+      "keyHighlight": "全球最有影响力的独立开发者社区，被Stripe收购",
+      "website": "https://www.indiehackers.com",
+      "socialMedia": {
+        "x": "https://x.com/IndieHackers"
+      },
+      "pressCoverage": []
+    },
+    {
+      "id": "saastr",
+      "name": "SaaStr",
+      "category": "media-communities",
+      "foundedYear": 2012,
+      "yearsInOperation": 14,
+      "founder": "Jason Lemkin",
+      "foundingBackground": "2012年成立，美国，SaaS运营者和创始人社区",
+      "foundingTeamInfo": "创始人Jason Lemkin，SaaS创业者和投资人",
+      "region": "美国",
+      "targetUsers": "SaaS创始人、运营者",
+      "scale": "数百万用户",
+      "coverage": "全球SaaS生态",
+      "positioning": "SaaS运营者和创始人社区",
+      "coreActivities": [
+        {
+          "name": "SaaStr Annual",
+          "description": "年度SaaS大会",
+          "link": "https://www.saastr.com"
+        },
+        {
+          "name": "SaaS内容",
+          "description": "SaaS运营和增长内容",
+          "link": "https://www.saastr.com"
+        }
+      ],
+      "frequency": "持续",
+      "contentSystem": "SaaS内容库",
+      "investmentResources": "是",
+      "businessModel": "广告+活动门票+赞助",
+      "onlinePlatform": "SaaStr网站",
+      "membershipThreshold": "开放",
+      "estimatedRevenue": "广告+活动收入",
+      "differentiation": "SaaS垂直，内容驱动",
+      "keyHighlight": "全球最大的SaaS社区之一，12年历史",
+      "website": "https://www.saastr.com",
+      "socialMedia": {
+        "x": "https://x.com/SaaStr",
+        "linkedin": "https://www.linkedin.com/company/saastr"
+      },
+      "pressCoverage": []
+    },
+    {
+      "id": "growthhackers",
+      "name": "GrowthHackers",
+      "category": "media-communities",
+      "foundedYear": 2013,
+      "yearsInOperation": 13,
+      "founder": "Sean Ellis & Morgan Brown",
+      "foundingBackground": "2013年成立，美国，增长实验和营销案例研究社区",
+      "foundingTeamInfo": "创始人Sean Ellis，\"增长黑客\"概念提出者",
+      "region": "美国",
+      "targetUsers": "增长从业者、营销人员",
+      "scale": "数十万用户",
+      "coverage": "全球增长生态",
+      "positioning": "增长实验和营销案例研究社区",
+      "coreActivities": [
+        {
+          "name": "GrowthHackers社区",
+          "description": "增长从业者交流",
+          "link": "https://growthhackers.com"
+        },
+        {
+          "name": "增长案例",
+          "description": "增长实验和案例分享",
+          "link": "https://growthhackers.com"
+        }
+      ],
+      "frequency": "持续",
+      "contentSystem": "增长案例库",
+      "investmentResources": "否",
+      "businessModel": "社区+咨询",
+      "onlinePlatform": "GrowthHackers网站",
+      "membershipThreshold": "开放",
+      "estimatedRevenue": "咨询+赞助",
+      "differentiation": "增长实验，案例研究",
+      "keyHighlight": "\"增长黑客\"概念发源地，全球增长从业者社区",
+      "website": "https://growthhackers.com",
+      "socialMedia": {
+        "x": "https://x.com/GrowthHackers"
+      },
+      "pressCoverage": []
+    },
+    {
+      "id": "starter-story",
+      "name": "Starter Story",
+      "category": "media-communities",
+      "foundedYear": 2017,
+      "yearsInOperation": 9,
+      "founder": "Pat Walls",
+      "foundingBackground": "2017年成立，美国，创业案例研究",
+      "foundingTeamInfo": "创始人Pat Walls，连续创业者",
+      "region": "美国",
+      "targetUsers": "早期创业者",
+      "scale": "数十万用户",
+      "coverage": "全球创业生态",
+      "positioning": "创业案例研究",
+      "coreActivities": [
+        {
+          "name": "Starter Story访谈",
+          "description": "创业者案例访谈",
+          "link": "https://www.starterstory.com"
+        }
+      ],
+      "frequency": "持续",
+      "contentSystem": "创业案例库",
+      "investmentResources": "否",
+      "businessModel": "会员费+广告",
+      "onlinePlatform": "Starter Story网站",
+      "membershipThreshold": "开放/付费会员",
+      "estimatedRevenue": "会员费+广告",
+      "differentiation": "案例研究，真实故事",
+      "keyHighlight": "深度创业案例研究媒体，数千个真实创业故事",
+      "website": "https://www.starterstory.com",
+      "socialMedia": {
+        "x": "https://x.com/StarterStory"
+      },
+      "pressCoverage": []
+    },
+    {
+      "id": "show-hn",
+      "name": "Show HN",
+      "category": "media-communities",
+      "foundedYear": 2007,
+      "yearsInOperation": 19,
+      "founder": "Paul Graham",
+      "foundingBackground": "2007年以后成立，全球，Hacker News子版块",
+      "foundingTeamInfo": "作为Hacker News的一部分，由Y Combinator运营",
+      "region": "全球",
+      "targetUsers": "开发者、创业者、技术爱好者",
+      "scale": "数百万用户",
+      "coverage": "全球技术创业生态",
+      "positioning": "Hacker News子版块",
+      "coreActivities": [
+        {
+          "name": "Show HN分享",
+          "description": "分享自己的项目和产品",
+          "link": "https://news.ycombinator.com/show"
+        }
+      ],
+      "frequency": "持续",
+      "contentSystem": "Hacker News内容库",
+      "investmentResources": "否",
+      "businessModel": "Y Combinator支持",
+      "onlinePlatform": "Hacker News网站",
+      "membershipThreshold": "开放",
+      "estimatedRevenue": "Y Combinator支持",
+      "differentiation": "技术社区，项目展示",
+      "keyHighlight": "Hacker News子版块，技术创业者冷启动渠道",
+      "website": "https://news.ycombinator.com/show",
+      "socialMedia": {},
+      "pressCoverage": []
+    },
+    {
+      "id": "growthmentor",
+      "name": "GrowthMentor",
+      "category": "media-communities",
+      "foundedYear": 2018,
+      "yearsInOperation": 8,
+      "founder": "GrowthMentor团队",
+      "foundingBackground": "2018年成立，全球，连接创业者与导师的Slack社区",
+      "foundingTeamInfo": "由增长领域专家创立",
+      "region": "全球",
+      "targetUsers": "创业者、增长从业者",
+      "scale": "数万人",
+      "coverage": "全球创业生态",
+      "positioning": "连接创业者与导师的Slack社区",
+      "coreActivities": [
+        {
+          "name": "GrowthMentor社区",
+          "description": "创业者与导师交流",
+          "link": "https://www.growthmentor.com"
+        }
+      ],
+      "frequency": "持续",
+      "contentSystem": "导师资源库",
+      "investmentResources": "否",
+      "businessModel": "会员费",
+      "onlinePlatform": "Slack+GrowthMentor网站",
+      "membershipThreshold": "申请制/付费",
+      "estimatedRevenue": "会员费",
+      "differentiation": "导师连接，Slack社区",
+      "keyHighlight": "连接创业者与导师的Slack社区",
+      "website": "https://www.growthmentor.com",
+      "socialMedia": {},
+      "pressCoverage": []
+    },
+    {
+      "id": "founderpass",
+      "name": "FounderPass",
+      "category": "media-communities",
+      "foundedYear": 2021,
+      "yearsInOperation": 5,
+      "founder": "FounderPass团队",
+      "foundingBackground": "2021年成立，全球，会员制社区提供初创企业折扣",
+      "foundingTeamInfo": "由连续创业者创立",
+      "region": "全球",
+      "targetUsers": "初创企业创始人",
+      "scale": "数万人",
+      "coverage": "全球初创生态",
+      "positioning": "会员制社区提供初创企业折扣",
+      "coreActivities": [
+        {
+          "name": "FounderPass会员",
+          "description": "初创企业折扣和优惠",
+          "link": "https://www.founderpass.com"
+        }
+      ],
+      "frequency": "持续",
+      "contentSystem": "折扣资源库",
+      "investmentResources": "否",
+      "businessModel": "会员费",
+      "onlinePlatform": "FounderPass网站",
+      "membershipThreshold": "付费会员",
+      "estimatedRevenue": "会员费",
+      "differentiation": "初创企业折扣",
+      "keyHighlight": "会员制社区，提供数百家初创企业工具折扣",
+      "website": "https://www.founderpass.com",
+      "socialMedia": {},
+      "pressCoverage": []
+    },
+    {
+      "id": "the-hardware-club",
+      "name": "The Hardware Club",
+      "category": "media-communities",
+      "foundedYear": 2018,
+      "yearsInOperation": 8,
+      "founder": "The Hardware Club团队",
+      "foundingBackground": "2018年成立，全球，硬件和IoT创始人社区",
+      "foundingTeamInfo": "由硬件领域专家创立",
+      "region": "全球",
+      "targetUsers": "硬件和IoT创始人",
+      "scale": "数千会员",
+      "coverage": "全球硬件生态",
+      "positioning": "硬件和IoT创始人社区",
+      "coreActivities": [
+        {
+          "name": "The Hardware Club社区",
+          "description": "硬件和IoT创始人交流",
+          "link": "https://www.thehardwareclub.com"
+        }
+      ],
+      "frequency": "持续",
+      "contentSystem": "硬件资源库",
+      "investmentResources": "是",
+      "businessModel": "社区+投资",
+      "onlinePlatform": "The Hardware Club网站",
+      "membershipThreshold": "申请制",
+      "estimatedRevenue": "投资回报+赞助",
+      "differentiation": "硬件和IoT垂直",
+      "keyHighlight": "硬件和IoT创始人社区",
+      "website": "https://www.thehardwareclub.com",
+      "socialMedia": {},
+      "pressCoverage": []
+    },
+    {
+      "id": "shengcaiyoushu",
+      "name": "生财有术",
+      "category": "media-communities",
+      "foundedYear": 2017,
+      "yearsInOperation": 9,
+      "founder": "亦仁",
+      "foundingBackground": "2017年由亦仁创建，是国内头部实战型付费社群。核心是内容驱动，通过“龙珠”等激励机制鼓励用户分享实操案例，聚焦“赚钱”主题，规模超7万人。",
+      "foundingTeamInfo": "由亦仁创立，国内实战型付费社群头部",
+      "region": "中国",
+      "targetUsers": "创业者、副业者、赚钱爱好者",
+      "scale": "超7万人",
+      "coverage": "全国",
+      "positioning": "国内头部实战型付费社群，聚焦“赚钱”主题",
+      "coreActivities": [
+        {
+          "name": "生财有术社群",
+          "description": "实战案例分享与交流",
+          "link": "https://www.shengcaiyoushu.com"
+        },
+        {
+          "name": "龙珠激励计划",
+          "description": "鼓励用户分享优质内容",
+          "link": "https://www.shengcaiyoushu.com"
+        }
+      ],
+      "frequency": "持续",
+      "contentSystem": "实战案例库",
+      "investmentResources": "否",
+      "businessModel": "付费会员制",
+      "onlinePlatform": "生财有术小程序/APP",
+      "membershipThreshold": "付费会员",
+      "estimatedRevenue": "会员费",
+      "differentiation": "实战型，聚焦赚钱，龙珠激励",
+      "keyHighlight": "国内头部实战型付费社群，超7万人规模，聚焦“赚钱”主题",
+      "website": "https://www.shengcaiyoushu.com",
+      "socialMedia": {},
+      "pressCoverage": []
+    },
+    {
+      "id": "hundunxueyuan",
+      "name": "混沌学园",
+      "category": "media-communities",
+      "foundedYear": 2014,
+      "yearsInOperation": 12,
+      "founder": "李善友",
+      "foundingBackground": "由李善友教授于2014年创立，面向创业者、企业高管提供系统的商业创新方法论与课程。核心模式是线上课程+分社体系，官方用户规模达数百万。",
+      "foundingTeamInfo": "由李善友教授创立，创新方法论教育",
+      "region": "中国",
+      "targetUsers": "创业者、企业高管",
+      "scale": "数百万用户",
+      "coverage": "全国及海外",
+      "positioning": "面向创业者、企业高管提供系统的商业创新方法论与课程",
+      "coreActivities": [
+        {
+          "name": "混沌学园线上课程",
+          "description": "商业创新方法论学习",
+          "link": "https://www.hundun.cn"
+        },
+        {
+          "name": "分社体系活动",
+          "description": "线下分社交流与活动",
+          "link": "https://www.hundun.cn"
+        }
+      ],
+      "frequency": "持续",
+      "contentSystem": "创新方法论课程体系",
+      "investmentResources": "否",
+      "businessModel": "线上课程+会员",
+      "onlinePlatform": "混沌学园APP/网站",
+      "membershipThreshold": "付费会员",
+      "estimatedRevenue": "课程收费+会员费",
+      "differentiation": "系统创新方法论，线上课程+分社体系",
+      "keyHighlight": "数百万用户规模，提供系统的商业创新方法论与课程",
+      "website": "https://www.hundun.cn",
+      "socialMedia": {},
+      "pressCoverage": []
+    },
+    {
+      "id": "dedao-xinshangxue",
+      "name": "得到新商学",
+      "category": "media-communities",
+      "foundedYear": 2024,
+      "yearsInOperation": 2,
+      "founder": "得到APP",
+      "foundingBackground": "得到APP于2024年孵化的创业者社群。核心是内容赋能+线下活动，以“创业者帮创业者”为口号，用户规模达1.6万人。",
+      "foundingTeamInfo": "由得到APP孵化，知识服务背景",
+      "region": "中国",
+      "targetUsers": "创业者",
+      "scale": "1.6万人",
+      "coverage": "全国",
+      "positioning": "得到APP于2024年孵化的创业者社群，核心是内容赋能+线下活动",
+      "coreActivities": [
+        {
+          "name": "得到新商学内容",
+          "description": "创业者知识赋能",
+          "link": "https://www.igetget.com"
+        },
+        {
+          "name": "线下创业者活动",
+          "description": "创业者帮创业者交流",
+          "link": "https://www.igetget.com"
+        }
+      ],
+      "frequency": "持续",
+      "contentSystem": "得到知识体系",
+      "investmentResources": "否",
+      "businessModel": "会员费+活动费",
+      "onlinePlatform": "得到APP",
+      "membershipThreshold": "付费会员",
+      "estimatedRevenue": "会员费",
+      "differentiation": "得到背景，内容赋能+线下活动",
+      "keyHighlight": "得到APP孵化的创业者社群，1.6万人规模，“创业者帮创业者”",
+      "website": "https://www.igetget.com",
+      "socialMedia": {},
+      "pressCoverage": []
+    },
+    {
+      "id": "kampong-ai",
+      "name": "Kampong AI",
+      "category": "new-communities",
+      "foundedYear": 2026,
+      "yearsInOperation": 0,
+      "founder": "Kampong AI团队",
+      "foundingBackground": "2026年宣布，新加坡，AI原生创始人与技术专业人士的综合社区，位于LaunchPad@One-North，将工作和生活空间结合",
+      "foundingTeamInfo": "由新加坡AI创业者创立",
+      "region": "新加坡",
+      "targetUsers": "AI原生创始人与技术专业人士",
+      "scale": "一期超700家初创企业入驻",
+      "coverage": "新加坡及东南亚",
+      "positioning": "新加坡首个AI创始人和技术专家可共居共创的综合社区",
+      "coreActivities": [
+        {
+          "name": "Kampong AI综合社区",
+          "description": "工作和生活空间结合的AI创业者社区",
+          "link": ""
+        }
+      ],
+      "frequency": "持续",
+      "contentSystem": "AI创业资源",
+      "investmentResources": "是",
+      "businessModel": "空间租金+生态合作",
+      "onlinePlatform": "社区平台",
+      "membershipThreshold": "申请制，AI创始人与技术专家",
+      "estimatedRevenue": "空间租金+生态合作收入",
+      "differentiation": "AI原生，工作生活空间结合，新加坡首个",
+      "keyHighlight": "一期超700家初创企业入驻，新加坡首个AI创始人和技术专家可共居共创的综合社区",
+      "website": "",
+      "socialMedia": {},
+      "pressCoverage": []
+    },
+    {
+      "id": "stage-one",
+      "name": "Stage One",
+      "category": "new-communities",
+      "foundedYear": 2024,
+      "yearsInOperation": 2,
+      "founder": "ACE.SG团队",
+      "foundingBackground": "2025年10月开放，新加坡，ACE.SG运营的一站式创业平台，提供大师课、商业对接与合作机会",
+      "foundingTeamInfo": "由ACE.SG运营",
+      "region": "新加坡",
+      "targetUsers": "初创企业创始人",
+      "scale": "已收到近700家初创企业关注",
+      "coverage": "新加坡及东南亚",
+      "positioning": "ACE.SG运营的一站式创业平台",
+      "coreActivities": [
+        {
+          "name": "Stage One大师课",
+          "description": "创业大师课",
+          "link": ""
+        },
+        {
+          "name": "商业对接",
+          "description": "商业对接与合作机会",
+          "link": ""
+        }
+      ],
+      "frequency": "持续",
+      "contentSystem": "创业大师课资源",
+      "investmentResources": "是",
+      "businessModel": "会员+服务",
+      "onlinePlatform": "Stage One平台",
+      "membershipThreshold": "申请制",
+      "estimatedRevenue": "会员费+服务收入",
+      "differentiation": "ACE.SG背景，一站式创业平台",
+      "keyHighlight": "2025年10月开放，已收到近700家初创企业关注，提供大师课、商业对接与合作机会",
+      "website": "",
+      "socialMedia": {},
+      "pressCoverage": []
+    },
+    {
+      "id": "learning-loop",
+      "name": "Learning Loop",
+      "category": "new-communities",
+      "foundedYear": 2024,
+      "yearsInOperation": 2,
+      "founder": "Learning Loop团队",
+      "foundingBackground": "邀请制全球社区，新加坡发起，专注0到A轮科技创始人的快速同侪反馈与投资者引荐",
+      "foundingTeamInfo": "由新加坡科技投资人创立",
+      "region": "新加坡",
+      "targetUsers": "0到A轮科技创始人",
+      "scale": "全球",
+      "coverage": "全球多国",
+      "positioning": "邀请制全球社区，专注0到A轮科技创始人的快速同侪反馈与投资者引荐",
+      "coreActivities": [
+        {
+          "name": "同侪反馈",
+          "description": "快速同侪反馈",
+          "link": ""
+        },
+        {
+          "name": "投资者引荐",
+          "description": "投资者引荐",
+          "link": ""
+        }
+      ],
+      "frequency": "持续",
+      "contentSystem": "同侪反馈机制",
+      "investmentResources": "是",
+      "businessModel": "会员制",
+      "onlinePlatform": "Learning Loop平台",
+      "membershipThreshold": "邀请制，0到A轮科技创始人",
+      "estimatedRevenue": "会员费",
+      "differentiation": "邀请制，全球社区，同侪反馈+投资者引荐",
+      "keyHighlight": "邀请制全球社区，专注0到A轮科技创始人的快速同侪反馈与投资者引荐",
+      "website": "",
+      "socialMedia": {},
+      "pressCoverage": []
+    },
+    {
+      "id": "brown-brothers-media",
+      "name": "Brown Brothers Media",
+      "category": "media-communities",
+      "foundedYear": 2020,
+      "yearsInOperation": 6,
+      "founder": "Brown Brothers Media团队",
+      "foundingBackground": "2020年成立，新加坡，数字出版平台，面向创业者与个人成长，收购欧洲科技媒体Silicon Canals后构建跨区域创业内容生态",
+      "foundingTeamInfo": "由新加坡媒体人创立",
+      "region": "新加坡",
+      "targetUsers": "创业者与个人成长群体",
+      "scale": "覆盖50万+用户",
+      "coverage": "跨区域",
+      "positioning": "数字出版平台，面向创业者与个人成长",
+      "coreActivities": [
+        {
+          "name": "创业内容出版",
+          "description": "面向创业者的内容出版",
+          "link": ""
+        },
+        {
+          "name": "Silicon Canals",
+          "description": "欧洲科技媒体",
+          "link": ""
+        }
+      ],
+      "frequency": "持续",
+      "contentSystem": "创业内容生态",
+      "investmentResources": "否",
+      "businessModel": "广告+会员+内容付费",
+      "onlinePlatform": "Brown Brothers Media平台",
+      "membershipThreshold": "开放式",
+      "estimatedRevenue": "广告+会员+内容付费",
+      "differentiation": "新加坡创立，收购欧洲科技媒体Silicon Canals，跨区域创业内容生态",
+      "keyHighlight": "收购欧洲科技媒体Silicon Canals后构建跨区域创业内容生态，覆盖50万+用户",
+      "website": "",
+      "socialMedia": {},
+      "pressCoverage": []
+    },
+    {
+      "id": "block71-singapore",
+      "name": "BLOCK71 Singapore",
+      "category": "capital-ecosystem",
+      "foundedYear": 2011,
+      "yearsInOperation": 15,
+      "founder": "NUS Enterprise",
+      "foundingBackground": "2011年成立，新加坡，NUS Enterprise孵化器全球旗舰，覆盖Pre-seed到A轮，设有三个中心，专注于陪跑初创公司规模化",
+      "foundingTeamInfo": "由NUS Enterprise创立",
+      "region": "新加坡",
+      "targetUsers": "初创公司创始人",
+      "scale": "全球旗舰",
+      "coverage": "Pre-seed到A轮",
+      "positioning": "NUS Enterprise孵化器全球旗舰，专注于陪跑初创公司规模化",
+      "coreActivities": [
+        {
+          "name": "BLOCK71孵化服务",
+          "description": "初创公司孵化服务",
+          "link": ""
+        },
+        {
+          "name": "规模化陪跑",
+          "description": "陪跑初创公司规模化",
+          "link": ""
+        }
+      ],
+      "frequency": "持续",
+      "contentSystem": "NUS Enterprise资源",
+      "investmentResources": "是",
+      "businessModel": "孵化服务+投资",
+      "onlinePlatform": "BLOCK71平台",
+      "membershipThreshold": "申请制",
+      "estimatedRevenue": "孵化服务收入+投资回报",
+      "differentiation": "NUS Enterprise背景，全球旗舰，三个中心，陪跑规模化",
+      "keyHighlight": "NUS Enterprise孵化器全球旗舰，2011年成立，设有三个中心，专注于陪跑初创公司规模化",
+      "website": "",
+      "socialMedia": {},
+      "pressCoverage": []
+    },
+    {
+      "id": "ace-sg",
+      "name": "ACE.SG (Action Community for Entrepreneurship)",
+      "category": "capital-ecosystem",
+      "foundedYear": 2010,
+      "yearsInOperation": 16,
+      "founder": "ACE.SG团队",
+      "foundingBackground": "孵化加速器运营商，新加坡，政府支持的创业赋能平台，运营Stage One并通过路演、孵化器、投资对接赋能创业者",
+      "foundingTeamInfo": "由新加坡政府支持创立",
+      "region": "新加坡",
+      "targetUsers": "创业者",
+      "scale": "新加坡",
+      "coverage": "新加坡及东南亚",
+      "positioning": "政府支持的创业赋能平台",
+      "coreActivities": [
+        {
+          "name": "Stage One平台",
+          "description": "一站式创业平台",
+          "link": ""
+        },
+        {
+          "name": "路演活动",
+          "description": "路演活动",
+          "link": ""
+        },
+        {
+          "name": "孵化器运营",
+          "description": "孵化器运营",
+          "link": ""
+        },
+        {
+          "name": "投资对接",
+          "description": "投资对接",
+          "link": ""
+        }
+      ],
+      "frequency": "持续",
+      "contentSystem": "创业赋能资源",
+      "investmentResources": "是",
+      "businessModel": "政府支持+服务收入",
+      "onlinePlatform": "ACE.SG平台",
+      "membershipThreshold": "申请制",
+      "estimatedRevenue": "政府补贴+服务收入",
+      "differentiation": "政府支持，孵化加速器运营商，运营Stage One",
+      "keyHighlight": "政府支持的创业赋能平台，运营Stage One并通过路演、孵化器、投资对接赋能创业者",
+      "website": "",
+      "socialMedia": {},
+      "pressCoverage": []
+    },
+    {
+      "id": "startup-sg-network",
+      "name": "Startup SG Network",
+      "category": "capital-ecosystem",
+      "foundedYear": 2015,
+      "yearsInOperation": 11,
+      "founder": "Enterprise Singapore",
+      "foundingBackground": "新加坡Enterprise Singapore旗下的生态网络，汇聚4,000+科技初创公司、400家VC和220家孵化加速器",
+      "foundingTeamInfo": "由Enterprise Singapore创立",
+      "region": "新加坡",
+      "targetUsers": "科技初创公司、VC、孵化加速器",
+      "scale": "4,000+科技初创公司",
+      "coverage": "新加坡及东南亚",
+      "positioning": "Enterprise Singapore旗下的生态网络",
+      "coreActivities": [
+        {
+          "name": "Startup SG生态对接",
+          "description": "初创公司、VC、孵化加速器对接",
+          "link": ""
+        }
+      ],
+      "frequency": "持续",
+      "contentSystem": "新加坡创业生态资源",
+      "investmentResources": "是",
+      "businessModel": "政府支持",
+      "onlinePlatform": "Startup SG Network平台",
+      "membershipThreshold": "申请制",
+      "estimatedRevenue": "政府补贴",
+      "differentiation": "Enterprise Singapore背景，汇聚多方生态资源",
+      "keyHighlight": "汇聚4,000+科技初创公司、400家VC和220家孵化加速器",
+      "website": "",
+      "socialMedia": {},
+      "pressCoverage": []
+    },
+    {
+      "id": "astartcentral",
+      "name": "A*StartCentral",
+      "category": "capital-ecosystem",
+      "foundedYear": 2015,
+      "yearsInOperation": 11,
+      "founder": "A*STAR",
+      "foundingBackground": "新加坡，A*STAR旗下的深科技初创社区，专注于将深科技从实验室转化为商业影响力，聚焦生命科学、AI和工程领域",
+      "foundingTeamInfo": "由A*STAR创立",
+      "region": "新加坡",
+      "targetUsers": "深科技创业者",
+      "scale": "新加坡",
+      "coverage": "生命科学、AI和工程领域",
+      "positioning": "A*STAR旗下的深科技初创社区",
+      "coreActivities": [
+        {
+          "name": "深科技转化",
+          "description": "将深科技从实验室转化为商业影响力",
+          "link": ""
+        }
+      ],
+      "frequency": "持续",
+      "contentSystem": "A*STAR技术资源",
+      "investmentResources": "是",
+      "businessModel": "政府支持+技术转化",
+      "onlinePlatform": "A*StartCentral平台",
+      "membershipThreshold": "申请制，深科技创业者",
+      "estimatedRevenue": "政府补贴+技术转化收入",
+      "differentiation": "A*STAR背景，深科技垂直，实验室到商业转化",
+      "keyHighlight": "A*STAR旗下的深科技初创社区，聚焦生命科学、AI和工程领域",
+      "website": "",
+      "socialMedia": {},
+      "pressCoverage": []
+    },
+    {
+      "id": "nus-angel-ventures",
+      "name": "NUS Angel Ventures",
+      "category": "capital-ecosystem",
+      "foundedYear": 2010,
+      "yearsInOperation": 16,
+      "founder": "NUS校友",
+      "foundingBackground": "NUS校友天使投资网络，非营利，连接NUS校友投资者与早期初创企业",
+      "foundingTeamInfo": "由NUS校友创立",
+      "region": "新加坡",
+      "targetUsers": "NUS校友投资者与早期初创企业",
+      "scale": "NUS校友网络",
+      "coverage": "新加坡及东南亚",
+      "positioning": "NUS校友天使投资网络，非营利",
+      "coreActivities": [
+        {
+          "name": "NUS校友投资对接",
+          "description": "连接NUS校友投资者与早期初创企业",
+          "link": ""
+        }
+      ],
+      "frequency": "持续",
+      "contentSystem": "NUS校友资源",
+      "investmentResources": "是",
+      "businessModel": "非营利",
+      "onlinePlatform": "NUS Angel Ventures平台",
+      "membershipThreshold": "NUS校友背景",
+      "estimatedRevenue": "非营利",
+      "differentiation": "NUS校友背景，非营利，天使投资网络",
+      "keyHighlight": "NUS校友天使投资网络，非营利，连接NUS校友投资者与早期初创企业",
+      "website": "",
+      "socialMedia": {},
+      "pressCoverage": []
+    },
+    {
+      "id": "tech-europe",
+      "name": "{Tech: Europe}",
+      "category": "new-communities",
+      "foundedYear": 2020,
+      "yearsInOperation": 6,
+      "founder": "{Tech: Europe}团队",
+      "foundingBackground": "柏林发起，6,000+成员，技术创始人与运营者社区，运营Discord、每周Newsletter和免费联合办公空间The Sandbox",
+      "foundingTeamInfo": "由柏林技术创始人创立",
+      "region": "柏林，德国",
+      "targetUsers": "技术创始人与运营者",
+      "scale": "6,000+成员",
+      "coverage": "欧洲",
+      "positioning": "技术创始人与运营者社区",
+      "coreActivities": [
+        {
+          "name": "Discord社区",
+          "description": "Discord在线社区",
+          "link": ""
+        },
+        {
+          "name": "每周Newsletter",
+          "description": "每周Newsletter",
+          "link": ""
+        },
+        {
+          "name": "The Sandbox",
+          "description": "免费联合办公空间",
+          "link": ""
+        }
+      ],
+      "frequency": "持续",
+      "contentSystem": "每周Newsletter、社区资源",
+      "investmentResources": "是",
+      "businessModel": "赞助+会员",
+      "onlinePlatform": "Discord、Newsletter",
+      "membershipThreshold": "开放式",
+      "estimatedRevenue": "赞助+会员费",
+      "differentiation": "柏林发起，Discord+Newsletter+免费联合办公",
+      "keyHighlight": "6,000+成员，运营Discord、每周Newsletter和免费联合办公空间The Sandbox",
+      "website": "",
+      "socialMedia": {},
+      "pressCoverage": []
+    },
+    {
+      "id": "ingenium-founders-hub",
+      "name": "INGENIUM Founders Hub",
+      "category": "new-communities",
+      "foundedYear": 2024,
+      "yearsInOperation": 2,
+      "founder": "INGENIUM团队",
+      "foundingBackground": "学生主导的跨国创业网络，2025年10月推出，连接欧洲多所高校的学生、校友和导师，面向长期增长",
+      "foundingTeamInfo": "由欧洲学生创业者创立",
+      "region": "欧洲",
+      "targetUsers": "欧洲多所高校的学生、校友和导师",
+      "scale": "跨国网络",
+      "coverage": "欧洲多国",
+      "positioning": "学生主导的跨国创业网络",
+      "coreActivities": [
+        {
+          "name": "跨国学生创业网络",
+          "description": "连接欧洲多所高校的学生、校友和导师",
+          "link": ""
+        }
+      ],
+      "frequency": "持续",
+      "contentSystem": "高校创业资源",
+      "investmentResources": "是",
+      "businessModel": "会员+赞助",
+      "onlinePlatform": "INGENIUM平台",
+      "membershipThreshold": "申请制，欧洲高校学生、校友",
+      "estimatedRevenue": "会员费+赞助",
+      "differentiation": "学生主导，跨国高校网络，面向长期增长",
+      "keyHighlight": "2025年10月推出，连接欧洲多所高校的学生、校友和导师，面向长期增长",
+      "website": "",
+      "socialMedia": {},
+      "pressCoverage": []
+    },
+    {
+      "id": "eit-ai-founders-club",
+      "name": "EIT AI Founders Club",
+      "category": "new-communities",
+      "foundedYear": 2025,
+      "yearsInOperation": 1,
+      "founder": "EIT团队",
+      "foundingBackground": "2025年创办，聚焦深科技AI初创，作为“生活实验室”连接AI创业者、研究者与资本",
+      "foundingTeamInfo": "由EIT创立",
+      "region": "欧洲",
+      "targetUsers": "深科技AI初创、研究者与资本",
+      "scale": "欧洲",
+      "coverage": "欧洲多国",
+      "positioning": "聚焦深科技AI初创的“生活实验室”",
+      "coreActivities": [
+        {
+          "name": "AI生活实验室",
+          "description": "连接AI创业者、研究者与资本",
+          "link": ""
+        }
+      ],
+      "frequency": "持续",
+      "contentSystem": "深科技AI资源",
+      "investmentResources": "是",
+      "businessModel": "会员+投资",
+      "onlinePlatform": "EIT AI Founders Club平台",
+      "membershipThreshold": "申请制，深科技AI创业者",
+      "estimatedRevenue": "会员费+投资回报",
+      "differentiation": "深科技AI，“生活实验室”模式，连接创业者、研究者与资本",
+      "keyHighlight": "2025年创办，聚焦深科技AI初创，作为“生活实验室”连接AI创业者、研究者与资本",
+      "website": "",
+      "socialMedia": {},
+      "pressCoverage": []
+    },
+    {
+      "id": "startup-europe-club",
+      "name": "Startup Europe Club",
+      "category": "media-communities",
+      "foundedYear": 2018,
+      "yearsInOperation": 8,
+      "founder": "Startup Europe Club团队",
+      "foundingBackground": "线上创业平台，连接欧洲各区域创始人与生态共建者，提供跨境知识共享与协作机会",
+      "foundingTeamInfo": "由欧洲创业者创立",
+      "region": "欧洲",
+      "targetUsers": "欧洲各区域创始人与生态共建者",
+      "scale": "欧洲",
+      "coverage": "欧洲多国",
+      "positioning": "线上创业平台，连接欧洲各区域创始人与生态共建者",
+      "coreActivities": [
+        {
+          "name": "跨境知识共享",
+          "description": "跨境知识共享",
+          "link": ""
+        },
+        {
+          "name": "协作机会",
+          "description": "协作机会",
+          "link": ""
+        }
+      ],
+      "frequency": "持续",
+      "contentSystem": "欧洲创业知识资源",
+      "investmentResources": "否",
+      "businessModel": "会员+赞助",
+      "onlinePlatform": "Startup Europe Club平台",
+      "membershipThreshold": "开放式",
+      "estimatedRevenue": "会员费+赞助",
+      "differentiation": "连接欧洲各区域，跨境知识共享与协作",
+      "keyHighlight": "连接欧洲各区域创始人与生态共建者，提供跨境知识共享与协作机会",
+      "website": "",
+      "socialMedia": {},
+      "pressCoverage": []
+    },
+    {
+      "id": "journalism-innovation-network",
+      "name": "Journalism Innovation Network",
+      "category": "media-communities",
+      "foundedYear": 2020,
+      "yearsInOperation": 6,
+      "founder": "Journalism Innovation Network团队",
+      "foundingBackground": "欧洲媒体创业者专属网络，聚焦新闻创新与媒体创业",
+      "foundingTeamInfo": "由欧洲媒体创业者创立",
+      "region": "欧洲",
+      "targetUsers": "欧洲媒体创业者",
+      "scale": "欧洲",
+      "coverage": "欧洲多国",
+      "positioning": "欧洲媒体创业者专属网络",
+      "coreActivities": [
+        {
+          "name": "新闻创新活动",
+          "description": "新闻创新与媒体创业相关活动",
+          "link": ""
+        }
+      ],
+      "frequency": "持续",
+      "contentSystem": "新闻创新资源",
+      "investmentResources": "否",
+      "businessModel": "会员+赞助",
+      "onlinePlatform": "Journalism Innovation Network平台",
+      "membershipThreshold": "申请制，欧洲媒体创业者",
+      "estimatedRevenue": "会员费+赞助",
+      "differentiation": "欧洲媒体创业者专属，新闻创新与媒体创业",
+      "keyHighlight": "欧洲媒体创业者专属网络，聚焦新闻创新与媒体创业",
+      "website": "",
+      "socialMedia": {},
+      "pressCoverage": []
+    },
+    {
+      "id": "start-sphere",
+      "name": "START Sphere",
+      "category": "media-communities",
+      "foundedYear": 2022,
+      "yearsInOperation": 4,
+      "founder": "START Sphere团队",
+      "foundingBackground": "App驱动的欧洲创始人社区，提供文件共享、活动日历及创业资源库",
+      "foundingTeamInfo": "由欧洲创业者创立",
+      "region": "欧洲",
+      "targetUsers": "欧洲创始人",
+      "scale": "欧洲",
+      "coverage": "欧洲多国",
+      "positioning": "App驱动的欧洲创始人社区",
+      "coreActivities": [
+        {
+          "name": "START Sphere App",
+          "description": "文件共享、活动日历及创业资源库",
+          "link": ""
+        }
+      ],
+      "frequency": "持续",
+      "contentSystem": "创业资源库",
+      "investmentResources": "否",
+      "businessModel": "会员+App收入",
+      "onlinePlatform": "START Sphere App",
+      "membershipThreshold": "开放式",
+      "estimatedRevenue": "会员费+App收入",
+      "differentiation": "App驱动，文件共享+活动日历+创业资源库",
+      "keyHighlight": "App驱动的欧洲创始人社区，提供文件共享、活动日历及创业资源库",
+      "website": "",
+      "socialMedia": {},
+      "pressCoverage": []
+    },
+    {
+      "id": "united-founders",
+      "name": "United Founders",
+      "category": "capital-ecosystem",
+      "foundedYear": 2018,
+      "yearsInOperation": 8,
+      "founder": "United Founders团队",
+      "foundingBackground": "泛欧洲社区，由成功创始人、CTO和运营者组成的投资型社区，成员既投资也投入时间，早期创始人可获“实战派”同侪支持",
+      "foundingTeamInfo": "由成功创始人、CTO和运营者创立",
+      "region": "泛欧洲",
+      "targetUsers": "早期创始人",
+      "scale": "泛欧洲",
+      "coverage": "欧洲多国",
+      "positioning": "由成功创始人、CTO和运营者组成的投资型社区",
+      "coreActivities": [
+        {
+          "name": "United Founders投资",
+          "description": "成员既投资也投入时间",
+          "link": ""
+        },
+        {
+          "name": "实战派同侪支持",
+          "description": "早期创始人可获“实战派”同侪支持",
+          "link": ""
+        }
+      ],
+      "frequency": "持续",
+      "contentSystem": "实战派创始人资源",
+      "investmentResources": "是",
+      "businessModel": "投资+会员",
+      "onlinePlatform": "United Founders平台",
+      "membershipThreshold": "申请制，早期创始人",
+      "estimatedRevenue": "投资回报+会员费",
+      "differentiation": "成功创始人、CTO和运营者组成，既投资也投入时间，实战派同侪支持",
+      "keyHighlight": "成员既投资也投入时间，早期创始人可获“实战派”同侪支持",
+      "website": "",
+      "socialMedia": {},
+      "pressCoverage": []
+    },
+    {
+      "id": "campus-founders",
+      "name": "Campus Founders",
+      "category": "capital-ecosystem",
+      "foundedYear": 2015,
+      "yearsInOperation": 11,
+      "founder": "Campus Founders团队",
+      "foundingBackground": "德国海尔布隆，学生、研究者、创始人、投资人及大型企业的融合平台，作为RISE Europe网络成员连接14国20个生态系统，社群超1,000人",
+      "foundingTeamInfo": "由德国海尔布隆的创业者创立",
+      "region": "海尔布隆，德国",
+      "targetUsers": "学生、研究者、创始人、投资人及大型企业",
+      "scale": "超1,000人",
+      "coverage": "连接14国20个生态系统",
+      "positioning": "学生、研究者、创始人、投资人及大型企业的融合平台",
+      "coreActivities": [
+        {
+          "name": "Campus Founders平台",
+          "description": "学生、研究者、创始人、投资人及大型企业融合",
+          "link": ""
+        },
+        {
+          "name": "RISE Europe网络",
+          "description": "连接14国20个生态系统",
+          "link": ""
+        }
+      ],
+      "frequency": "持续",
+      "contentSystem": "校园创业资源",
+      "investmentResources": "是",
+      "businessModel": "会员+服务",
+      "onlinePlatform": "Campus Founders平台",
+      "membershipThreshold": "申请制",
+      "estimatedRevenue": "会员费+服务收入",
+      "differentiation": "学生、研究者、创始人、投资人及大型企业融合，RISE Europe网络成员",
+      "keyHighlight": "作为RISE Europe网络成员连接14国20个生态系统，社群超1,000人",
+      "website": "",
+      "socialMedia": {},
+      "pressCoverage": []
+    },
+    {
+      "id": "nastartup",
+      "name": "NAStartup",
+      "category": "capital-ecosystem",
+      "foundedYear": 2020,
+      "yearsInOperation": 6,
+      "founder": "NAStartup团队",
+      "foundingBackground": "那不勒斯，独立公民加速器，以社群为驱动的创新实验室，赋能生态中所有参与者，连接全球",
+      "foundingTeamInfo": "由那不勒斯创业者创立",
+      "region": "那不勒斯，意大利",
+      "targetUsers": "那不勒斯及周边创业者",
+      "scale": "那不勒斯",
+      "coverage": "连接全球",
+      "positioning": "独立公民加速器，以社群为驱动的创新实验室",
+      "coreActivities": [
+        {
+          "name": "NAStartup加速器",
+          "description": "以社群为驱动的创新实验室",
+          "link": ""
+        }
+      ],
+      "frequency": "持续",
+      "contentSystem": "那不勒斯创业资源",
+      "investmentResources": "是",
+      "businessModel": "会员+服务",
+      "onlinePlatform": "NAStartup平台",
+      "membershipThreshold": "申请制",
+      "estimatedRevenue": "会员费+服务收入",
+      "differentiation": "独立公民加速器，社群为驱动，创新实验室",
+      "keyHighlight": "独立公民加速器，以社群为驱动的创新实验室，赋能生态中所有参与者，连接全球",
+      "website": "",
+      "socialMedia": {},
+      "pressCoverage": []
+    },
+    {
+      "id": "station-f",
+      "name": "STATION F",
+      "category": "capital-ecosystem",
+      "foundedYear": 2017,
+      "yearsInOperation": 9,
+      "founder": "Xavier Niel",
+      "foundingBackground": "2017年成立，巴黎，全球最大初创园区，容纳约30个项目，合作方包括OpenAI、Google等大厂及头部VC",
+      "foundingTeamInfo": "由Xavier Niel创立",
+      "region": "巴黎，法国",
+      "targetUsers": "初创公司",
+      "scale": "全球最大初创园区",
+      "coverage": "全球",
+      "positioning": "全球最大初创园区",
+      "coreActivities": [
+        {
+          "name": "STATION F园区",
+          "description": "全球最大初创园区",
+          "link": ""
+        },
+        {
+          "name": "合作方项目",
+          "description": "与OpenAI、Google等大厂及头部VC合作",
+          "link": ""
+        }
+      ],
+      "frequency": "持续",
+      "contentSystem": "STATION F资源",
+      "investmentResources": "是",
+      "businessModel": "空间租金+生态合作",
+      "onlinePlatform": "STATION F平台",
+      "membershipThreshold": "申请制",
+      "estimatedRevenue": "空间租金+生态合作收入",
+      "differentiation": "全球最大，巴黎地标，与OpenAI、Google等大厂及头部VC合作",
+      "keyHighlight": "2017年成立，全球最大初创园区，容纳约30个项目，合作方包括OpenAI、Google等大厂及头部VC",
+      "website": "https://stationf.co",
+      "socialMedia": {},
+      "pressCoverage": []
+    },
+    {
+      "id": "zhongfa-chuangyezhe-xiehui",
+      "name": "中法创业者协会",
+      "category": "chinese-entrepreneurs",
+      "foundedYear": 2010,
+      "yearsInOperation": 16,
+      "founder": "中法创业者协会团队",
+      "foundingBackground": "促进中法创业者信息交流、项目孵化与政策对接，支持留法学人及旅法华人回国创业",
+      "foundingTeamInfo": "由旅法华人创业者创立",
+      "region": "法国",
+      "targetUsers": "中法创业者、留法学人及旅法华人",
+      "scale": "中法跨境",
+      "coverage": "中法两国",
+      "positioning": "促进中法创业者信息交流、项目孵化与政策对接",
+      "coreActivities": [
+        {
+          "name": "中法信息交流",
+          "description": "中法创业者信息交流",
+          "link": ""
+        },
+        {
+          "name": "项目孵化",
+          "description": "项目孵化",
+          "link": ""
+        },
+        {
+          "name": "政策对接",
+          "description": "政策对接",
+          "link": ""
+        }
+      ],
+      "frequency": "持续",
+      "contentSystem": "中法创业资源",
+      "investmentResources": "是",
+      "businessModel": "会员+服务",
+      "onlinePlatform": "中法创业者协会平台",
+      "membershipThreshold": "申请制",
+      "estimatedRevenue": "会员费+服务收入",
+      "differentiation": "中法跨境，信息交流+项目孵化+政策对接",
+      "keyHighlight": "促进中法创业者信息交流、项目孵化与政策对接，支持留法学人及旅法华人回国创业",
+      "website": "",
+      "socialMedia": {},
+      "pressCoverage": []
+    },
+    {
+      "id": "faguo-huaerdai-chuangye-xiehui",
+      "name": "法国华二代创业协会",
+      "category": "chinese-entrepreneurs",
+      "foundedYear": 2015,
+      "yearsInOperation": 11,
+      "founder": "法国华二代创业协会团队",
+      "foundingBackground": "以第二代华人移民为主，聚焦传统华企升级和转型，带动中法经济文化交流",
+      "foundingTeamInfo": "由法国华二代创立",
+      "region": "法国",
+      "targetUsers": "第二代华人移民、传统华企",
+      "scale": "法国",
+      "coverage": "法国及中法之间",
+      "positioning": "以第二代华人移民为主，聚焦传统华企升级和转型",
+      "coreActivities": [
+        {
+          "name": "华企升级转型",
+          "description": "传统华企升级和转型",
+          "link": ""
+        },
+        {
+          "name": "中法经济文化交流",
+          "description": "带动中法经济文化交流",
+          "link": ""
+        }
+      ],
+      "frequency": "持续",
+      "contentSystem": "华企转型资源",
+      "investmentResources": "是",
+      "businessModel": "会员+服务",
+      "onlinePlatform": "法国华二代创业协会平台",
+      "membershipThreshold": "申请制，华二代、华企",
+      "estimatedRevenue": "会员费+服务收入",
+      "differentiation": "华二代，传统华企升级转型，中法经济文化交流",
+      "keyHighlight": "以第二代华人移民为主，聚焦传统华企升级和转型，带动中法经济文化交流",
+      "website": "",
+      "socialMedia": {},
+      "pressCoverage": []
+    },
+    {
+      "id": "ouzhou-huashang-dahui",
+      "name": "欧洲华商大会",
+      "category": "chinese-entrepreneurs",
+      "foundedYear": 2005,
+      "yearsInOperation": 21,
+      "founder": "欧洲华商大会团队",
+      "foundingBackground": "非营利，布鲁塞尔设常设秘书处，聚焦欧洲华商经济发展与合作",
+      "foundingTeamInfo": "由欧洲华商创立",
+      "region": "布鲁塞尔，比利时",
+      "targetUsers": "欧洲华商",
+      "scale": "欧洲",
+      "coverage": "欧洲多国",
+      "positioning": "非营利，布鲁塞尔设常设秘书处，聚焦欧洲华商经济发展与合作",
+      "coreActivities": [
+        {
+          "name": "欧洲华商大会",
+          "description": "欧洲华商经济发展与合作",
+          "link": ""
+        }
+      ],
+      "frequency": "年度",
+      "contentSystem": "欧洲华商资源",
+      "investmentResources": "是",
+      "businessModel": "非营利，赞助",
+      "onlinePlatform": "欧洲华商大会平台",
+      "membershipThreshold": "申请制，欧洲华商",
+      "estimatedRevenue": "赞助",
+      "differentiation": "非营利，布鲁塞尔常设秘书处，欧洲华商合作",
+      "keyHighlight": "非营利，布鲁塞尔设常设秘书处，聚焦欧洲华商经济发展与合作",
+      "website": "",
+      "socialMedia": {},
+      "pressCoverage": []
+    },
+    {
+      "id": "yidali-yiqi-chuangtou-julebu",
+      "name": "意大利意起创投俱乐部",
+      "category": "chinese-entrepreneurs",
+      "foundedYear": 2024,
+      "yearsInOperation": 2,
+      "founder": "意大利意起创投俱乐部团队",
+      "foundingBackground": "2026年成立，米兰，由意大利资深媒体人联合近20位华人青年企业家发起，会员覆盖15+核心行业，跨行业、跨领域的高净值华人商业资源社群",
+      "foundingTeamInfo": "由意大利资深媒体人联合近20位华人青年企业家发起",
+      "region": "米兰，意大利",
+      "targetUsers": "意大利华人商业精英",
+      "scale": "会员覆盖15+核心行业",
+      "coverage": "意大利及欧洲",
+      "positioning": "跨行业、跨领域的高净值华人商业资源社群",
+      "coreActivities": [
+        {
+          "name": "意起创投俱乐部活动",
+          "description": "跨行业、跨领域的华人商业资源对接",
+          "link": ""
+        }
+      ],
+      "frequency": "持续",
+      "contentSystem": "意大利华人商业资源",
+      "investmentResources": "是",
+      "businessModel": "会员+服务",
+      "onlinePlatform": "意大利意起创投俱乐部平台",
+      "membershipThreshold": "申请制，高净值华人商业精英",
+      "estimatedRevenue": "会员费+服务收入",
+      "differentiation": "米兰2026年成立，资深媒体人+近20位华人青年企业家，15+核心行业，高净值",
+      "keyHighlight": "2026年成立，由意大利资深媒体人联合近20位华人青年企业家发起，会员覆盖15+核心行业",
+      "website": "",
+      "socialMedia": {},
+      "pressCoverage": []
+    },
+    {
+      "id": "quanou-huaren-zhuanye-xiehui-lianhehui",
+      "name": "全欧华人专业协会联合会",
+      "category": "chinese-entrepreneurs",
+      "foundedYear": 2000,
+      "yearsInOperation": 26,
+      "founder": "全欧华人专业协会联合会团队",
+      "foundingBackground": "分布欧洲十余国，聚合60+华人专业协会，为旅欧华人与留学生回国创业提供平台",
+      "foundingTeamInfo": "由全欧华人专业协会创立",
+      "region": "泛欧洲",
+      "targetUsers": "旅欧华人与留学生、华人专业人士",
+      "scale": "分布欧洲十余国，聚合60+华人专业协会",
+      "coverage": "欧洲十余国",
+      "positioning": "分布欧洲十余国，聚合60+华人专业协会，为旅欧华人与留学生回国创业提供平台",
+      "coreActivities": [
+        {
+          "name": "全欧华人专业协会联合会活动",
+          "description": "聚合60+华人专业协会，回国创业平台",
+          "link": ""
+        }
+      ],
+      "frequency": "持续",
+      "contentSystem": "全欧华人专业资源",
+      "investmentResources": "是",
+      "businessModel": "会员+服务",
+      "onlinePlatform": "全欧华人专业协会联合会平台",
+      "membershipThreshold": "申请制，华人专业人士",
+      "estimatedRevenue": "会员费+服务收入",
+      "differentiation": "分布欧洲十余国，60+华人专业协会，回国创业平台",
+      "keyHighlight": "分布欧洲十余国，聚合60+华人专业协会，为旅欧华人与留学生回国创业提供平台",
+      "website": "",
+      "socialMedia": {},
+      "pressCoverage": []
+    },
+    {
+      "id": "qunxiang",
+      "name": "群响",
+      "category": "media-communities",
+      "foundedYear": 2018,
+      "yearsInOperation": 8,
+      "founder": "刘思毅",
+      "foundingBackground": "刘思毅于2018年创立，国内第二大创业者社群。核心模式是案例驱动+线下活动，聚焦流量运营与IP打造，用户规模仅次于生财有术。",
+      "foundingTeamInfo": "由刘思毅创立，流量运营与IP打造",
+      "region": "中国",
+      "targetUsers": "创业者、流量运营者、IP打造者",
+      "scale": "国内第二大",
+      "coverage": "全国",
+      "positioning": "国内第二大创业者社群，核心模式是案例驱动+线下活动，聚焦流量运营与IP打造",
+      "coreActivities": [
+        {
+          "name": "群响案例库",
+          "description": "流量运营与IP打造案例",
+          "link": "https://www.qunxiang.cn"
+        },
+        {
+          "name": "线下创业者活动",
+          "description": "流量运营者交流",
+          "link": "https://www.qunxiang.cn"
+        }
+      ],
+      "frequency": "持续",
+      "contentSystem": "流量运营案例库",
+      "investmentResources": "否",
+      "businessModel": "会员费+活动费",
+      "onlinePlatform": "群响小程序/APP",
+      "membershipThreshold": "付费会员",
+      "estimatedRevenue": "会员费+活动费",
+      "differentiation": "案例驱动+线下活动，流量运营与IP打造",
+      "keyHighlight": "国内第二大创业者社群，聚焦流量运营与IP打造",
+      "website": "https://www.qunxiang.cn",
+      "socialMedia": {},
+      "pressCoverage": []
+    }
+  ]
+}
