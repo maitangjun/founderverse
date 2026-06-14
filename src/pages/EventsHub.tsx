@@ -4,29 +4,30 @@ import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { useLocation } from "wouter";
-import CompetitorCard from "@/components/CompetitorCard";
-import data from "@/data/competitors.json";
+import EventCard from "@/components/EventCard";
+import events from "@/data/events.json";
 
-export default function CompetitorHub() {
+export default function EventsHub() {
   const [, navigate] = useLocation();
-  const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
+  const [selectedRegion, setSelectedRegion] = useState<string | null>(null);
   const [searchQuery, setSearchQuery] = useState("");
 
-  const filteredCompetitors = useMemo(() => {
-    return data.competitors.filter((competitor) => {
-      const matchesCategory = !selectedCategory || competitor.category === selectedCategory;
+  const regions = useMemo(() => {
+    const uniqueRegions = Array.from(new Set(events.map((e) => e.region)));
+    return uniqueRegions;
+  }, []);
+
+  const filteredEvents = useMemo(() => {
+    return events.filter((event) => {
+      const matchesRegion = !selectedRegion || event.region === selectedRegion;
       const matchesSearch =
         !searchQuery ||
-        competitor.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
-        competitor.positioning.toLowerCase().includes(searchQuery.toLowerCase()) ||
-        (competitor.keyHighlight || "").toLowerCase().includes(searchQuery.toLowerCase());
-      return matchesCategory && matchesSearch;
+        event.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
+        event.country.toLowerCase().includes(searchQuery.toLowerCase()) ||
+        event.focus.toLowerCase().includes(searchQuery.toLowerCase());
+      return matchesRegion && matchesSearch;
     });
-  }, [selectedCategory, searchQuery]);
-
-  const getCategoryInfo = (categoryId: string) => {
-    return data.categories.find((cat) => cat.id === categoryId);
-  };
+  }, [selectedRegion, searchQuery]);
 
   return (
     <div className="min-h-screen bg-white">
@@ -43,23 +44,23 @@ export default function CompetitorHub() {
           
           <div className="flex items-start justify-between gap-4 mb-4">
             <div>
-              <h1 className="text-xl font-semibold text-purple-900 tracking-tight">全球创业者社区</h1>
+              <h1 className="text-xl font-semibold text-purple-900 tracking-tight">全球创投活动</h1>
             </div>
-            <div className="flex gap-2">
+            <div className="flex items-center gap-2">
               <Button
                 variant="ghost"
-                onClick={() => navigate("/events")}
-                className="gap-2 text-purple-700 hover:text-purple-800 hover:bg-purple-50"
-              >
-                创投活动
-              </Button>
-              <Button
-                variant="ghost"
-                onClick={() => navigate("/list")}
+                onClick={() => navigate("/events/list")}
                 className="gap-2 text-purple-700 hover:text-purple-800 hover:bg-purple-50"
               >
                 <List className="w-4 h-4" />
                 列表视图
+              </Button>
+              <Button
+                variant="ghost"
+                onClick={() => navigate("/hub")}
+                className="gap-2 text-purple-700 hover:text-purple-800 hover:bg-purple-50"
+              >
+                创业社区
               </Button>
             </div>
           </div>
@@ -67,7 +68,7 @@ export default function CompetitorHub() {
           <div className="relative max-w-md">
             <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-purple-400" />
             <Input
-              placeholder="搜索社区..."
+              placeholder="搜索活动..."
               className="pl-9 pr-8 py-2 bg-purple-50 border-purple-200 text-purple-900 placeholder:text-gray-400 focus:border-purple-400 focus:ring-purple-200 rounded-lg text-sm h-auto"
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
@@ -87,31 +88,31 @@ export default function CompetitorHub() {
       <main className="container py-5">
         <div className="flex flex-wrap gap-2 mb-5">
           <Button
-            variant={selectedCategory === null ? "default" : "ghost"}
-            onClick={() => setSelectedCategory(null)}
+            variant={selectedRegion === null ? "default" : "ghost"}
+            onClick={() => setSelectedRegion(null)}
             className={`rounded-full text-sm px-4 py-1.5 h-auto ${
-              selectedCategory === null 
-                ? "bg-purple-600 hover:bg-purple-700 text-white" 
+              selectedRegion === null
+                ? "bg-purple-600 hover:bg-purple-700 text-white"
                 : "bg-white border border-purple-200 text-purple-800 hover:text-purple-900 hover:bg-purple-50"
             }`}
           >
             全部
-            <span className="ml-1.5 text-gray-500">({data.competitors.length})</span>
+            <span className="ml-1.5 text-gray-500">({events.length})</span>
           </Button>
-          {data.categories.map((category) => {
-            const count = data.competitors.filter((c) => c.category === category.id).length;
+          {regions.map((region) => {
+            const count = events.filter((e) => e.region === region).length;
             return (
               <Button
-                key={category.id}
-                variant={selectedCategory === category.id ? "default" : "ghost"}
-                onClick={() => setSelectedCategory(category.id)}
+                key={region}
+                variant={selectedRegion === region ? "default" : "ghost"}
+                onClick={() => setSelectedRegion(region)}
                 className={`rounded-full text-sm px-4 py-1.5 h-auto ${
-                  selectedCategory === category.id 
-                    ? "bg-purple-600 hover:bg-purple-700 text-white" 
+                  selectedRegion === region
+                    ? "bg-purple-600 hover:bg-purple-700 text-white"
                     : "bg-white border border-purple-200 text-purple-800 hover:text-purple-900 hover:bg-purple-50"
                 }`}
               >
-                {category.name}
+                {region}
                 <span className="ml-1.5 text-gray-500">({count})</span>
               </Button>
             );
@@ -120,24 +121,20 @@ export default function CompetitorHub() {
 
         <div className="mb-4">
           <p className="text-sm text-gray-500">
-            共 <span className="font-semibold text-purple-900">{filteredCompetitors.length}</span> 个社区
+            共 <span className="font-semibold text-purple-900">{filteredEvents.length}</span> 个活动
             {searchQuery && <span className="text-purple-700 ml-1">搜索: "{searchQuery}"</span>}
           </p>
         </div>
 
-        {filteredCompetitors.length > 0 ? (
+        {filteredEvents.length > 0 ? (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
-            {filteredCompetitors.map((competitor) => (
-              <CompetitorCard
-                key={competitor.id}
-                competitor={competitor}
-                categoryInfo={getCategoryInfo(competitor.category)}
-              />
-            ))}
+            {filteredEvents.map((event) => (
+            <EventCard key={event.id} event={event} />
+          ))}
           </div>
         ) : (
           <Card className="p-10 text-center bg-white border-purple-100">
-            <p className="text-purple-900 mb-1">未找到匹配的社区</p>
+            <p className="text-purple-900 mb-1">未找到匹配的活动</p>
             <p className="text-gray-500 text-sm">尝试调整搜索条件或筛选条件</p>
           </Card>
         )}

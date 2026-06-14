@@ -1,0 +1,482 @@
+[
+  {
+    "id": 1,
+    "region": "北美",
+    "country": "美国",
+    "name": "CES (Eureka Park)",
+    "focus": "消费电子、硬件初创路演",
+    "website": "ces.tech"
+  },
+  {
+    "id": 2,
+    "region": "北美",
+    "country": "美国",
+    "name": "SXSW Interactive",
+    "focus": "创意科技、早期天使投资",
+    "website": "sxsw.com"
+  },
+  {
+    "id": 3,
+    "region": "北美",
+    "country": "美国",
+    "name": "TechCrunch Disrupt",
+    "focus": "初创企业竞技场、独角兽摇篮",
+    "website": "techcrunch.com"
+  },
+  {
+    "id": 4,
+    "region": "北美",
+    "country": "美国",
+    "name": "SaaStr Annual",
+    "focus": "全球最大B2B/SaaS投资峰会",
+    "website": "saastrannual.com"
+  },
+  {
+    "id": 5,
+    "region": "北美",
+    "country": "美国",
+    "name": "RSA Conference",
+    "focus": "网络安全、军工科技投融资",
+    "website": "rsaconference.com"
+  },
+  {
+    "id": 6,
+    "region": "北美",
+    "country": "美国",
+    "name": "SuperReturn North America",
+    "focus": "私募股权与风投LP/GP对接",
+    "website": "informaconnect.com"
+  },
+  {
+    "id": 7,
+    "region": "北美",
+    "country": "美国",
+    "name": "iConnections Global Alts",
+    "focus": "另类投资、家办与对冲基金",
+    "website": "iconnections.io"
+  },
+  {
+    "id": 8,
+    "region": "北美",
+    "country": "加拿大",
+    "name": "Collision Conference",
+    "focus": "北美增长最快的科技投资会",
+    "website": "collisionconf.com"
+  },
+  {
+    "id": 9,
+    "region": "北美",
+    "country": "美国",
+    "name": "HumanX (SF)",
+    "focus": "生成式AI与企业级应用专场",
+    "website": "humanx.world"
+  },
+  {
+    "id": 10,
+    "region": "北美",
+    "country": "美国",
+    "name": "Bloomberg Invest",
+    "focus": "顶级宏观投资与资本趋势",
+    "website": "bloomberglive.com"
+  },
+  {
+    "id": 11,
+    "region": "欧洲",
+    "country": "葡萄牙",
+    "name": "Web Summit",
+    "focus": "科技界“达沃斯”，全球综合路演",
+    "website": "websummit.com"
+  },
+  {
+    "id": 12,
+    "region": "欧洲",
+    "country": "芬兰",
+    "name": "Slush",
+    "focus": "全球投融资对接效率最高盛会",
+    "website": "slush.org"
+  },
+  {
+    "id": 13,
+    "region": "欧洲",
+    "country": "法国",
+    "name": "Viva Technology",
+    "focus": "企业巨头与初创对接、奢侈品科技",
+    "website": "vivatechnology.com"
+  },
+  {
+    "id": 14,
+    "region": "欧洲",
+    "country": "西班牙",
+    "name": "4YFN (at MWC)",
+    "focus": "移动通讯、5G/6G边缘计算",
+    "website": "4yfn.com"
+  },
+  {
+    "id": 15,
+    "region": "欧洲",
+    "country": "英国",
+    "name": "London Tech Week",
+    "focus": "欧洲金融科技与AI治理中心",
+    "website": "londontechweek.com"
+  },
+  {
+    "id": 16,
+    "region": "欧洲",
+    "country": "德国",
+    "name": "SuperVenture",
+    "focus": "欧洲风投LP最集中的年度会议",
+    "website": "informaconnect.com"
+  },
+  {
+    "id": 17,
+    "region": "欧洲",
+    "country": "德国",
+    "name": "Bits & Pretzels",
+    "focus": "慕尼黑啤酒节主题、创始人社区",
+    "website": "bitsandpretzels.com"
+  },
+  {
+    "id": 18,
+    "region": "欧洲",
+    "country": "法国",
+    "name": "Hello Tomorrow",
+    "focus": "深科技(Deep Tech)全球峰会",
+    "website": "hello-tomorrow.org"
+  },
+  {
+    "id": 19,
+    "region": "欧洲",
+    "country": "荷兰",
+    "name": "Money 20/20 Europe",
+    "focus": "金融科技、支付革命、数字银行",
+    "website": "europe.money2020.com"
+  },
+  {
+    "id": 20,
+    "region": "欧洲",
+    "country": "瑞士",
+    "name": "START Global",
+    "focus": "欧洲学生创业与顶级VC对接",
+    "website": "startglobal.org"
+  },
+  {
+    "id": 21,
+    "region": "欧洲",
+    "country": "爱沙尼亚",
+    "name": "sTARTUp Day",
+    "focus": "波罗的海数字化转型项目",
+    "website": "startupday.ee"
+  },
+  {
+    "id": 22,
+    "region": "欧洲",
+    "country": "英国",
+    "name": "SuperReturn International",
+    "focus": "全球PE/VC规格最高的年度聚会",
+    "website": "informaconnect.com"
+  },
+  {
+    "id": 23,
+    "region": "欧洲",
+    "country": "法国",
+    "name": "IPEM Paris",
+    "focus": "欧洲私募股权资产配置中心",
+    "website": "ipem-market.com"
+  },
+  {
+    "id": 24,
+    "region": "欧洲",
+    "country": "西班牙",
+    "name": "South Summit Madrid",
+    "focus": "连接欧洲与拉丁美洲资本",
+    "website": "southsummit.co"
+  },
+  {
+    "id": 25,
+    "region": "欧洲",
+    "country": "意大利",
+    "name": "Milan Fintech Summit",
+    "focus": "意大利及南欧金融创新",
+    "website": "milanfintechsummit.it"
+  },
+  {
+    "id": 26,
+    "region": "中东及非洲",
+    "country": "阿联酋",
+    "name": "GITEX Global (Dubai)",
+    "focus": "全球最大规模科技展、新兴市场",
+    "website": "gitex.com"
+  },
+  {
+    "id": 27,
+    "region": "中东及非洲",
+    "country": "沙特",
+    "name": "LEAP (Riyadh)",
+    "focus": "全球资本增速最快、主权基金多",
+    "website": "oneleap.com"
+  },
+  {
+    "id": 28,
+    "region": "中东及非洲",
+    "country": "沙特",
+    "name": "Future Investment (FII)",
+    "focus": "沙特“沙漠达沃斯”、国家级投资",
+    "website": "fii-institute.org"
+  },
+  {
+    "id": 29,
+    "region": "中东及非洲",
+    "country": "卡塔尔",
+    "name": "Web Summit Qatar",
+    "focus": "中东新金融与数字体育",
+    "website": "qatar.websummit.com"
+  },
+  {
+    "id": 30,
+    "region": "中东及非洲",
+    "country": "摩洛哥",
+    "name": "GITEX Africa",
+    "focus": "非洲数字化基建、普惠金融",
+    "website": "gitexafrica.com"
+  },
+  {
+    "id": 31,
+    "region": "中东及非洲",
+    "country": "阿联酋",
+    "name": "Step Conference",
+    "focus": "迪拜本土及MENA地区初创",
+    "website": "stepconference.com"
+  },
+  {
+    "id": 32,
+    "region": "中东及非洲",
+    "country": "阿联酋",
+    "name": "Abu Dhabi Finance Week",
+    "focus": "阿布扎比家办与资管峰会",
+    "website": "adfw.com"
+  },
+  {
+    "id": 33,
+    "region": "中东及非洲",
+    "country": "南非",
+    "name": "Africa Tech Festival",
+    "focus": "非洲连接性与移动支付投资",
+    "website": "africatechfestival.com"
+  },
+  {
+    "id": 34,
+    "region": "中东及非洲",
+    "country": "尼日利亚",
+    "name": "Lagos Tech Fest",
+    "focus": "西非初创生态与尼日利亚创投",
+    "website": null
+  },
+  {
+    "id": 35,
+    "region": "中东及非洲",
+    "country": "以色列",
+    "name": "OurCrowd Global Summit",
+    "focus": "全球最大股权众筹与以色列硬技",
+    "website": "ourcrowd.com"
+  },
+  {
+    "id": 36,
+    "region": "亚太",
+    "country": "中国(澳门)",
+    "name": "BEYOND Expo",
+    "focus": "亚洲科技、生命科学、可持续",
+    "website": "beyondexpo.com"
+  },
+  {
+    "id": 37,
+    "region": "亚太",
+    "country": "新加坡",
+    "name": "Singapore FinTech Festival",
+    "focus": "全球金融科技资本风向标",
+    "website": "fintechfestival.sg"
+  },
+  {
+    "id": 38,
+    "region": "亚太",
+    "country": "香港",
+    "name": "Hong Kong FinTech Week",
+    "focus": "Web3、虚拟资产与RWA",
+    "website": "fintechweek.hk"
+  },
+  {
+    "id": 39,
+    "region": "亚太",
+    "country": "中国(上海)",
+    "name": "世界人工智能大会(WAIC)",
+    "focus": "中国AI产业链投融资",
+    "website": null
+  },
+  {
+    "id": 40,
+    "region": "亚太",
+    "country": "新加坡",
+    "name": "Asia Venture Capital Forum",
+    "focus": "AVCA年度风投论坛",
+    "website": null
+  },
+  {
+    "id": 41,
+    "region": "亚太",
+    "country": "印度",
+    "name": "India Fintech Day",
+    "focus": "印度数字化支付与SaaS",
+    "website": "indifintech.com"
+  },
+  {
+    "id": 42,
+    "region": "亚太",
+    "country": "日本",
+    "name": "Sushi Tech Tokyo",
+    "focus": "东京可持续城市与初创峰会",
+    "website": "sushitech-tokyo.lg.jp"
+  },
+  {
+    "id": 43,
+    "region": "亚太",
+    "country": "韩国",
+    "name": "NextRise Seoul",
+    "focus": "韩国最大的初创与巨头对接会",
+    "website": "nextrise.co.kr"
+  },
+  {
+    "id": 44,
+    "region": "亚太",
+    "country": "泰国",
+    "name": "Techsauce Global Summit",
+    "focus": "东南亚市场进入与生态对接",
+    "website": "techsauce.co"
+  },
+  {
+    "id": 45,
+    "region": "亚太",
+    "country": "印度尼西亚",
+    "name": "Tech in Asia Conference",
+    "focus": "东南亚互联网投融资数据发布",
+    "website": "techinasia.com"
+  },
+  {
+    "id": 46,
+    "region": "亚太",
+    "country": "澳大利亚",
+    "name": "Sunrise Island",
+    "focus": "澳洲最知名的黑鸟创投峰会",
+    "website": "sunrise.blackbird.vc"
+  },
+  {
+    "id": 47,
+    "region": "亚太",
+    "country": "马来西亚",
+    "name": "E-Nation Symposium",
+    "focus": "马来西亚政府驱动型投资项目",
+    "website": "mymagic.com.my"
+  },
+  {
+    "id": 48,
+    "region": "亚太",
+    "country": "中国(深圳)",
+    "name": "中国高新技术博览会",
+    "focus": "硬件、先进制造、人民币基金",
+    "website": "chtf.com"
+  },
+  {
+    "id": 49,
+    "region": "亚太",
+    "country": "越南",
+    "name": "InnoEx",
+    "focus": "越南及大湄公河区域创新",
+    "website": "innoex.vn"
+  },
+  {
+    "id": 50,
+    "region": "亚太",
+    "country": "台湾",
+    "name": "Meet Taipei",
+    "focus": "台湾最大规模初创展会",
+    "website": "meettaipei.tw"
+  },
+  {
+    "id": 51,
+    "region": "专项赛道 / 其他关键项目",
+    "country": "巴西/拉美",
+    "name": "South Summit Brazil, Web Summit Rio",
+    "focus": "拉美最大规模科技/VC峰会",
+    "website": null
+  },
+  {
+    "id": 52,
+    "region": "专项赛道 / 其他关键项目",
+    "country": "全球/Web3",
+    "name": "Token2049, Consensus, ETHDenver",
+    "focus": "加密货币与Web3全球巡回",
+    "website": null
+  },
+  {
+    "id": 53,
+    "region": "专项赛道 / 其他关键项目",
+    "country": "气候科技",
+    "name": "Energy Tech Summit, ClimateTech SF",
+    "focus": "可持续能源、氢能、碳捕捉",
+    "website": null
+  },
+  {
+    "id": 54,
+    "region": "专项赛道 / 其他关键项目",
+    "country": "生命科学",
+    "name": "BIO International, J.P. Morgan HC",
+    "focus": "生物医药、数字医疗顶级投资",
+    "website": null
+  },
+  {
+    "id": 55,
+    "region": "专项赛道 / 其他关键项目",
+    "country": "空间/防御",
+    "name": "Space Symposium, AIAA Aviation",
+    "focus": "商业航天、低空经济、国防科技",
+    "website": null
+  },
+  {
+    "id": 56,
+    "region": "专项赛道 / 其他关键项目",
+    "country": "另类投资",
+    "name": "Preqin Global Events, Alts Expo",
+    "focus": "PE/VC数据与资产配置专项",
+    "website": null
+  },
+  {
+    "id": 57,
+    "region": "专项赛道 / 其他关键项目",
+    "country": "金融垂直",
+    "name": "Finovate, Seamless Global",
+    "focus": "支付、零售金融路演专场",
+    "website": null
+  },
+  {
+    "id": 58,
+    "region": "专项赛道 / 其他关键项目",
+    "country": "区域黑马",
+    "name": "Wolves Summit(波兰), Latitude59",
+    "focus": "中东欧、北欧精品项目",
+    "website": null
+  },
+  {
+    "id": 59,
+    "region": "专项赛道 / 其他关键项目",
+    "country": "行业闭门",
+    "name": "Founders Forum, YC Demo Day",
+    "focus": "顶级校友圈与极早期风投路演",
+    "website": null
+  },
+  {
+    "id": 60,
+    "region": "专项赛道 / 其他关键项目",
+    "country": "智库投资",
+    "name": "Milken Global Conference",
+    "focus": "全球顶级富豪与主权基金对话",
+    "website": "milkeninstitute.org"
+  }
+]

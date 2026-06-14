@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { useLocation } from "wouter";
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, Calendar, Users } from "lucide-react";
 
 export default function Home() {
   const [, navigate] = useLocation();
@@ -23,15 +23,17 @@ export default function Home() {
               onClick={() => navigate("/hub")}
               className="gap-2 px-8 py-6 text-base bg-purple-600 hover:bg-purple-700 text-white transition-colors shadow-sm"
             >
+              <Users className="w-5 h-5" />
               浏览全球社区
               <ArrowRight className="w-5 h-5" />
             </Button>
             <Button
-              onClick={() => navigate("/list")}
+              onClick={() => navigate("/events")}
               variant="ghost"
               className="gap-2 px-8 py-6 text-base text-purple-700 hover:text-purple-800 hover:bg-purple-50 border border-purple-200 transition-colors shadow-sm"
             >
-              查看列表版本
+              <Calendar className="w-5 h-5" />
+              全球创投活动
               <ArrowRight className="w-5 h-5" />
             </Button>
           </div>
