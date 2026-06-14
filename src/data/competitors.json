@@ -1343,110 +1343,6 @@
       "pressCoverage": []
     },
     {
-      "id": "herspace",
-      "name": "HerSpace",
-      "category": "new-communities",
-      "foundedYear": 2024,
-      "yearsInOperation": 2,
-      "founder": "HerSpace团队",
-      "foundingBackground": "2024年成立，全球(中/挪)，服务女性创业者的国际化社群，已有超2000名会员，举办80+场活动。",
-      "foundingTeamInfo": "由中国和挪威女性创业者创立",
-      "region": "全球(中/挪)",
-      "targetUsers": "女性创业者",
-      "scale": "超2000名会员",
-      "coverage": "全球多国",
-      "positioning": "服务女性创业者的国际化社群",
-      "coreActivities": [
-        {
-          "name": "HerSpace活动",
-          "description": "女性创业者交流",
-          "link": "https://www.herspace.com"
-        }
-      ],
-      "frequency": "持续",
-      "contentSystem": "女性创业资源库",
-      "investmentResources": "是",
-      "businessModel": "会员+活动费",
-      "onlinePlatform": "HerSpace平台",
-      "membershipThreshold": "申请制",
-      "estimatedRevenue": "会员费+活动费",
-      "differentiation": "中/挪国际化，2000+会员，80+场活动",
-      "keyHighlight": "服务女性创业者的国际化社群，超2000名会员，举办80+场活动",
-      "website": "https://www.herspace.com",
-      "socialMedia": {},
-      "pressCoverage": []
-    },
-    {
-      "id": "go-big",
-      "name": "Go Big",
-      "category": "new-communities",
-      "foundedYear": 2024,
-      "yearsInOperation": 2,
-      "founder": "Go Big团队",
-      "foundingBackground": "为全球化创业者而建的社区，由常春藤校友创立。",
-      "foundingTeamInfo": "由常春藤校友创立",
-      "region": "全球",
-      "targetUsers": "全球化创业者",
-      "scale": "全球",
-      "coverage": "全球",
-      "positioning": "为全球化创业者而建的社区",
-      "coreActivities": [
-        {
-          "name": "Go Big社区",
-          "description": "全球化创业者交流",
-          "link": "https://mp.weixin.qq.com/s/4eFMWc3-5yzMGexugmTjeQ"
-        }
-      ],
-      "frequency": "持续",
-      "contentSystem": "全球化创业资源",
-      "investmentResources": "是",
-      "businessModel": "会员+赞助",
-      "onlinePlatform": "Go Big平台",
-      "membershipThreshold": "申请制",
-      "estimatedRevenue": "会员费+赞助",
-      "differentiation": "常春藤校友创立，全球化创业者",
-      "keyHighlight": "由常春藤校友创立，为全球化创业者而建的社区",
-      "website": "",
-      "socialMedia": {
-        "wechat": "Go Big官方公众号"
-      },
-      "pressCoverage": []
-    },
-    {
-      "id": "epic-community",
-      "name": "EPIC社区",
-      "category": "new-communities",
-      "foundedYear": 2024,
-      "yearsInOperation": 2,
-      "founder": "EPIC团队",
-      "foundingBackground": "全球新型创业者社区",
-      "foundingTeamInfo": "由全球创业者创立",
-      "region": "全球",
-      "targetUsers": "全球创业者",
-      "scale": "全球",
-      "coverage": "全球",
-      "positioning": "全球新型创业者社区",
-      "coreActivities": [
-        {
-          "name": "EPIC社区",
-          "description": "全球创业者交流",
-          "link": "https://www.epiccommunity.com"
-        }
-      ],
-      "frequency": "持续",
-      "contentSystem": "全球创业资源",
-      "investmentResources": "是",
-      "businessModel": "会员+赞助",
-      "onlinePlatform": "EPIC平台",
-      "membershipThreshold": "申请制",
-      "estimatedRevenue": "会员费+赞助",
-      "differentiation": "全球新型创业者",
-      "keyHighlight": "全球新型创业者社区",
-      "website": "https://www.epiccommunity.com",
-      "socialMedia": {},
-      "pressCoverage": []
-    },
-    {
       "id": "chuhaiqu-incubator",
       "name": "出海去孵化器",
       "category": "new-communities",
@@ -1496,130 +1392,169 @@
       "pressCoverage": []
     },
     {
-      "id": "siyuan-blindbox",
-      "name": "思源盲盒",
-      "category": "new-communities",
-      "foundedYear": 2023,
-      "yearsInOperation": 2,
-      "founder": "思源盲盒团队",
-      "foundingBackground": "约2023-2024年成立，中国（上海），高端活动驱动型创业者社区，起源于上海交大MBA校友圈",
-      "foundingTeamInfo": "起源于上海交大MBA校友圈",
-      "region": "中国（上海）",
-      "targetUsers": "一线城市科技、创业精英",
-      "scale": "中国",
-      "coverage": "中国一线城市",
-      "positioning": "高端活动驱动型创业者社区",
-      "coreActivities": [
-        {
-          "name": "高品质闭门活动",
-          "description": "与蔚来、福布斯中国等品牌合作的高品质闭门活动",
-          "link": ""
-        },
-        {
-          "name": "企业AI转型咨询",
-          "description": "企业AI转型咨询服务",
-          "link": ""
-        }
-      ],
-      "frequency": "持续",
-      "contentSystem": "高端活动、企业AI转型咨询",
-      "investmentResources": "否",
-      "businessModel": "活动收费 + 咨询服务",
-      "onlinePlatform": "社区平台",
-      "membershipThreshold": "申请制，科技、创业精英",
-      "estimatedRevenue": "活动收入 + 咨询服务费",
-      "differentiation": "高端活动驱动，起源于上海交大MBA校友圈，已与蔚来、福布斯中国等品牌合作",
-      "keyHighlight": "高端活动驱动型创业者社区，已与蔚来、福布斯中国等品牌合作",
-      "website": "",
-      "socialMedia": {},
-      "pressCoverage": []
-    },
-    {
-      "id": "chaoyue-zhilu",
-      "name": "超越之路",
-      "category": "new-communities",
-      "foundedYear": 2023,
-      "yearsInOperation": 2,
-      "founder": "超越之路团队",
-      "foundingBackground": "约2023-2024年成立，中国，聚焦AI时代“超级个体”与“超级团队”的模式赋能型社区",
-      "foundingTeamInfo": "由AI时代创业者创立",
-      "region": "中国",
-      "targetUsers": "AI时代“超级个体”与“超级团队”",
-      "scale": "中国",
-      "coverage": "中国",
-      "positioning": "聚焦AI时代“超级个体”与“超级团队”的模式赋能型社区",
-      "coreActivities": [
-        {
-          "name": "UP超级个体加速计划",
-          "description": "超级个体加速计划",
-          "link": ""
-        },
-        {
-          "name": "播客内容",
-          "description": "创业相关播客内容",
-          "link": ""
-        }
-      ],
-      "frequency": "持续",
-      "contentSystem": "UP超级个体加速计划、播客内容",
-      "investmentResources": "否",
-      "businessModel": "会员计划 + 播客内容 + 加速计划",
-      "onlinePlatform": "社区平台",
-      "membershipThreshold": "申请制",
-      "estimatedRevenue": "会员费 + 加速计划收入",
-      "differentiation": "聚焦AI时代“超级个体”与“超级团队”的模式赋能",
-      "keyHighlight": "推出“UP超级个体加速计划”，通过会员计划+播客内容+加速计划实现商业化",
-      "website": "",
-      "socialMedia": {},
-      "pressCoverage": []
-    },
-    {
       "id": "thinkinai",
-      "name": "ThinkInAI（极客夜话）",
+      "name": "ThinkInAI（星科社区）",
       "category": "new-communities",
-      "foundedYear": 2025,
-      "yearsInOperation": 1,
-      "founder": "ThinkInAI团队",
-      "foundingBackground": "2025年成立，中国（北京、上海），AI从业者与创业者活动驱动型社区",
-      "foundingTeamInfo": "由AI从业者和创业者创立",
-      "region": "中国（北京、上海）",
-      "targetUsers": "AI从业者与创业者",
-      "scale": "汇聚30万+开发者",
-      "coverage": "中国北京、上海及全国",
-      "positioning": "AI从业者与创业者活动驱动型社区",
+      "foundedYear": 2023,
+      "yearsInOperation": 3,
+      "founder": "俞沁润",
+      "foundingBackground": "约2023-2024年成立，上海徐汇，聚焦AI Builder的垂直社区，成员以AI开发者、技术创业者、AI产品负责人为主，同时吸引投资人、产业AI负责人和CXO",
+      "foundingTeamInfo": "理事会副理事长俞沁润主导运营，发起人谢孟军，与模速空间深度绑定",
+      "region": "中国上海",
+      "targetUsers": "AI开发者、技术创业者、AI产品负责人、投资人、产业AI负责人、CXO",
+      "scale": "30万+开发者",
+      "coverage": "一线科技公司和众多AI初创团队",
+      "positioning": "聚焦AI Builder的垂直社区，面向\"为AI时代构建未来的人\"，强调开放、真实、实战的交流氛围",
       "coreActivities": [
         {
           "name": "AI极客夜话",
-          "description": "每两周举办“AI极客夜话”，已举办32+期",
+          "description": "每两周周二晚举办，至今已举办32期以上，单场60-310人参加，是社区最成熟的品牌活动",
           "link": ""
         },
         {
-          "name": "活动赞助",
-          "description": "活动赞助",
+          "name": "龙虾大会",
+          "description": "轻松型社交活动，3届单场均超260人",
           "link": ""
         },
         {
-          "name": "孵化计划",
-          "description": "AI项目孵化计划",
+          "name": "走进AI企业",
+          "description": "首期走进谷歌上海，吸引数百位开发者、创业者参与",
           "link": ""
         },
         {
-          "name": "产业资源对接",
-          "description": "产业资源对接",
+          "name": "AI搞钱大会/AI Party",
+          "description": "聚焦AI商业化落地变现路径，精选名额、高准入门槛",
+          "link": ""
+        },
+        {
+          "name": "AI主题读书会",
+          "description": "与黄浦青商会联合举办",
           "link": ""
         }
       ],
       "frequency": "每两周一期",
-      "contentSystem": "AI极客夜话活动、孵化计划、产业资源对接",
+      "contentSystem": {
+        "courses": [
+          {
+            "name": "AI商业化系列课程",
+            "description": "聚焦AI落地变现路径",
+            "link": ""
+          }
+        ],
+        "podcasts": [],
+        "interviews": [],
+        "media": []
+      },
       "investmentResources": "是",
-      "businessModel": "活动赞助 + 孵化计划 + 产业资源对接",
-      "onlinePlatform": "社区平台",
-      "membershipThreshold": "申请制，AI从业者与创业者",
-      "estimatedRevenue": "活动赞助 + 孵化服务费 + 资源对接收入",
-      "differentiation": "每两周举办“AI极客夜话”，已举办32+期，汇聚30万+开发者",
-      "keyHighlight": "AI从业者与创业者活动驱动型社区，汇聚30万+开发者，每两周举办“AI极客夜话”，已举办32+期",
+      "businessModel": "活动押金（按时参加退还，缺席纳入社区发展经费）+ 赞助 + 未来商业孵化",
+      "onlinePlatform": "ThinkInAI社区",
+      "membershipThreshold": "申请制，AI从业者优先",
+      "estimatedRevenue": "活动赞助",
+      "differentiation": "极强的地缘优势（锚定模速空间）+ 极强的垂直领域号召力（紧抓AI开发者痛点）",
+      "keyHighlight": "ThinkInAI目前不是商业闭环清晰的大社区，而是流量活跃、潜力明显的垂直AI风口社区。与模速空间（徐汇区政府支持的大模型生态社区）深度绑定，与大观资本、TGO鲲鹏会、黄浦青商会、Tanka AI等合作",
       "website": "",
       "socialMedia": {},
+      "pressCoverage": []
+    },
+    {
+      "id": "startup-grind-shanghai",
+      "name": "Startup Grind 上海（创业磨坊）",
+      "category": "new-communities",
+      "foundedYear": 2013,
+      "yearsInOperation": 12,
+      "founder": "Startup Grind 上海团队",
+      "foundingBackground": "2013年成立，全球Startup Grind最早的国际分会之一。全球化创业者社区的本地版，内核是\"创始人×创始人\"的同侪网络",
+      "foundingTeamInfo": "母公司Startup Grind成立于2010年美国硅谷，是全球最大独立创业者社区，600+城市分会，350万+全球会员，是谷歌官方合作伙伴",
+      "region": "中国上海",
+      "targetUsers": "早期创业者、投资人、行业专家",
+      "scale": "2883名会员",
+      "coverage": "上海及周边地区",
+      "positioning": "全球化创业者社区的本地版，内核是\"创始人×创始人\"的同侪网络",
+      "coreActivities": [
+        {
+          "name": "月度/双周线下活动",
+          "description": "炉边访谈、工作坊、创始人聚会、行业论坛",
+          "link": ""
+        },
+        {
+          "name": "AI Builder Soloship Open Day",
+          "description": "关注一人公司/AI个人开发者",
+          "link": ""
+        },
+        {
+          "name": "OPC bistro",
+          "description": "新的AI创业者聚会",
+          "link": ""
+        },
+        {
+          "name": "Founder Mixer｜AI Builder Gathering",
+          "description": "AI创业者的闭门交流",
+          "link": ""
+        }
+      ],
+      "frequency": "月度/双周",
+      "contentSystem": {
+        "courses": [],
+        "podcasts": [],
+        "interviews": [],
+        "media": []
+      },
+      "investmentResources": "是",
+      "businessModel": "活动门票（99元/人）+ 全球赞助体系（谷歌等大厂）+ 本地场地/餐饮/媒体赞助 + 全球统一的Startup Membership会员体系",
+      "onlinePlatform": "Startup Grind 全球平台",
+      "membershipThreshold": "申请制，会员可获得免费活动、导师办公时间、专属资源等",
+      "estimatedRevenue": "活动门票 + 赞助 + 会员费",
+      "differentiation": "极简的运营模式+清晰的收入来源（活动门票+本地赞助+总部支持），11年稳定运营",
+      "keyHighlight": "上海分会已经做到11年的稳定运营，是低团队投入可以持续运营的成熟样板。全球大会硅谷年度旗舰大会，5000+参会者，参展初创企业已累计募资超15亿美元",
+      "website": "https://www.startupgrind.com/shanghai",
+      "socialMedia": {},
+      "pressCoverage": []
+    },
+    {
+      "id": "startup-grind",
+      "name": "Startup Grind",
+      "category": "global-entrepreneurs",
+      "foundedYear": 2010,
+      "yearsInOperation": 16,
+      "founder": "Startup Grind 团队",
+      "foundingBackground": "2010年成立于美国硅谷帕罗奥图，全球最大的独立创业者社区，全球标杆",
+      "foundingTeamInfo": "核心团队仅约20人（PitchBook 2026年数据）",
+      "region": "美国硅谷帕罗奥图",
+      "targetUsers": "全球创业者、投资人、行业专家",
+      "scale": "350万-400万全球创业者 / 600+城市分会 / 125+个国家 / 4000+场活动（2019年官方数据）",
+      "coverage": "全球",
+      "positioning": "全球最大的独立创业者社区",
+      "coreActivities": [
+        {
+          "name": "Silicon Valley Conference",
+          "description": "硅谷年度旗舰大会，连接5000+创业者、投资人和创新者",
+          "link": "https://www.startupgrind.com/conference"
+        },
+        {
+          "name": "城市分会活动",
+          "description": "各城市月度/季度活动，炉边访谈、工作坊、创始人聚会",
+          "link": "https://www.startupgrind.com"
+        }
+      ],
+      "frequency": "年度大会 + 各城市月度/季度活动",
+      "contentSystem": {
+        "courses": [],
+        "podcasts": [],
+        "interviews": [],
+        "media": []
+      },
+      "investmentResources": "是",
+      "businessModel": "活动票务 + 赞助 + 会员费 + 投资连接",
+      "onlinePlatform": "Startup Grind 平台",
+      "membershipThreshold": "申请制，会员可获得免费活动、导师办公时间、专属资源等",
+      "estimatedRevenue": "活动票务 + 赞助 + 会员费",
+      "differentiation": "Give First, Help Others, Make Friends（先给予，帮助他人，结交朋友）的核心价值观，小团队大网络",
+      "keyHighlight": "Startup Grind是竞品研究时绕不开的全球标杆。社区企业已募资超过15亿美元（自2020年起），使命是\"给予初创企业建设、成长和扩展业务所需的教育和机会\"",
+      "website": "https://www.startupgrind.com",
+      "socialMedia": {
+        "x": "https://x.com/StartupGrind",
+        "linkedin": "https://www.linkedin.com/company/startup-grind"
+      },
       "pressCoverage": []
     },
     {
@@ -4776,6 +4711,109 @@
       "pressCoverage": []
     },
     {
+      "id": "guancha",
+      "name": "观猹",
+      "category": "new-communities",
+      "foundedYear": 2024,
+      "yearsInOperation": 3,
+      "founder": "观猹团队",
+      "foundingBackground": "2024年成立，中国杭州，AI产品大众点评与开发者社区，定位为\"AI领域的Product Hunt\"",
+      "foundingTeamInfo": "获红杉中国与华兴资本种子轮投资",
+      "region": "中国杭州",
+      "targetUsers": "AI开发者、AI产品经理、AI创业者、投资人",
+      "scale": "月活12万+，入驻AI产品1500+款，认证\"观猹员\"近5000人，签约150+AI领域KOL",
+      "coverage": "中国及全球AI生态",
+      "positioning": "AI产品大众点评与开发者社区，定位为\"AI领域的Product Hunt\"",
+      "coreActivities": [
+        {
+          "name": "特工宇宙",
+          "description": "内容媒体，内容获客",
+          "link": ""
+        },
+        {
+          "name": "观猹平台",
+          "description": "社区平台，社区沉淀",
+          "link": ""
+        },
+        {
+          "name": "猹与猹",
+          "description": "品牌营销与咨询，B端变现",
+          "link": ""
+        }
+      ],
+      "frequency": "持续",
+      "contentSystem": {
+        "courses": [],
+        "podcasts": [],
+        "interviews": [],
+        "media": []
+      },
+      "investmentResources": "是",
+      "businessModel": "三层矩阵：特工宇宙（内容媒体）+观猹（社区平台）+猹与猹（品牌营销与咨询），通过内容获客、社区沉淀、B端变现实现闭环",
+      "onlinePlatform": "观猹平台",
+      "membershipThreshold": "申请制，可认证\"观猹员\"",
+      "estimatedRevenue": "B端品牌营销与咨询服务",
+      "differentiation": "AI产品大众点评定位，内容-社区-变现三层矩阵",
+      "keyHighlight": "月活12万+，入驻AI产品1500+款，认证\"观猹员\"近5000人，签约150+AI领域KOL，获红杉中国与华兴资本种子轮投资",
+      "website": "",
+      "socialMedia": {},
+      "pressCoverage": []
+    },
+    {
+      "id": "spark-lab",
+      "name": "Spark Lab",
+      "category": "new-communities",
+      "foundedYear": 2024,
+      "yearsInOperation": 2,
+      "founder": "Spark Lab团队",
+      "foundingBackground": "2024-2025年成立，中国/全球，面向全球年轻创始人的私密社区。核心理念为\"人不只是项目执行者\"，反对以融资和快速退出为目标的传统加速器模式，强调基于真实表达与共同信仰建立信任网络",
+      "foundingTeamInfo": "面向全球年轻创始人",
+      "region": "中国/全球",
+      "targetUsers": "全球年轻创始人",
+      "scale": "已运营多个批次",
+      "coverage": "全球",
+      "positioning": "面向全球年轻创始人的私密社区",
+      "coreActivities": [
+        {
+          "name": "线上社群",
+          "description": "线上社群运营",
+          "link": "https://spark-lab.city"
+        },
+        {
+          "name": "季度周期活动",
+          "description": "季度周期活动",
+          "link": "https://spark-lab.city"
+        },
+        {
+          "name": "线下共创空间",
+          "description": "线下共创空间",
+          "link": "https://spark-lab.city"
+        },
+        {
+          "name": "Curation as a Service",
+          "description": "策展式品牌服务",
+          "link": "https://spark-lab.city"
+        }
+      ],
+      "frequency": "持续，季度活动",
+      "contentSystem": {
+        "courses": [],
+        "podcasts": [],
+        "interviews": [],
+        "media": []
+      },
+      "investmentResources": "否",
+      "businessModel": "Curation as a Service（策展式品牌服务）",
+      "onlinePlatform": "Spark Lab 平台",
+      "membershipThreshold": "申请制，面向全球年轻创始人",
+      "estimatedRevenue": "品牌服务收入",
+      "differentiation": "核心理念为\"人不只是项目执行者\"，反对以融资和快速退出为目标的传统加速器模式，强调基于真实表达与共同信仰建立信任网络",
+      "keyHighlight": "面向全球年轻创始人的私密社区，核心理念为\"人不只是项目执行者\"，推出\"Curation as a Service\"策展式品牌服务",
+      "website": "https://spark-lab.city",
+      "socialMedia": {},
+      "pressCoverage": []
+    },
+    {
       "id": "startup-europe-club",
       "name": "Startup Europe Club",
       "category": "media-communities",
@@ -5030,6 +5068,50 @@
       "differentiation": "全球最大，巴黎地标，与OpenAI、Google等大厂及头部VC合作",
       "keyHighlight": "2017年成立，全球最大初创园区，容纳约30个项目，合作方包括OpenAI、Google等大厂及头部VC",
       "website": "https://stationf.co",
+      "socialMedia": {},
+      "pressCoverage": []
+    },
+    {
+      "id": "xbot-park",
+      "name": "XbotPark机器人基地",
+      "category": "capital-ecosystem",
+      "foundedYear": 2014,
+      "yearsInOperation": 12,
+      "founder": "李泽湘、高秉强、甘洁",
+      "foundingBackground": "2014年成立，中国东莞松山湖，由李泽湘、高秉强、甘洁三位教授联合发起，采用\"政府资助、企业化运作\"模式，构建\"1地+1（N）校+1平台+1园区\"科创体系",
+      "foundingTeamInfo": "由李泽湘、高秉强、甘洁三位教授联合发起",
+      "region": "中国东莞松山湖",
+      "targetUsers": "硬科技创业者、机器人创业者",
+      "scale": "累计孵化超270家硬科技企业，总估值超3500亿元，其中4家上市，12家成为独角兽或准独角兽",
+      "coverage": "中国硬科技创业生态",
+      "positioning": "硬科技创业孵化基地，以早期投资和供应链赋能为特色",
+      "coreActivities": [
+        {
+          "name": "硬科技企业孵化",
+          "description": "早期硬科技企业孵化，供应链赋能",
+          "link": ""
+        },
+        {
+          "name": "基金投资",
+          "description": "清水湾一期创投、XBOT PARK基金、Hong Kong X、东莞清水湾二期创业投资等",
+          "link": ""
+        }
+      ],
+      "frequency": "持续",
+      "contentSystem": {
+        "courses": [],
+        "podcasts": [],
+        "interviews": [],
+        "media": []
+      },
+      "investmentResources": "是",
+      "businessModel": "政府资助、企业化运作，累计配套基金规模超20亿元，早期投资+孵化服务",
+      "onlinePlatform": "XbotPark平台",
+      "membershipThreshold": "申请制，硬科技项目优先",
+      "estimatedRevenue": "基金投资回报",
+      "differentiation": "三位教授联合发起，\"1地+1（N）校+1平台+1园区\"科创体系，供应链赋能特色",
+      "keyHighlight": "累计孵化超270家硬科技企业，总估值超3500亿元，其中4家上市，12家成为独角兽或准独角兽。2024年孵化企业销售额1.39亿元，2025年增长至7.84亿元，增长5.6倍",
+      "website": "",
       "socialMedia": {},
       "pressCoverage": []
     },
