@@ -5338,6 +5338,199 @@
       "website": "https://www.qunxiang.cn",
       "socialMedia": {},
       "pressCoverage": []
+    },
+    {
+      "id": "saibo-chanxin-agi-bar",
+      "name": "赛博禅心 / AGI Bar",
+      "category": "new-communities",
+      "foundedYear": 2025,
+      "yearsInOperation": 1,
+      "founder": "宋德（大聪明）",
+      "foundingBackground": "2025年6月AGI Bar北京首店开业，2026年6月扩张至上海。创始人宋德是95后工程师，\"赛博禅心\"微信公众号主理人，OpenAI全球发布会唯一受邀的中文媒体创作者。",
+      "foundingTeamInfo": "由宋德（大聪明）创立，技术出身的媒体人，自称\"20-50岁之间\"",
+      "region": "北京中关村创业大街、上海徐汇区北杨小镇红杉孵化器",
+      "targetUsers": "AI从业者、创业者、投资人",
+      "scale": "北京社群近3000人，上海店300平米，可容纳上百人",
+      "coverage": "北京、上海及全国AI创业生态",
+      "positioning": "AI从业者线下交流空间，围绕AI技术、创业、投资与行业情绪展开自然社交",
+      "coreActivities": [
+        {
+          "name": "AGI Bar空间",
+          "description": "北京和上海的物理空间，酒单融入AI黑话",
+          "link": ""
+        },
+        {
+          "name": "闭门对话",
+          "description": "邀请头部AI公司核心研发进行面对面交流",
+          "link": ""
+        },
+        {
+          "name": "AI开源夜话",
+          "description": "联合云启资本、亚马逊云科技等机构举办深度行业活动",
+          "link": ""
+        }
+      ],
+      "frequency": "持续",
+      "contentSystem": "赛博禅心微信公众号",
+      "investmentResources": "是",
+      "businessModel": "酒水销售+品牌合作+内容变现",
+      "onlinePlatform": "赛博禅心微信公众号",
+      "membershipThreshold": "开放式",
+      "estimatedRevenue": "酒水销售+品牌冠名赞助",
+      "differentiation": "社区即空间，线上内容驱动线下场景，选址即筛选",
+      "keyHighlight": "AGI Bar是\"社区即空间\"模式的代表，以内容IP反向驱动线下场景，形成\"线上内容→线下场景→行业资源\"的三位一体闭环。上海店开业当天出杯超1700杯，获徐汇区政府与红杉中国支持。",
+      "website": "",
+      "socialMedia": {
+        "wechat": "赛博禅心"
+      },
+      "pressCoverage": []
+    },
+    {
+      "id": "siyuan-manghe-think-tank",
+      "name": "思源盲盒 / Think Tank",
+      "category": "new-communities",
+      "foundedYear": 2024,
+      "yearsInOperation": 2,
+      "founder": "张永昌",
+      "foundingBackground": "2024年成立，创始人张永昌具有中欧、上海交大等顶级高校商学院十余年工作经历，曾任头部院校上海交大产教融合工作负责人，上海堆栈科技副总经理。",
+      "foundingTeamInfo": "由张永昌创立，商学院背景",
+      "region": "上海徐汇、长宁",
+      "targetUsers": "科创企业家、企业高管",
+      "scale": "会员1400+人，成立一周年累计57场活动，2160人次参与，170+位嘉宾",
+      "coverage": "上海及全国AI科创生态",
+      "positioning": "以科创企业家群体为主的AI科创学习社群，聚焦AI技术落地的产业应用与跨界融合",
+      "coreActivities": [
+        {
+          "name": "OpenClaw实干研讨派对",
+          "description": "日常研讨活动",
+          "link": ""
+        },
+        {
+          "name": "DeepChat高端闭门",
+          "description": "小范围深度交流沙龙",
+          "link": ""
+        },
+        {
+          "name": "年度峰会",
+          "description": "2026AI创变者年度峰会等",
+          "link": ""
+        }
+      ],
+      "frequency": "每周一次（除过年外从不缺席）",
+      "contentSystem": "嘉宾分享与开放麦",
+      "investmentResources": "是",
+      "businessModel": "门票收入+品牌合作+B端资源撮合",
+      "onlinePlatform": "思源盲盒社群",
+      "membershipThreshold": "严格筛选制",
+      "estimatedRevenue": "门票不足80元，主要靠品牌合作",
+      "differentiation": "商学院人脉筛选+严格审核机制，轻平台重活动",
+      "keyHighlight": "以\"企业家+AI\"为核心的高端线下社群，近七成会员是AI科创行业企业主和企业高层管理人员。以新媒体周更思路运营线下活动，2026新春年会汇聚120余位产业界、资本界及高校精英。",
+      "website": "",
+      "socialMedia": {},
+      "pressCoverage": []
+    },
+    {
+      "id": "duodao-islands-duoduoland",
+      "name": "多多群岛 / DuoDuoLand",
+      "category": "new-communities",
+      "foundedYear": 2022,
+      "yearsInOperation": 4,
+      "founder": "陈思彤（Lisa Chen）",
+      "foundingBackground": "2022年3月公司注册，前身为2021年即开始运营的Z世代职场平台。创始人陈思彤是哥伦比亚大学MPA硕士，新生代超级KOL+AI社交赛道连续创业者，福布斯国际青年领袖，个人IP曝光量达百万级。CTO黄瑞斌有13年研发经验，曾在阿里任职近10年。技术负责人黄沛是斯坦福大学计算机系AI方向博士后。",
+      "foundingTeamInfo": "由陈思彤创立，团队包含哥伦比亚大学MPA、斯坦福AI博士后、阿里13年研发专家",
+      "region": "北京总部，活动覆盖北京、上海、广州、深圳、杭州、香港",
+      "targetUsers": "Z世代职场人士、创业者",
+      "scale": "接近百万用户，2023年6月完成数百万人民币天使轮融资",
+      "coverage": "全国核心城市及香港",
+      "positioning": "面向Z世代的AI驱动职场社交与创业孵化平台，成为\"AI技术浪潮下，新生代LinkedIn+GPT模式的超级社交产品\"",
+      "coreActivities": [
+        {
+          "name": "DuoDuoLand小程序",
+          "description": "线上职场社交平台，机遇岛、导师库、人脉圈、社交名片",
+          "link": ""
+        },
+        {
+          "name": "跨城线下活动",
+          "description": "在北京、上海、广州、深圳、杭州、香港等城市每月举办创投社交、AI出海、全球化对接等主题活动",
+          "link": ""
+        },
+        {
+          "name": "叨叨群岛播客",
+          "description": "通过播客进行破圈尝试",
+          "link": ""
+        }
+      ],
+      "frequency": "每月多城举办活动",
+      "contentSystem": "职场资源库+AI社交",
+      "investmentResources": "是",
+      "businessModel": "会员+活动+融资",
+      "onlinePlatform": "DuoDuoLand小程序",
+      "membershipThreshold": "申请制",
+      "estimatedRevenue": "会员费+活动费",
+      "differentiation": "AI驱动+Z世代聚焦+创始人IP+跨城活动",
+      "keyHighlight": "前身是中国面向Z世代最有影响力的职场平台，已有接近百万用户。产品端将实现用户与AI Agent互动，通过一句话Prompt实现找人脉、找工作的所有职场资源链接。2025年9月云栖大会特别版活动，发起AI创投社交盛宴，吸引80余位AI领域的创业者、投资人与技术专家参与。",
+      "website": "",
+      "socialMedia": {},
+      "pressCoverage": []
+    },
+    {
+      "id": "agi-villa",
+      "name": "AGI Villa",
+      "category": "new-communities",
+      "foundedYear": 2025,
+      "yearsInOperation": 1,
+      "founder": "Monica 王诗瑶",
+      "foundingBackground": "2025年正式发起，可追溯至2025年2月硅谷AGI House的线下黑客屋实践。创始人Monica是连续创业者、三宝妈、马拉松跑者，记者出身，15年走访50余国，科技出海深度观察者，曾任AI编程、青少年教育、Web3、本地生活、社交电商等赛道独角兽的CEO/CMO。",
+      "foundingTeamInfo": "由Monica王诗瑶创立，联合创始人苏鹏（Datawhale城市负责人）",
+      "region": "上海总部，活动足迹覆盖深圳、硅谷、新加坡",
+      "targetUsers": "AI创业者、科技出海从业者",
+      "scale": "3000+AI创业者，2025年10月联合云启资本发起1亿元Y Transformers计划",
+      "coverage": "GBA核心，辐射东南亚、中东、北美等全球AI与先进制造市场",
+      "positioning": "以AI创业与科技出海为核心的非营利性创业者社区，成为中美乃至全球AI生态的\"超级链接者\"",
+      "coreActivities": [
+        {
+          "name": "GO SUMMIT年度峰会",
+          "description": "年度旗舰盛会，2026-2027年开启全球巡展",
+          "link": ""
+        },
+        {
+          "name": "GO大会月度闭门峰会",
+          "description": "聚焦AI创业与科技出海的月度闭门峰会，设锋芒场与远航场双轨并行",
+          "link": ""
+        },
+        {
+          "name": "创始人晚宴与技术工坊",
+          "description": "营造深度连接场域",
+          "link": ""
+        },
+        {
+          "name": "Y Transformers孵化计划",
+          "description": "联合云启资本等机构，提供亿元级资源支持",
+          "link": ""
+        },
+        {
+          "name": "每周直播",
+          "description": "分享全球科创动态",
+          "link": ""
+        },
+        {
+          "name": "Monica出海说播客",
+          "description": "沉淀行业认知",
+          "link": ""
+        }
+      ],
+      "frequency": "持续，每周直播+月度大会+年度峰会",
+      "contentSystem": "Monica出海说播客+全球科创动态",
+      "investmentResources": "是",
+      "businessModel": "B端企业合作（咨询、战略服务）+投资生态构建+活动赞助与门票",
+      "onlinePlatform": "AGI Villa社群+播客",
+      "membershipThreshold": "申请制",
+      "estimatedRevenue": "企业咨询服务费+活动门票+投资回报",
+      "differentiation": "非营利定位+个人IP×产业认知×国际资源三位一体+全球网络",
+      "keyHighlight": "2025年10月联合云启资本发起1亿元Y Transformers计划，支持25组\"98后创变者\"。2026年5月在深圳成功举办首届GO SUMMIT峰会。理事嘉宾包括Steven Hoffman（Founders Space创始人、硅谷创业之父）、傅忠强（领湃云科技、来学网创始人）。合作伙伴包括云启资本、Datawhale、出海去孵化器、Vitally AI Studio等。",
+      "website": "",
+      "socialMedia": {},
+      "pressCoverage": []
     }
   ]
 }
